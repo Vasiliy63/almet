@@ -177,6 +177,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .logotip-almet p.logotip { text-align: center; text-transform: uppercase; letter-spacing: 2px; }
   /* line 27, ../../../sass/theme/theme-index/_typography.scss */
   .logotip { padding-top: 12px; padding-top: 0.75rem; }
+  /* line 31, ../../../sass/theme/theme-index/_typography.scss */
+  .menu-site { padding-top: 48px; padding-top: 3rem; padding-bottom: 48px; padding-bottom: 3rem; }
   /**end media desctop*/ }
 @media (min-width: 200px) and (max-width: 767px) { /*end media mobail*/ }
 @media (min-width: 1200px) { /* line 11, ../../../sass/theme/theme-index/_components.scss */
@@ -279,7 +281,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
   .logotip-almet:last-child { margin-right: 0%; }
   /* line 21, ../../../sass/theme/theme-index/_grid.scss */
-  .menu-site { *zoom: 1; float: left; clear: none; text-align: inherit; width: 65.66667%; margin-left: 0%; margin-right: 3%; }
+  .menu-site { *zoom: 1; float: left; clear: none; text-align: inherit; width: 31.33333%; margin-left: 34.33333%; margin-right: 3%; }
   /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
   .menu-site:before, .menu-site:after { content: ''; display: table; }
   /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
@@ -288,7 +290,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .menu-site:last-child { margin-right: 0%; }
   /*svg almet*/
   /* line 26, ../../../sass/theme/theme-index/_grid.scss */
-  .almet { width: 120px; height: 120px; margin: auto; }
+  .almet { width: 110px; height: 110px; margin: auto; }
   /**end media desctop*/ }
 
 /*# sourceMappingURL=index.css.map */

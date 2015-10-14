@@ -28,6 +28,9 @@
   @include leader($lines:0.5, $property:padding);
   }
 
-
+  .menu-site{
+      @include leader($lines:2, $property:padding);
+      @include trailer($lines:2, $property:padding);
+  }
 /**end media desctop*/
 }
