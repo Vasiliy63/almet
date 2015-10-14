@@ -1,0 +1,207 @@
+@charset "UTF-8";
+@import "base";
+@import "compass/typography/vertical_rhythm";
+
+
+
+@mixin uwd-rhytm-config($size) {
+  $base-font-size: $size !global;
+  $base-line-height: $size * 1.5 !global;
+  $rhythm-unit: "rem" !global;
+  $rem-with-px-fallback: true !global;
+  $grid-background-baseline-color: lighten(red, 30%) !global;
+
+}
+
+///mobail media ************************************************************************************************
+@media (min-width:200px) and (max-width:481px){
+
+@include uwd-rhytm-config(16px);
+@include establish-baseline;
+h2 { @include adjust-font-size-to(1.602rem, 1);}
+h3 { @include adjust-font-size-to(1.424rem, 1);}
+h4 { @include adjust-font-size-to(1.266rem, 1); font-weight:bold;}
+h5 { @include adjust-font-size-to(1.125rem, 1); font-weight:bold;}
+h6 { @include adjust-font-size-to(1rem, 1);}
+p {@include adjust-font-size-to (0.9rem, 1)}
+
+
+h2,h3,h4,h5,h6{
+	font-family:$h-font;
+}
+
+h2{
+	font-family:$h-font;
+	letter-spacing:0px;
+	text-transform:uppercase;
+	color:#fff;
+}
+
+p{
+	font-family:$p-font;
+	//  @include rhythm($leader: 0, $trailer: 1);
+
+	[data-vertical-rhythm="true"]{
+  transition: padding-bottom 2s;
+  }
+}
+
+a{
+font-family:$p-font;
+color:#fff;
+outline:none !important;
+}
+
+
+a { @include adjust-font-size-to(1rem, 1)}
+
+ul,li{
+	font-family:$p-font;
+	@include adjust-font-size-to (1rem, 1)
+}
+
+img, iframe{
+display:block;
+max-width: 100%;
+border-image: none;
+}
+
+.message{
+  font-family:$p-font;
+}
+
+}
+
+//************************************************************************************************************
+
+
+//media для планшетов**************************************************************************
+@media(min-width:481px) and (max-width:1240px){
+
+
+@include uwd-rhytm-config(16px);
+@include establish-baseline;
+h2 { @include adjust-font-size-to(2.441rem, 2);}
+h3 { @include adjust-font-size-to(1.953rem, 1);}
+h4 { @include adjust-font-size-to(1.563rem, 1); font-weight:bold;}
+h5 { @include adjust-font-size-to(1.25rem, 1); font-weight:bold;}
+h6 { @include adjust-font-size-to(1rem, 1);}
+p {@include adjust-font-size-to (1rem, 1)}
+
+
+h2,h3,h4,h5,h6{
+	font-family:$h-font;
+
+
+}
+
+h2{
+	font-family:$h-font;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	color:#fff;
+}
+
+p{
+	font-family:$p-font;
+	//  @include rhythm($leader: 0, $trailer: 1);
+
+	[data-vertical-rhythm="true"]{
+  transition: padding-bottom 2s;
+  }
+
+}
+
+a{
+font-family:$p-font;
+color:#fff;
+outline: medium none !important;
+}
+
+a { @include adjust-font-size-to(1rem, 1)}
+
+ul,li{
+	font-family:$p-font;
+	@include adjust-font-size-to (1rem, 1)
+}
+
+img, iframe{
+display:block;
+max-width: 100%;
+}
+
+.message{
+  font-family:$p-font;
+}
+
+
+
+// end media для планшетов****************************************************************************************
+}
+
+
+//Вертикальный ритм для Desktop*************************************************************************************
+@media (min-width:1241px){
+
+@include uwd-rhytm-config(16px);
+@include establish-baseline;
+h2 { @include adjust-font-size-to(6.854rem, 5);}
+h3 { @include adjust-font-size-to(4.236rem, 3);}
+h4 { @include adjust-font-size-to(2.618rem, 2); font-weight:bold;}
+h5 { @include adjust-font-size-to(1.618rem, 1); font-weight:bold;}
+h6 { @include adjust-font-size-to(1rem, 1);}
+p {@include adjust-font-size-to (1.2rem, 1)}
+
+
+h2,h3,h4,h5,h6{
+	font-family:$h-font;
+
+
+}
+
+h2{
+	font-family:$h-font;
+	letter-spacing:5px;
+	text-transform:uppercase;
+	color:#fff;
+}
+
+p{
+	font-family:$p-font;
+	//  @include rhythm($leader: 0, $trailer: 1);
+
+	[data-vertical-rhythm="true"]{
+  transition: padding-bottom 2s;
+  }
+
+}
+
+.logotip{
+  font-family:$logotip;
+}
+
+a{
+font-family:$p-font;
+color:#fff;
+outline: medium none !important;
+}
+
+a { @include adjust-font-size-to(1rem, 1)}
+
+ul,li{
+	font-family:$p-font;
+	@include adjust-font-size-to (1rem, 1)
+}
+
+img, iframe{
+display:block;
+max-width: 100%;
+}
+
+
+.message{
+  font-family:$p-font;
+}
+
+//end media **************************************************************************************************
+}
