@@ -1,0 +1,27 @@
+{
+  "name": "Almet",
+  "version": "0.1.1",
+  "authors": [
+    "Vasiliy <vasiliysidorenko63@gmail.com>"
+  ],
+  "description": "almet version 2",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jeet": "~6.1.2"
+  },
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "normalize-css": "normalize.css#~3.0.3",
+    "bLazy": "blazy#~1.4.1"
+  }
+}
