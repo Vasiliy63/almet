@@ -11,6 +11,7 @@
   }
 
   .menu{
+    background:#fff;
     @include column(12/12);
   }
 
@@ -19,7 +20,7 @@
 }
 
   .menu-site{
-    @include column(4/12, $offset: 4/12);
+    @include column(7.5/12, $offset: 0.5/12);
   }
 
   /*svg almet*/
@@ -29,6 +30,15 @@
     margin:auto;
 
   }
+
+
+  //*******************End Header
+
+.row-mod-1{
+  @include column(12/12);
+}
+
+
 
 
 

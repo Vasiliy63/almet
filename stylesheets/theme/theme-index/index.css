@@ -53,20 +53,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /** Center an element on either or both axes. @requires A parent container with relative positioning. @param {string} [$direction=both] - Specify which axes to center the element on. */
 /** Apply a clearfix to an element. */
 /* font-family: "HeliosCondRegular"; */
-@font-face { font-family: "HeliosCondRegular"; src: url("../../fonts/HeliosCondRegular/HeliosCondRegular.eot"); src: url("../../fonts/HeliosCondRegular/HeliosCondRegular.eot?#iefix") format("embedded-opentype"), url("../../fonts/HeliosCondRegular/HeliosCondRegular.woff") format("woff"), url("../../fonts/HeliosCondRegular/HeliosCondRegular.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face { font-family: "HeliosCondRegular"; src: url("../../../fonts/HeliosCondRegular/HeliosCondRegular.eot"); src: url("../../../fonts/HeliosCondRegular/HeliosCondRegular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/HeliosCondRegular/HeliosCondRegular.woff") format("woff"), url("../../../fonts/HeliosCondRegular/HeliosCondRegular.ttf") format("truetype"); font-style: normal; font-weight: normal; }
 /* font-family: "HeliosCondItalic"; */
-@font-face { font-family: "HeliosCondItalic"; src: url("../../fonts/HeliosCondItalic/HeliosCondItalic.eot"); src: url("../../fonts/HeliosCondItalic/HeliosCondItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/HeliosCondItalic/HeliosCondItalic.woff") format("woff"), url("../../fonts/HeliosCondItalic/HeliosCondItalic.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face { font-family: "HeliosCondItalic"; src: url("../../../fonts/HeliosCondItalic/HeliosCondItalic.eot"); src: url("../../../fonts/HeliosCondItalic/HeliosCondItalic.eot?#iefix") format("embedded-opentype"), url("../../../fonts/HeliosCondItalic/HeliosCondItalic.woff") format("woff"), url("../../../fonts/HeliosCondItalic/HeliosCondItalic.ttf") format("truetype"); font-style: normal; font-weight: normal; }
 /* font-family: "HeliosCondBold"; */
-@font-face { font-family: "HeliosCondBold"; src: url("../../fonts/HeliosCondBold/HeliosCondBold.eot"); src: url("../../fonts/HeliosCondBold/HeliosCondBold.eot?#iefix") format("embedded-opentype"), url("../../fonts/HeliosCondBold/HeliosCondBold.woff") format("woff"), url("../../fonts/HeliosCondBold/HeliosCondBold.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face { font-family: "HeliosCondBold"; src: url("../../../fonts/HeliosCondBold/HeliosCondBold.eot"); src: url("../../../fonts/HeliosCondBold/HeliosCondBold.eot?#iefix") format("embedded-opentype"), url("../../../fonts/HeliosCondBold/HeliosCondBold.woff") format("woff"), url("../../../fonts/HeliosCondBold/HeliosCondBold.ttf") format("truetype"); font-style: normal; font-weight: normal; }
 /* font-family: "HeliosCondBoldItalic"; */
-@font-face { font-family: "HeliosCondBoldItalic"; src: url("../../fonts/HeliosCondBoldItalic/HeliosCondBoldItalic.eot"); src: url("../../fonts/HeliosCondBoldItalic/HeliosCondBoldItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/HeliosCondBoldItalic/HeliosCondBoldItalic.woff") format("woff"), url("../../fonts/HeliosCondBoldItalic/HeliosCondBoldItalic.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face { font-family: "HeliosCondBoldItalic"; src: url("../../../fonts/HeliosCondBoldItalic/HeliosCondBoldItalic.eot"); src: url("../../../fonts/HeliosCondBoldItalic/HeliosCondBoldItalic.eot?#iefix") format("embedded-opentype"), url("../../../fonts/HeliosCondBoldItalic/HeliosCondBoldItalic.woff") format("woff"), url("../../../fonts/HeliosCondBoldItalic/HeliosCondBoldItalic.ttf") format("truetype"); font-style: normal; font-weight: normal; }
 /* Код для подключения шрифта в /css/stylename.css */
 /* font-family: "RobotoCondensedRegular"; */
-@font-face { font-family: "RobotoCondensedRegular"; src: url("../../fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot"); src: url("../../fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot?#iefix") format("embedded-opentype"), url("../../fonts/RobotoCondensedRegular/RobotoCondensedRegular.woff") format("woff"), url("../../fonts/RobotoCondensedRegular/RobotoCondensedRegular.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face { font-family: "RobotoCondensedRegular"; src: url("../../../fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot"); src: url("../../../fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/RobotoCondensedRegular/RobotoCondensedRegular.woff") format("woff"), url("../../../fonts/RobotoCondensedRegular/RobotoCondensedRegular.ttf") format("truetype"); font-style: normal; font-weight: normal; }
 /* font-family: "RobotoCondensedLight"; */
-@font-face { font-family: "RobotoCondensedLight"; src: url("../../fonts/RobotoCondensedLight/RobotoCondensedLight.eot"); src: url("../../fonts/RobotoCondensedLight/RobotoCondensedLight.eot?#iefix") format("embedded-opentype"), url("../../fonts/RobotoCondensedLight/RobotoCondensedLight.woff") format("woff"), url("../../fonts/RobotoCondensedLight/RobotoCondensedLight.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face { font-family: "RobotoCondensedLight"; src: url("../../../fonts/RobotoCondensedLight/RobotoCondensedLight.eot"); src: url("../../../fonts/RobotoCondensedLight/RobotoCondensedLight.eot?#iefix") format("embedded-opentype"), url("../../../fonts/RobotoCondensedLight/RobotoCondensedLight.woff") format("woff"), url("../../../fonts/RobotoCondensedLight/RobotoCondensedLight.ttf") format("truetype"); font-style: normal; font-weight: normal; }
 /* font-family: "RobotoCondensedBold"; */
-@font-face { font-family: "RobotoCondensedBold"; src: url("../../fonts/RobotoCondensedBold/RobotoCondensedBold.eot"); src: url("../../fonts/RobotoCondensedBold/RobotoCondensedBold.eot?#iefix") format("embedded-opentype"), url("../../fonts/RobotoCondensedBold/RobotoCondensedBold.woff") format("woff"), url("../../fonts/RobotoCondensedBold/RobotoCondensedBold.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face { font-family: "RobotoCondensedBold"; src: url("../../../fonts/RobotoCondensedBold/RobotoCondensedBold.eot"); src: url("../../../fonts/RobotoCondensedBold/RobotoCondensedBold.eot?#iefix") format("embedded-opentype"), url("../../../fonts/RobotoCondensedBold/RobotoCondensedBold.woff") format("woff"), url("../../../fonts/RobotoCondensedBold/RobotoCondensedBold.ttf") format("truetype"); font-style: normal; font-weight: normal; }
 /* line 4, ../../../sass/theme/_base.scss */
 .clear { clear: both; }
 
@@ -178,13 +178,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* line 27, ../../../sass/theme/theme-index/_typography.scss */
   .logotip { padding-top: 12px; padding-top: 0.75rem; }
   /* line 31, ../../../sass/theme/theme-index/_typography.scss */
-  .menu-site { padding-top: 48px; padding-top: 3rem; padding-bottom: 48px; padding-bottom: 3rem; }
+  .menu-site { padding-top: 120px; padding-top: 7.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
+  /* line 37, ../../../sass/theme/theme-index/_typography.scss */
+  .menu-site ul li a { font-size: 21px; font-size: 1.3rem; line-height: 24px; line-height: 1.5rem; text-decoration: none; color: #000; }
+  /* line 42, ../../../sass/theme/theme-index/_typography.scss */
+  .menu-site ul li a:hover { border-bottom-width: 1px; border-bottom-width: 0.0625rem; border-bottom-style: solid; padding-bottom: 11px; padding-bottom: 0.6875rem; color: #EA7373; }
   /**end media desctop*/ }
 @media (min-width: 200px) and (max-width: 767px) { /*end media mobail*/ }
 @media (min-width: 1200px) { /* line 11, ../../../sass/theme/theme-index/_components.scss */
-  .menu-site ul li { display: inline-block; }
-  /* line 13, ../../../sass/theme/theme-index/_components.scss */
-  .menu-site ul li a { display: block; padding-left: 5%; }
+  .menu-site ul li { display: inline-block; padding-left: 7%; }
   /**end media desctop*/ }
 @media (min-width: 200px) and (max-width: 767px) { /* line 5, ../../../sass/theme/theme-index/_grid-mobail.scss */
   .chief { *zoom: 1; float: left; clear: none; text-align: inherit; width: 100%; margin-left: 0%; margin-right: 3%; }
@@ -265,14 +267,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
   header:last-child { margin-right: 0%; }
   /* line 13, ../../../sass/theme/theme-index/_grid.scss */
-  .menu { *zoom: 1; float: left; clear: none; text-align: inherit; width: 100%; margin-left: 0%; margin-right: 3%; }
+  .menu { background: #fff; *zoom: 1; float: left; clear: none; text-align: inherit; width: 100%; margin-left: 0%; margin-right: 3%; }
   /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
   .menu:before, .menu:after { content: ''; display: table; }
   /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
   .menu:after { clear: both; }
   /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
   .menu:last-child { margin-right: 0%; }
-  /* line 17, ../../../sass/theme/theme-index/_grid.scss */
+  /* line 18, ../../../sass/theme/theme-index/_grid.scss */
   .logotip-almet { *zoom: 1; float: left; clear: none; text-align: inherit; width: 22.75%; margin-left: 0%; margin-right: 3%; }
   /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
   .logotip-almet:before, .logotip-almet:after { content: ''; display: table; }
@@ -280,8 +282,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .logotip-almet:after { clear: both; }
   /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
   .logotip-almet:last-child { margin-right: 0%; }
-  /* line 21, ../../../sass/theme/theme-index/_grid.scss */
-  .menu-site { *zoom: 1; float: left; clear: none; text-align: inherit; width: 31.33333%; margin-left: 34.33333%; margin-right: 3%; }
+  /* line 22, ../../../sass/theme/theme-index/_grid.scss */
+  .menu-site { *zoom: 1; float: left; clear: none; text-align: inherit; width: 61.375%; margin-left: 4.29167%; margin-right: 3%; }
   /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
   .menu-site:before, .menu-site:after { content: ''; display: table; }
   /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
@@ -289,8 +291,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
   .menu-site:last-child { margin-right: 0%; }
   /*svg almet*/
-  /* line 26, ../../../sass/theme/theme-index/_grid.scss */
+  /* line 27, ../../../sass/theme/theme-index/_grid.scss */
   .almet { width: 110px; height: 110px; margin: auto; }
+  /* line 37, ../../../sass/theme/theme-index/_grid.scss */
+  .row-mod-1 { *zoom: 1; float: left; clear: none; text-align: inherit; width: 100%; margin-left: 0%; margin-right: 3%; }
+  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+  .row-mod-1:before, .row-mod-1:after { content: ''; display: table; }
+  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+  .row-mod-1:after { clear: both; }
+  /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+  .row-mod-1:last-child { margin-right: 0%; }
   /**end media desctop*/ }
 
 /*# sourceMappingURL=index.css.map */

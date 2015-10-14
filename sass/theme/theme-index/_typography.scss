@@ -29,8 +29,19 @@
   }
 
   .menu-site{
-      @include leader($lines:2, $property:padding);
-      @include trailer($lines:2, $property:padding);
+      @include leader($lines:5, $property:padding);
+      @include trailer($lines:1, $property:padding);
+
   }
+
+    .menu-site ul li a{
+      @include adjust-font-size-to (1.3rem, 1);
+      text-decoration:none;
+      color:#000;
+    }
+    .menu-site ul li a:hover{
+      @include trailing-border($width:1px,$lines:0.5, $border-style:solid);
+      color: #EA7373;
+    }
 /**end media desctop*/
 }
