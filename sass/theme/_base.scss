@@ -1,6 +1,11 @@
 @charset "UTF-8";
-
+@import "fonts/fonts";
 
 .clear{
 	clear:both;
 }
+
+//Font
+$logotip:"HeliosCondRegular", Arial , sans-serif;
+$h-font:"HeliosCondRegular", Arial , sans-serif;
+$p-font:"RobotoCondensedLight", Arial , sans-serif;
