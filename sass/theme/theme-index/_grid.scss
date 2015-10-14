@@ -3,6 +3,18 @@
 
 //ДЛЯ DESCTOP**********************************************************************************************
 @media (min-width:1200px){
+  .chief{
+    @include center(1200px);
+  }
+  header{
+    @include column(12/12);
+  }
+  /*svg almet*/
+  .almet{
+    width: 200px;
+    height: 200px;
+    
+  }
 
 /**end media desctop*/
 }

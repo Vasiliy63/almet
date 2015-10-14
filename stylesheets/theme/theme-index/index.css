@@ -85,23 +85,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* line 26, ../../../sass/theme/_vertical-rhythm.scss */
   p { font-size: 14px; font-size: 0.9rem; line-height: 24px; line-height: 1.5rem; }
   /* line 29, ../../../sass/theme/_vertical-rhythm.scss */
-  h2, h3, h4, h5, h6 { font-family: "HeliosCondRegular", Arial, sans-serif; }
+  h2, h3, h4, h5, h6 { font-family: "HeliosCondRegular"; }
   /* line 33, ../../../sass/theme/_vertical-rhythm.scss */
-  h2 { font-family: "HeliosCondRegular", Arial, sans-serif; letter-spacing: 0px; text-transform: uppercase; color: #fff; }
+  h2 { font-family: "HeliosCondRegular"; letter-spacing: 0px; text-transform: uppercase; color: #fff; }
   /* line 40, ../../../sass/theme/_vertical-rhythm.scss */
-  p { font-family: "RobotoCondensedLight", Arial, sans-serif; }
+  p { font-family: "RobotoCondensedLight"; }
   /* line 44, ../../../sass/theme/_vertical-rhythm.scss */
   p [data-vertical-rhythm="true"] { transition: padding-bottom 2s; }
   /* line 49, ../../../sass/theme/_vertical-rhythm.scss */
-  a { font-family: "RobotoCondensedLight", Arial, sans-serif; color: #fff; outline: none !important; }
+  a { font-family: "RobotoCondensedLight"; color: #fff; outline: none !important; }
   /* line 56, ../../../sass/theme/_vertical-rhythm.scss */
   a { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
   /* line 58, ../../../sass/theme/_vertical-rhythm.scss */
-  ul, li { font-family: "RobotoCondensedLight", Arial, sans-serif; font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  ul, li { font-family: "RobotoCondensedLight"; font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
   /* line 63, ../../../sass/theme/_vertical-rhythm.scss */
   img, iframe { display: block; max-width: 100%; border-image: none; }
   /* line 69, ../../../sass/theme/_vertical-rhythm.scss */
-  .message { font-family: "RobotoCondensedLight", Arial, sans-serif; } }
+  .message { font-family: "RobotoCondensedLight"; } }
 @media (min-width: 481px) and (max-width: 1240px) { /* line 106, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
   html { font-size: 100%; line-height: 1.5em; }
   /* line 84, ../../../sass/theme/_vertical-rhythm.scss */
@@ -117,23 +117,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* line 89, ../../../sass/theme/_vertical-rhythm.scss */
   p { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
   /* line 92, ../../../sass/theme/_vertical-rhythm.scss */
-  h2, h3, h4, h5, h6 { font-family: "HeliosCondRegular", Arial, sans-serif; }
+  h2, h3, h4, h5, h6 { font-family: "HeliosCondRegular"; }
   /* line 98, ../../../sass/theme/_vertical-rhythm.scss */
-  h2 { font-family: "HeliosCondRegular", Arial, sans-serif; letter-spacing: 2px; text-transform: uppercase; color: #fff; }
+  h2 { font-family: "HeliosCondRegular"; letter-spacing: 2px; text-transform: uppercase; color: #fff; }
   /* line 105, ../../../sass/theme/_vertical-rhythm.scss */
-  p { font-family: "RobotoCondensedLight", Arial, sans-serif; }
+  p { font-family: "RobotoCondensedLight"; }
   /* line 109, ../../../sass/theme/_vertical-rhythm.scss */
   p [data-vertical-rhythm="true"] { transition: padding-bottom 2s; }
   /* line 115, ../../../sass/theme/_vertical-rhythm.scss */
-  a { font-family: "RobotoCondensedLight", Arial, sans-serif; color: #fff; outline: medium none !important; }
+  a { font-family: "RobotoCondensedLight"; color: #fff; outline: medium none !important; }
   /* line 121, ../../../sass/theme/_vertical-rhythm.scss */
   a { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
   /* line 123, ../../../sass/theme/_vertical-rhythm.scss */
-  ul, li { font-family: "RobotoCondensedLight", Arial, sans-serif; font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  ul, li { font-family: "RobotoCondensedLight"; font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
   /* line 128, ../../../sass/theme/_vertical-rhythm.scss */
   img, iframe { display: block; max-width: 100%; }
   /* line 133, ../../../sass/theme/_vertical-rhythm.scss */
-  .message { font-family: "RobotoCondensedLight", Arial, sans-serif; } }
+  .message { font-family: "RobotoCondensedLight"; } }
 @media (min-width: 1241px) { /* line 106, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
   html { font-size: 100%; line-height: 1.5em; }
   /* line 148, ../../../sass/theme/_vertical-rhythm.scss */
@@ -149,30 +149,47 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* line 153, ../../../sass/theme/_vertical-rhythm.scss */
   p { font-size: 19px; font-size: 1.2rem; line-height: 24px; line-height: 1.5rem; }
   /* line 156, ../../../sass/theme/_vertical-rhythm.scss */
-  h2, h3, h4, h5, h6 { font-family: "HeliosCondRegular", Arial, sans-serif; }
+  h2, h3, h4, h5, h6 { font-family: "HeliosCondRegular"; }
   /* line 162, ../../../sass/theme/_vertical-rhythm.scss */
-  h2 { font-family: "HeliosCondRegular", Arial, sans-serif; letter-spacing: 5px; text-transform: uppercase; color: #fff; }
+  h2 { font-family: "HeliosCondRegular"; letter-spacing: 5px; text-transform: uppercase; color: #fff; }
   /* line 169, ../../../sass/theme/_vertical-rhythm.scss */
-  p { font-family: "RobotoCondensedLight", Arial, sans-serif; }
+  p { font-family: "RobotoCondensedLight"; }
   /* line 173, ../../../sass/theme/_vertical-rhythm.scss */
   p [data-vertical-rhythm="true"] { transition: padding-bottom 2s; }
   /* line 179, ../../../sass/theme/_vertical-rhythm.scss */
-  .logotip { font-family: "HeliosCondRegular", Arial, sans-serif; }
+  .logotip { font-family: Arial, sans-serif; }
   /* line 183, ../../../sass/theme/_vertical-rhythm.scss */
-  a { font-family: "RobotoCondensedLight", Arial, sans-serif; color: #fff; outline: medium none !important; }
+  a { font-family: "RobotoCondensedLight"; color: #fff; outline: medium none !important; }
   /* line 189, ../../../sass/theme/_vertical-rhythm.scss */
   a { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
   /* line 191, ../../../sass/theme/_vertical-rhythm.scss */
-  ul, li { font-family: "RobotoCondensedLight", Arial, sans-serif; font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  ul, li { font-family: "RobotoCondensedLight"; font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
   /* line 196, ../../../sass/theme/_vertical-rhythm.scss */
   img, iframe { display: block; max-width: 100%; }
   /* line 202, ../../../sass/theme/_vertical-rhythm.scss */
-  .message { font-family: "RobotoCondensedLight", Arial, sans-serif; } }
+  .message { font-family: "RobotoCondensedLight"; } }
 @media (min-width: 200px) and (max-width: 767px) { /*end media mobail*/ }
 @media (min-width: 1200px) { /**end media desctop*/ }
 @media (min-width: 200px) and (max-width: 767px) { /*end media mobail*/ }
 @media (min-width: 1200px) { /**end media desctop*/ }
 @media (min-width: 200px) and (max-width: 767px) { /*end media mobail*/ }
-@media (min-width: 1200px) { /**end media desctop*/ }
+@media (min-width: 1200px) { /* line 6, ../../../sass/theme/theme-index/_grid.scss */
+  .chief { *zoom: 1; width: auto; max-width: 1200px; float: none; display: block; margin-right: auto; margin-left: auto; padding-left: 0; padding-right: 0; }
+  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+  .chief:before, .chief:after { content: ''; display: table; }
+  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+  .chief:after { clear: both; }
+  /* line 9, ../../../sass/theme/theme-index/_grid.scss */
+  header { *zoom: 1; float: left; clear: none; text-align: inherit; width: 100%; margin-left: 0%; margin-right: 3%; }
+  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+  header:before, header:after { content: ''; display: table; }
+  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+  header:after { clear: both; }
+  /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+  header:last-child { margin-right: 0%; }
+  /*svg almet*/
+  /* line 13, ../../../sass/theme/theme-index/_grid.scss */
+  .almet { width: 200px; height: 200px; }
+  /**end media desctop*/ }
 
 /*# sourceMappingURL=index.css.map */
