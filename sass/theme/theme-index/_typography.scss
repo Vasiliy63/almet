@@ -4,5 +4,30 @@
 //ДЛЯ DESCTOP**********************************************************************************************
 @media (min-width:1200px){
 
+  body{
+    @include debug-vertical-alignment();
+  }
+
+  .chief{
+    @include margin-leader;
+  }
+
+
+  //*header*/
+
+  .logotip-almet p.logotip{
+    text-align:center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+
+
+
+  .logotip{
+  @include leader($lines:0.5, $property:padding);
+  }
+
+
 /**end media desctop*/
 }

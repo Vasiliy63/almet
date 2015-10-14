@@ -4,17 +4,33 @@
 //ДЛЯ DESCTOP**********************************************************************************************
 @media (min-width:1200px){
   .chief{
-    @include center(1200px);
+    @include center(1190px);
   }
   header{
     @include column(12/12);
   }
+
+  .menu{
+    @include column(12/12);
+  }
+
+.logotip-almet{
+ @include column(3/12);
+}
+
+  .menu-site{
+    @include column(8/12);
+  }
+
   /*svg almet*/
   .almet{
-    width: 200px;
-    height: 200px;
-    
+    width: 120px;
+    height: 120px;
+    margin:auto;
+
   }
+
+
 
 /**end media desctop*/
 }

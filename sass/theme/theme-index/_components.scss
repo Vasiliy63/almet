@@ -3,5 +3,21 @@
 //ДЛЯ DESCTOP**********************************************************************************************
 @media (min-width:1200px){
 
+//*header menu*/
+
+.menu-site{
+  ul{
+
+    li{
+        display:inline-block;
+        a{
+          display:block;
+          padding-left:5%;
+        }
+    }
+  }
+}
+
+
 /**end media desctop*/
 }

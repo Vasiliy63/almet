@@ -20,8 +20,9 @@
     "jeet": "~6.1.2"
   },
   "dependencies": {
-    "jquery": "~2.1.4",
     "normalize-css": "normalize.css#~3.0.3",
-    "bLazy": "blazy#~1.4.1"
+    "bLazy": "blazy#~1.4.1",
+    "jquery": "1.9.1",
+    "photoswipe": "~4.1.0"
   }
 }

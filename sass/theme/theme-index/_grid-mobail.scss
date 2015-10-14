@@ -2,6 +2,23 @@
 
 @media (min-width:200px) and (max-width:767px){
 
+  .chief{
+    @include column(12/12);
+  }
 
+
+  header{
+    @include column(12/12);
+  }
+  /*svg almet*/
+  .almet{
+    width: 200px;
+    height: 200px;
+
+  }
+
+  .menu{
+    background: #000;
+  }
 /*end media mobail*/
 }
