@@ -91,6 +91,9 @@
   @include trailer($lines:4, $property:padding);
 
 }
+.box1{
+  @include trailer($lines:1, $property:padding);
+}
 ////***********row-mod-3      news*********//////////
 .mod-3{
   @include leader($lines:4, $property:padding);

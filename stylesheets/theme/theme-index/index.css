@@ -196,31 +196,33 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /*row-mod-gallery*/
   /* line 89, ../../../sass/theme/theme-index/_typography.scss */
   .mod-gallery { padding-top: 96px; padding-top: 6rem; padding-bottom: 96px; padding-bottom: 6rem; }
-  /* line 95, ../../../sass/theme/theme-index/_typography.scss */
+  /* line 94, ../../../sass/theme/theme-index/_typography.scss */
+  .box1 { padding-bottom: 24px; padding-bottom: 1.5rem; }
+  /* line 98, ../../../sass/theme/theme-index/_typography.scss */
   .mod-3 { padding-top: 96px; padding-top: 6rem; padding-bottom: 96px; padding-bottom: 6rem; }
-  /* line 99, ../../../sass/theme/theme-index/_typography.scss */
+  /* line 102, ../../../sass/theme/theme-index/_typography.scss */
   .mod-3 .text-small-p { font-size: 14px; font-size: 0.9rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 104, ../../../sass/theme/theme-index/_typography.scss */
+  /* line 107, ../../../sass/theme/theme-index/_typography.scss */
   .new { text-decoration: none; }
-  /* line 108, ../../../sass/theme/theme-index/_typography.scss */
+  /* line 111, ../../../sass/theme/theme-index/_typography.scss */
   .new p, h5 { padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 112, ../../../sass/theme/theme-index/_typography.scss */
+  /* line 115, ../../../sass/theme/theme-index/_typography.scss */
   .fa-calendar-minus-o { padding-right: 2%; color: #B4332D; }
-  /* line 122, ../../../sass/theme/theme-index/_typography.scss */
+  /* line 125, ../../../sass/theme/theme-index/_typography.scss */
   .mod-footer { padding-top: 96px; padding-top: 6rem; padding-bottom: 48px; padding-bottom: 3rem; text-align: center; color: #fff; }
-  /* line 129, ../../../sass/theme/theme-index/_typography.scss */
+  /* line 132, ../../../sass/theme/theme-index/_typography.scss */
   .logo-footer { padding-bottom: 12px; padding-bottom: 0.75rem; }
-  /* line 133, ../../../sass/theme/theme-index/_typography.scss */
+  /* line 136, ../../../sass/theme/theme-index/_typography.scss */
   .mod-footer p.logotip { border-bottom-width: 1px; border-bottom-width: 0.0625rem; border-bottom-style: solid; padding-bottom: 11px; padding-bottom: 0.6875rem; color: #000; }
-  /* line 138, ../../../sass/theme/theme-index/_typography.scss */
+  /* line 141, ../../../sass/theme/theme-index/_typography.scss */
   .fa-map-marker { color: #000; padding-right: 2%; }
-  /* line 143, ../../../sass/theme/theme-index/_typography.scss */
+  /* line 146, ../../../sass/theme/theme-index/_typography.scss */
   .fa-phone { color: #000; padding-right: 2%; }
-  /* line 148, ../../../sass/theme/theme-index/_typography.scss */
+  /* line 151, ../../../sass/theme/theme-index/_typography.scss */
   .fa-paper-plane { color: #000; padding-right: 2%; }
-  /* line 153, ../../../sass/theme/theme-index/_typography.scss */
+  /* line 156, ../../../sass/theme/theme-index/_typography.scss */
   .p-footer-style p { padding-top: 24px; padding-top: 1.5rem; }
-  /* line 157, ../../../sass/theme/theme-index/_typography.scss */
+  /* line 160, ../../../sass/theme/theme-index/_typography.scss */
   .copy { padding-top: 0px; padding-top: 0rem; }
   /**end media desctop*/ }
 @media (min-width: 200px) and (max-width: 767px) { /*end media mobail*/ }
