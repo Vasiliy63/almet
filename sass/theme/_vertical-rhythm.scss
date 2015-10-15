@@ -141,14 +141,14 @@ max-width: 100%;
 
 
 //Вертикальный ритм для Desktop*************************************************************************************
-@media (min-width:1241px){
+@media (min-width:1200px){
 
 @include uwd-rhytm-config(16px);
 @include establish-baseline;
-h2 { @include adjust-font-size-to(6.854rem, 5);}
-h3 { @include adjust-font-size-to(4.236rem, 3);}
-h4 { @include adjust-font-size-to(2.618rem, 2); font-weight:bold;}
-h5 { @include adjust-font-size-to(1.618rem, 1); font-weight:bold;}
+h2 { @include adjust-font-size-to(3.998rem, 5);}
+h3 { @include adjust-font-size-to(2.827rem, 3);}
+h4 { @include adjust-font-size-to(1.999rem, 2);}
+h5 { @include adjust-font-size-to(1.414rem, 1); }
 h6 { @include adjust-font-size-to(1rem, 1);}
 p {@include adjust-font-size-to (1.2rem, 1)}
 

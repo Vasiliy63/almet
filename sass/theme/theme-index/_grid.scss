@@ -11,11 +11,13 @@
   }
 
   .menu{
+    position:relative;
     background:#fff;
     @include column(12/12);
   }
 
 .logotip-almet{
+  display:block;
  @include column(3/12);
 }
 
@@ -34,11 +36,90 @@
 
   //*******************End Header
 
+
+////**************row-mod-1
 .row-mod-1{
+  @include column(12/12);
+  background: url('../../../img/fon/20071101_062.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mod-1{
+  height:100%;
+  width:100%;
+  background: rgba(0, 0, 0, 0.64) none repeat scroll 0% 0%;
+}
+
+///******************row-mod-2
+.row-mod-2{
+  @include column(12/12);
+}
+
+.mod-2{
+  @include column(12/12);
+   background:  rgba(99, 99, 99, 0.93);
+
+}
+
+.almet-preview{
+  @include column(1/2);
+}
+.london{
+  width:100%;
+  height: 393px;
+}
+
+///gallery
+.row-mod-gallery{
+  @include column(12/12);
+
+}
+.mod-gallery{
   @include column(12/12);
 }
 
 
+  .gallery {
+     @include column(12/12);
+   }
+
+  .box1{
+    @include column(1/4, $cycle: 4);
+  }
+
+
+
+///******row-mod-footer******////
+.row-mod-footer {
+      @include column(1/1);
+      // background: #ea7373;
+    background: rgba(203, 103, 103, 0.93) none repeat scroll 0% 0%;
+    }
+    .mod-footer {
+      @include center(300px);
+      text-align: center;
+      color: #fff;
+      font-size: 0.3rem;
+      .logo-footer {
+        @include center(74px);
+      }
+      .logo-footer{
+        width: 100%;
+        height:72px;
+      }
+      .logotip {
+        font-size: 1rem;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        padding-left: 4px;
+      }
+      .social {
+        display: block;
+        width: 300px;
+      }
+    }
 
 
 

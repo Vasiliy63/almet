@@ -48,6 +48,7 @@
 $(window).load(function() {
     $('img').keepTheRhythm({baseLine: 24});
     $('svg').keepTheRhythm({baseLine: 24});
+  
 
 
     });
