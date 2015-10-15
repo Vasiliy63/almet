@@ -4,12 +4,14 @@
 //ДЛЯ DESCTOP**********************************************************************************************
 @media (min-width:1200px){
 
-  body{
-    @include debug-vertical-alignment();
-  }
+  // body{
+  //   @include debug-vertical-alignment();
+  // }
 
   .chief{
     @include margin-leader;
+    @include margin-trailer;
+     box-shadow: 0 0 10px rgba(0,0,0,0.5);
   }
 
   //*header*/
@@ -45,7 +47,7 @@
       color:#000;
     }
     .menu-site ul li a:hover{
-      @include trailing-border($width:2px,$lines:1, $border-style:solid);
+      @include trailing-border($width:5px,$lines:1, $border-style:solid);
       color: #000;
     }
 
@@ -64,6 +66,10 @@
 
 
 .row-mod-2{
+  .mod-2{
+    @include leader($lines:4, $property:padding);
+    @include trailer($lines:4, $property:padding);
+  }
   h4{
     color: rgba(123, 30, 30, 0.8);
     text-transform: uppercase;
@@ -78,6 +84,36 @@
       @include leader($lines:2, $property:padding);
   }
 }
+
+/*row-mod-gallery*/
+.mod-gallery{
+  @include leader($lines:4, $property:padding);
+  @include trailer($lines:4, $property:padding);
+
+}
+////***********row-mod-3      news*********//////////
+.mod-3{
+  @include leader($lines:4, $property:padding);
+  @include trailer($lines:4, $property:padding);
+
+.text-small-p{
+  @include adjust-font-size-to (0.9rem, 1);
+}
+
+}
+.new{
+  text-decoration:none;
+
+}
+.new p, h5{
+@include trailer($lines:1, $property:padding);
+}
+
+.fa-calendar-minus-o{
+  padding-right:2%;
+  color: #B4332D;
+}
+
 
 
 /////******row-mod-footer*****//
@@ -99,6 +135,21 @@ text-align:center;
   color:#000;
 
 }
+.fa-map-marker{
+  color:#000;
+  padding-right: 2%;
+}
+
+.fa-phone{
+  color:#000;
+  padding-right: 2%;
+}
+
+.fa-paper-plane{
+  color:#000;
+  padding-right: 2%;
+}
+
 .p-footer-style p{
   @include leader($lines:1, $property:padding);
 }

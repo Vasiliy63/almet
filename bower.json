@@ -21,9 +21,9 @@
   },
   "dependencies": {
     "normalize-css": "normalize.css#~3.0.3",
-    "bLazy": "blazy#~1.4.1",
     "jquery": "1.9.1",
     "photoswipe": "~4.1.0",
-    "Slidebars": "~0.10.3"
+    "Slidebars": "~0.10.3",
+    "font-awesome": "~4.4.0"
   }
 }
