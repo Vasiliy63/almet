@@ -14,7 +14,7 @@
 }
 
 ///mobail media ************************************************************************************************
-@media (min-width:200px) and (max-width:481px){
+@media (min-width:200px) and (max-width:767px){
 
 @include uwd-rhytm-config(16px);
 @include establish-baseline;
@@ -53,11 +53,19 @@ outline:none !important;
 }
 
 
+.logotip{
+  font-family:$logotip;
+}
+
 a { @include adjust-font-size-to(1rem, 1)}
 
 ul,li{
 	font-family:$p-font;
 	@include adjust-font-size-to (1rem, 1)
+}
+
+input{
+  font-family:$logotip;
 }
 
 img, iframe{
@@ -76,7 +84,7 @@ border-image: none;
 
 
 //media для планшетов**************************************************************************
-@media(min-width:481px) and (max-width:1240px){
+@media(min-width:768px) and (max-width:991px){
 
 
 @include uwd-rhytm-config(16px);
@@ -112,6 +120,10 @@ p{
 
 }
 
+.logotip{
+  font-family:$logotip;
+}
+
 a{
 font-family:$p-font;
 color:#fff;
@@ -123,6 +135,10 @@ a { @include adjust-font-size-to(1rem, 1)}
 ul,li{
 	font-family:$p-font;
 	@include adjust-font-size-to (1rem, 1)
+}
+
+input{
+  font-family:$logotip;
 }
 
 img, iframe{
@@ -137,6 +153,81 @@ max-width: 100%;
 
 
 // end media для планшетов****************************************************************************************
+}
+
+//Верстка под medium-device******************************************************************************************
+@media (min-width:992px) and (max-width:1199px){
+//********************************************************************************************************
+
+@include uwd-rhytm-config(16px);
+@include establish-baseline;
+h2 { @include adjust-font-size-to(3.998rem, 5);}
+h3 { @include adjust-font-size-to(2.827rem, 3);}
+h4 { @include adjust-font-size-to(1.999rem, 2);}
+h5 { @include adjust-font-size-to(1.414rem, 1); }
+h6 { @include adjust-font-size-to(1rem, 1);}
+p {@include adjust-font-size-to (1.2rem, 1)}
+
+
+h2,h3,h4,h5,h6{
+	font-family:$h-font;
+
+
+}
+
+h2{
+	font-family:$h-font;
+	letter-spacing:5px;
+	text-transform:uppercase;
+	color:#fff;
+}
+
+p{
+	font-family:$p-font;
+	//  @include rhythm($leader: 0, $trailer: 1);
+
+	[data-vertical-rhythm="true"]{
+  transition: padding-bottom 2s;
+  }
+
+}
+
+.logotip{
+  font-family:$logotip;
+}
+
+a{
+font-family:$p-font;
+color:#fff;
+outline: medium none !important;
+}
+
+a { @include adjust-font-size-to(1rem, 1)}
+
+ul,li{
+	font-family:$p-font;
+	@include adjust-font-size-to (1rem, 1)
+}
+
+input{
+  font-family:$logotip;
+}
+
+
+img, iframe{
+display:block;
+max-width: 100%;
+}
+
+
+.message{
+  font-family:$p-font;
+}
+
+
+//********************************************************************************************************
+
+//end media medium
 }
 
 
@@ -192,6 +283,11 @@ ul,li{
 	font-family:$p-font;
 	@include adjust-font-size-to (1rem, 1)
 }
+
+input{
+  font-family:$logotip;
+}
+
 
 img, iframe{
 display:block;

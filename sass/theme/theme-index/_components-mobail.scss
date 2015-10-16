@@ -3,5 +3,108 @@
 @media (min-width:200px) and (max-width:767px){
 
 
+  //*header menu*/
+
+  .menu-site{
+    ul{
+
+      li{
+          display:inline-block;
+  padding-left:7%;
+
+      }
+    }
+  }
+
+
+
+  ////**************row-mod-1 form validation email
+  #email{
+    width:164px;
+    background: rgba(119, 48, 48, 0.69) none repeat scroll 0% 0%;
+  border:none;
+    color:#fff;
+    height:49%;
+  border-radius: 2px;
+  }
+  #submit{
+    padding-left: 6%;
+    padding-right: 6%;
+    border: medium none;
+    border-radius: 2px;
+    background: rgba(23, 98, 31, 0.74) none repeat scroll 0% 0%;
+    color: #FFF;
+    height:51%;
+    float: right;
+  }
+
+  #submit:hover{
+    border: none;
+  background:rgba(23, 98, 31, 0.94) none repeat scroll 0% 0%;
+
+  }
+
+
+  input[placeholder]{
+    padding-left:2%;
+  }
+
+
+
+
+  //*/*Menu click*************************************************************//*/
+
+  .menu-click {
+    cursor: pointer;
+    padding-left: 1.25em;
+    width: 23px;
+    height: 40px;
+    margin-right: 2%;
+    position: absolute;
+    top: 12%;
+    right: 8%;
+  }
+  .menu-global {
+    backface-visibility: hidden;
+    position: absolute;
+    left: 0;
+    border-top: 5px solid rgb(129, 27, 27);
+    width: 100%;
+    transition: 0.55s;
+  }
+  .menu-top {
+    top: 0;
+    background: #000;
+  }
+  .menu-middle {
+    top: 12px;
+    background: #000;
+  }
+  .menu-bottom {
+    top: 24px;
+    background: #000;
+  }
+  .menu-top-click {
+    backface-visibility: hidden;
+    top: 15px;
+    transform: rotate(50deg);
+    transition: 0.55s 0.5s;
+  }
+  .menu-middle-click {
+    opacity: 0;
+  }
+  .menu-bottom-click {
+    backface-visibility: hidden;
+    top: 15px;
+    transform: rotate(-410deg);
+    transition: 0.55s 0.5s;
+  }
+
+
+
+  //********************************************************************************************************
+
+
+
 /*end media mobail*/
 }
