@@ -50,6 +50,7 @@
 
   ////**************row-mod-1
   .row-mod-1{
+    overflow:hidden;
   @include column(12/12);
   background: url('../../../img/fon/20071101_062.jpg');
   background-position: center;
@@ -67,8 +68,28 @@
   }
 
 
+  .title-index{
+    width:80%;
+    margin-left:auto;
+    margin-right: auto;
+    color:#fff;
+  }
+
+  .line{
+    width:20%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .title-p{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   ///******************row-mod-2
   .row-mod-2{
+    overflow:hidden;
   @include column(12/12);
   }
 
@@ -93,12 +114,14 @@ width:83%;
 
   ///gallery
   .row-mod-gallery{
+    overflow:hidden;
   @include column(12/12);
 
   }
   .mod-gallery{
   @include column(12/12);
-background:  rgba(162, 162, 162, 0.9) none repeat scroll 0% 0%;
+// background:  rgba(162, 162, 162, 0.9) none repeat scroll 0% 0%;
+background: #1D1D1D none repeat scroll 0% 0%;
   }
 
 
@@ -113,6 +136,7 @@ background:  rgba(162, 162, 162, 0.9) none repeat scroll 0% 0%;
   }
   ////***********row-mod-3      news*********//////////
   .row-mod-3{
+    overflow:hidden;
   position:relative;
   @include column(12/12);
   background: #000;
@@ -131,8 +155,19 @@ background:  rgba(162, 162, 162, 0.9) none repeat scroll 0% 0%;
   display: block;
   }
 
+  .fa-share{
+    display:none;
+  }
+
+  .view-all{
+    display:none;
+  }
+
+
+
   ///******row-mod-footer******////
   .row-mod-footer {
+    overflow:hidden;
       @include column(1/1);
       // background: #ea7373;
   background: rgba(195, 52, 46, 0.9) none repeat scroll 0% 0%;

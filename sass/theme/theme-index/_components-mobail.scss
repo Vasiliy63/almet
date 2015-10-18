@@ -88,7 +88,7 @@
     backface-visibility: hidden;
     top: 15px;
     transform: rotate(50deg);
-    transition: 0.55s 0.5s;
+    transition: 0.33s 0.3s;
   }
   .menu-middle-click {
     opacity: 0;
@@ -97,13 +97,24 @@
     backface-visibility: hidden;
     top: 15px;
     transform: rotate(-410deg);
-    transition: 0.55s 0.5s;
+    transition: 0.33s 0.3s;
   }
 
 
 
   //********************************************************************************************************
 
+  /*************************MENU SLIDEBARWIDTH/****/
+
+.menu-slidebar-width{
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+
+  /*********END SLIDEBAR******///
 
 
 /*end media mobail*/

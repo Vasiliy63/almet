@@ -72,8 +72,21 @@
 @include adjust-font-size-to (1rem, 1);
 }
 
+.title-index{
+  text-align:center;
+}
 
+.line{
+  @include leader($lines:0, $property:padding);
+  @include trailing-border($width:5px,$lines:1, $border-style:solid);
+  color:#DB1616;
+}
 
+.title-p{
+    @include leader($lines:1, $property:padding);
+    text-align:center;
+    color:#fff;
+}
 
 
 ///row-mod-2
@@ -101,8 +114,8 @@
 
 /*row-mod-gallery*/
 .mod-gallery{
-  @include leader($lines:4, $property:padding);
-  @include trailer($lines:4, $property:padding);
+  @include leader($lines:2, $property:padding);
+  @include trailer($lines:2, $property:padding);
 
 }
 .box1{
@@ -110,8 +123,8 @@
 }
 ////***********row-mod-3      news*********//////////
 .mod-3{
-  @include leader($lines:4, $property:padding);
-  @include trailer($lines:4, $property:padding);
+  @include leader($lines:2, $property:padding);
+  @include trailer($lines:2, $property:padding);
 
 .text-small-p{
   @include adjust-font-size-to (0.9rem, 1);

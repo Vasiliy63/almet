@@ -4,15 +4,20 @@
 <head>
   <meta charset="UTF-8">
   <title>Almet Company</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
   <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="bower_components/hover/css/hover-min.css">
   <link rel="stylesheet" href="stylesheets/theme/theme-index/index.css">
   <link rel="stylesheet" href="bower_components/photoswipe/dist/photoswipe.css">
   <link rel="stylesheet" href="bower_components/photoswipe/dist/default-skin/default-skin.css">
+  <link rel="stylesheet" href="bower_components/Slidebars/dist/slidebars.min.css">
 </head>
 
 <body>
+  <!-- Slidebars -->
+  <div id="sb-site">
+
   <div class="chief">
     <header>
 
@@ -32,7 +37,7 @@
           <li><a href="#">Контакты</a></li>
         </ul>
         </div>
-        <div class="menu-click">
+        <div class="menu-click sb-toggle-right">
   <span class="menu-global menu-top"></span>
   <span class="menu-global menu-middle"></span>
   <span class="menu-global menu-bottom"></span>
@@ -48,10 +53,13 @@
     <!-- row-mod-1 send-email-->
     <div class="row-mod-1">
       <div class="mod-1">
-        <div class="form-email">
+        <!-- <div class="form-email">
          <input type="email" name="email" id="email" pattern="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" placeholder="example@gmail.com">
            <input type="submit" name="submit" id="submit" class="hvr-rectangle-out" value="join us">
-           </div>
+           </div> -->
+           <h3 class="title-index">Lorem ipsum dolor sit amet</h3>
+           <div class="line"></div>
+           <div class="title-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, illum optio porro veritatis quos quam deserunt tempora autem, animi quis, facilis dolorum ratione nisi illo odio sequi minima praesentium cum.</div>
       </div>
     </div>
     <div class="clear"></div>
@@ -69,6 +77,7 @@
   <!-- mod-gallery -->
   <div class="row-mod-gallery">
     <div class="mod-gallery">
+
       				<div class="gallery my-gallery">
       					<figure itemprop="associatedMedia" class="box1">
       					<a href="img/gallery/20071101_016.jpg" class="box2" data-size="1000x667">
@@ -106,7 +115,7 @@
       						<div class="fon-box"></div>
       					</a>
       				</figure>
-      					<figure itemprop="associatedMedia" class="box1">
+      					<!-- <figure itemprop="associatedMedia" class="box1">
       					<a href="img/gallery/20071101_031.jpg" class="box2" data-size="1000x667">
       						<img src="img/gallery/small/20071101_031.jpg" itemprop="thumbnail" data-size="500x333" class="width-gallery-image none" alt="g147">
       						<div class="fon-box"></div>
@@ -117,14 +126,16 @@
       						<img src="img/gallery/small/20071101_070.jpg" itemprop="thumbnail" data-size="500x333" class="width-gallery-image none" alt="g147">
       						<div class="fon-box"></div>
       					</a>
-      				</figure>
+      				</figure> -->
       				</div>
 
   </div>
+</div>
   <div class="clear"></div>
   <!-- row-mod-3 news -->
 <div class="row-mod-3">
   <div class="mod-3">
+    <a class="view-all" href="#"><i class="fa fa-share"></i>View all</a>
 <div class="news2">
     <a href="#" class="new">
       <img src="img/news/IMG_8103.JPG" alt="vs1">
@@ -173,6 +184,8 @@
   </footer>
     <!-- end chief  -->
   </div>
+<!-- end slidebars -->
+</div>
 
 
   <!-- Dop -->
@@ -216,7 +229,7 @@
                 <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
 
                 <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <!-- element will get class pswp__preloader-active when preloader is running -->
                 <div class="pswp__preloader">
                     <div class="pswp__preloader__icn">
                       <div class="pswp__preloader__cut">
@@ -247,12 +260,36 @@
 </div>
 <!-- END photoswipe-gallery -->
 
-
+<!-- Slidebars content -->
+<div class="sb-slidebar sb-right">
+  <div class="menu-slidebar-width">
+    <p class="almet-super-menu">Menu</p>
+  <ul>
+    <li><a href="#">О нас</a></li>
+    <li><a href="#">Блог</a></li>
+    <li><a href="#">Галлерея</a></li>
+    <li><a href="#">Читать</a></li>
+    <li><a href="#">Вакансии</a></li>
+    <li><a href="#">Контакты</a></li>
+  </ul>
+  <p class="almet-super-menu">Продукция</p>
+<ul>
+  <li><a href="#">Медная катонка</a></li>
+  <li><a href="#">Медь</a></li>
+  <li><a href="#">Аллюминий</a></li>
+  <li><a href="#">Трансформаторная сталь</a></li>
+  <li><a href="#">Свинец</a></li>
+</ul>
+    </div>
+  </div>
+  <!-- End slidebars content -->
 
   <script src="bower_components/jquery/jquery.min.js"></script>
   <script src="lib-js/jquery.keeptherhythm.js"></script>
   <script src="bower_components/photoswipe/dist/photoswipe.min.js"></script>
   <script src="bower_components/photoswipe/dist/photoswipe-ui-default.min.js"></script>
+  <script src="bower_components/Slidebars/dist/slidebars.min.js"></script>
+  <script src="javascript/slidebars.js"></script>
   <script src="javascript/photoswipe-theme.js"></script>
   <script src="javascript/vertical-rhythm.js"></script>
   <script src="javascript/menu-click.js"></script>
