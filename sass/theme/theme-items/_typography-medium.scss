@@ -1,0 +1,235 @@
+@charset "UTF-8";
+@import "../vertical-rhythm";
+//Верстка под medium-device******************************************************************************************
+@media (min-width:992px) and (max-width:1199px){
+//********************************************************************************************************
+
+  // body{
+  //   @include debug-vertical-alignment();
+  // }
+
+  .chief{
+     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+
+  //*header*/
+  .logotip-almet{
+    text-decoration:none;
+  }
+  .logotip-almet p.logotip{
+    text-align:center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:#fff;
+  }
+
+
+.menu{
+  @include leader($lines:2, $property:padding);
+  @include trailer($lines:2, $property:padding);
+}
+
+  .logotip{
+  @include leader($lines:0.5, $property:padding);
+  }
+
+  .menu-site{
+      @include leader($lines:5, $property:padding);
+      @include trailer($lines:1, $property:padding);
+
+  }
+
+    .menu-site ul li a{
+      @include adjust-font-size-to (1.3rem, 1);
+      text-decoration:none;
+      color:#000;
+    }
+    .menu-site ul li a:hover{
+      @include trailing-border($width:5px,$lines:1, $border-style:solid);
+      color: #000;
+    }
+
+.email{
+  color:#fff;
+}
+
+
+///*************End header**************////
+
+//row-mod-1
+
+
+.mod-1{
+  @include leader($lines:5, $property:padding);
+  @include trailer($lines:5, $property:padding);
+}
+
+.form-email{
+  height:100px;
+}
+
+#email{
+  @include adjust-font-size-to (1rem, 1);
+
+}
+#submit{
+@include adjust-font-size-to (1rem, 1);
+}
+
+
+.title-index{
+  text-align:center;
+}
+
+.line{
+  @include leader($lines:0, $property:padding);
+  @include trailing-border($width:5px,$lines:1, $border-style:solid);
+  color:#DB1616;
+}
+
+.title-p{
+    @include leader($lines:1, $property:padding);
+    text-align:center;
+    color:#fff;
+}
+
+
+
+///row-mod-2
+
+
+.row-mod-2{
+  .mod-2{
+    @include leader($lines:4, $property:padding);
+    @include trailer($lines:4, $property:padding);
+  }
+  h4{
+    color: rgba(123, 30, 30, 0.8);
+    text-transform: uppercase;
+    text-align: center;
+    @include leader($lines:2, $property:padding);
+    @include trailer($lines:1, $property:padding);
+  }
+  p{
+    text-align: justify;
+    padding-left:8%;
+    color:#EDEDED;
+      @include leader($lines:2, $property:padding);
+  }
+}
+
+/*row-mod-gallery*/
+.mod-gallery{
+  @include leader($lines:4, $property:padding);
+  @include trailer($lines:4, $property:padding);
+
+}
+.box1{
+  @include trailer($lines:1, $property:padding);
+}
+////***********row-mod-3      news*********//////////
+.mod-3{
+  @include leader($lines:4, $property:padding);
+  @include trailer($lines:4, $property:padding);
+
+.text-small-p{
+  @include adjust-font-size-to (0.9rem, 1);
+}
+
+}
+.new{
+  text-decoration:none;
+
+}
+.new p, h5{
+@include trailer($lines:0.5, $property:padding);
+}
+
+.fa-calendar-minus-o{
+  padding-right:2%;
+  color: #B4332D;
+}
+
+
+
+/////******row-mod-footer*****//
+///******************************************Footer
+
+.mod-footer{
+	@include leader($lines:4, $property:padding);
+	@include trailer($lines:2, $property:padding);
+text-align:center;
+	color:#fff;
+}
+
+.logo-footer{
+	@include trailer($lines:0.5, $property:padding);
+}
+
+.mod-footer p.logotip{
+	@include trailing-border($width:1px,$lines:0.5, $border-style:solid);
+  color:#000;
+
+}
+.fa-map-marker{
+  color:#000;
+  padding-right: 2%;
+}
+
+.fa-phone{
+  color:#000;
+  padding-right: 2%;
+}
+
+.fa-paper-plane{
+  color:#000;
+  padding-right: 2%;
+}
+
+.p-footer-style p{
+  @include leader($lines:1, $property:padding);
+}
+
+.copy{
+	@include leader($lines:0, $property:padding);
+}
+
+
+//***********MENU SLIDEBAR WIDTH*******/////////
+.almet-super-menu{
+  @include adjust-font-size-to(1.424rem, 1);
+  @include leader($lines:1, $property:padding);
+  @include trailer($lines:2, $property:padding);
+  @include trailing-border($width:1px,$lines:0.2, $border-style:solid);
+  color: #9E2121;
+text-align: center;
+
+}
+
+.menu-slidebar-width ul{
+  @include leader($lines:1, $property:padding);
+  @include trailer($lines:1, $property:padding);
+}
+.menu-slidebar-width ul li a{
+  display:block;
+  width:100%;
+  text-align: center;
+  text-decoration:none;
+  @include leader($lines:0.5, $property:padding);
+  @include trailer($lines:0.5, $property:padding);
+  @include adjust-font-size-to(1.266rem, 1);
+
+  &:hover{
+    @include adjust-font-size-to(1.266rem, 1);
+    border-right: 4px solid #9F2626;
+  background: #AB9D9D none repeat scroll 0% 0%;
+    color:#000;
+  }
+}
+
+//*************END SLIDEBAR WIDTH***//
+
+//********************************************************************************************************
+
+//end media medium
+}
