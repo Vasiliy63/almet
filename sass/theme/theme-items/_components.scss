@@ -3,6 +3,32 @@
 //ДЛЯ DESCTOP**********************************************************************************************
 @media (min-width:1200px){
 
+.menu-ul-li{
+
+}
+
+.menu-ul-li{
+  width: 100%;
+  overflow:auto;
+background: #2F2D2D none repeat scroll 0% 0%;
+  p{
+    text-align:center;
+    color:#A54F4F;
+ @include adjust-font-size-to(2rem, 1);
+  }
+  ul li{
+    text-align: center;
+  }
+  ul li a{
+    display:block;
+    padding:2%;
+    text-decoration: none;
+
+  }
+}
+
+
+
 //*header menu*/
 
 .menu-site{
