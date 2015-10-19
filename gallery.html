@@ -10,12 +10,22 @@
   <link rel="stylesheet" href="bower_components/photoswipe/dist/photoswipe.css">
   <link rel="stylesheet" href="bower_components/photoswipe/dist/default-skin/default-skin.css">
   <link rel="stylesheet" href="bower_components/Slidebars/dist/slidebars.min.css">
+      <link rel="stylesheet" href="bower_components/outdated-browser/outdatedbrowser/outdatedbrowser.min.css">
 </head>
 <body>
+  <div id="outdated" style="height:100%"></div>
 
 
+  <!-- outdatedbrowser -->
+  <div id="outdated">
+     <h6>Your browser is out-of-date!</h6>
+     <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/">Update my browser now </a></p>
+     <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
+  </div>
   <script src="bower_components/jquery/jquery.min.js"></script>
   <script src="lib-js/jquery.keeptherhythm.js"></script>
+  <script src="bower_components/outdated-browser/outdatedbrowser/outdatedbrowser.min.js"></script>
+  <script src="javascript/outdatedbrowser.js"></script>
   <script src="bower_components/photoswipe/dist/photoswipe.min.js"></script>
   <script src="bower_components/photoswipe/dist/photoswipe-ui-default.min.js"></script>
   <script src="bower_components/Slidebars/dist/slidebars.min.js"></script>

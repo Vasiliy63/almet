@@ -6,8 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
   <link rel="stylesheet" href="stylesheets/theme/theme-contacts/contacts.css">
+      <link rel="stylesheet" href="bower_components/outdated-browser/outdatedbrowser/outdatedbrowser.min.css">
 </head>
 <body>
+  <div id="outdated" style="height:100%"></div>
   <header>
 
     <div class="table-cell-logotip">
@@ -75,8 +77,17 @@
       <div class="background-black"></div>
   </header>
 
+  <!-- outdatedbrowser -->
+  <div id="outdated">
+     <h6>Your browser is out-of-date!</h6>
+     <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/">Update my browser now </a></p>
+     <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
+  </div>
+
   <script src="bower_components/jquery/jquery.min.js"></script>
   <script src="lib-js/jquery.keeptherhythm.js"></script>
+  <script src="bower_components/outdated-browser/outdatedbrowser/outdatedbrowser.min.js"></script>
+  <script src="javascript/outdatedbrowser.js"></script>
   <script src="javascript/vertical-rhythm.js"></script>
   <script src="javascript/menu-click.js"></script>
 </body>
