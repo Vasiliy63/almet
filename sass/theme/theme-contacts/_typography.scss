@@ -30,5 +30,17 @@ letter-spacing: 4px;
   }
 }
 
+///*Form*/
+
+.input-holder{
+		@include leader($lines:2, $property:padding);
+}
+
+.submit{
+	@include leader($lines:2, $property:margin);
+	@include trailer($lines:2, $property:margin);
+  	font-family:$p-font;
+}
+
 /**end media desctop*/
 }

@@ -6,17 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
   <link rel="stylesheet" href="stylesheets/theme/theme-contacts/contacts.css">
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
       <link rel="stylesheet" href="bower_components/outdated-browser/outdatedbrowser/outdatedbrowser.min.css">
+
 </head>
+
 <body>
-  <div id="outdated" style="height:100%"></div>
+    <div id="outdated" style="height:100%"></div>
+
+
   <header>
 
     <div class="table-cell-logotip">
+      <a href="index.html" class="back-absolute"><i class="fa fa-arrow-left"></i><span>На главную</span></a>
       <div class="props">
         <img src="svg/almet3.svg" class="almet3" alt="almet17">
         <p class="logotip">Almet Company</p>
-
+<a href="index.html" class="back-display-device-yes"><i class="fa fa-arrow-left" style="margin-right:8px"></i>На главную</a>
         <div class="text-contacts">
 	<p>Наш адрес:</p>
 	<p>443056, г.Самара, ул. Николая Панова, 38 “а”</p>
@@ -74,9 +80,13 @@
       </div>
 
     </div>
+
       <div class="background-black"></div>
   </header>
-
+  </div>
+  <!-- end slidebars -->
+  </div>
+  <div class="clean"></div>
   <!-- outdatedbrowser -->
   <div id="outdated">
      <h6>Your browser is out-of-date!</h6>
@@ -84,11 +94,13 @@
      <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
   </div>
 
+
+
   <script src="bower_components/jquery/jquery.min.js"></script>
   <script src="lib-js/jquery.keeptherhythm.js"></script>
   <script src="bower_components/outdated-browser/outdatedbrowser/outdatedbrowser.min.js"></script>
   <script src="javascript/outdatedbrowser.js"></script>
   <script src="javascript/vertical-rhythm.js"></script>
-  <script src="javascript/menu-click.js"></script>
+  	<script src="javascript/form.js"></script>
 </body>
 </html>

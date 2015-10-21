@@ -11,36 +11,47 @@ body{
 header{
   @include column(12/12);
 }
-.menu-item-site{
-    @include column(12/12);
-}
 
-
-
-.almet-logotip-view{
-  margin-left:10%;
-}
-.almet2{
-  width:150px;
-  height:150px;
-  margin-left: auto;
-margin-right: auto;
+.header-menu-toggle{
+  position:relative;
 
 }
-
+.chief{
+  @include column(11/12, $offset: 0.5/12);
+}
 /*end header*/
 /**content*/
-.items{
+
+.menu-item{
+  position:absolute;
+  top: 30%;
+  left: 0px;
+cursor: pointer;
+}
+
+
+.menu{
+  position:absolute;
+  top: 30%;
+  right: 3%;
+  cursor: pointer;
+}
+
+.item-row{
   @include column(12/12);
 }
 
-.sidebar{
-    @include column(3/12);
+
+.mod-row{
+  @include column(6/12, $offset: 1/12);
+  text-align:justify;
 }
 
-.item-row2{
-  @include column(7/12);
+.mod-row2{
+  @include column(4/12);
 }
+
+
 
 
 

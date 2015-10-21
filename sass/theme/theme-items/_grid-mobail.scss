@@ -2,7 +2,57 @@
 
 @media (min-width:200px) and (max-width:767px){
 
-  
+  body{
+    background: #EAEAEA none repeat scroll 0% 0%;
+  }
+  /*header*/
+  header{
+    @include column(12/12);
+  }
+
+  .header-menu-toggle{
+    position:relative;
+
+  }
+  .chief{
+    @include column(11/12, $offset: 0.5/12);
+  }
+  /*end header*/
+  /**content*/
+
+  .menu-item{
+    position:absolute;
+    top: 30%;
+    left: 0px;
+  cursor: pointer;
+  }
+
+
+  .menu{
+    position:absolute;
+    top: 30%;
+    right: 0%;
+    cursor: pointer;
+  }
+
+  .item-row{
+    @include column(12/12);
+  }
+
+
+  .mod-row{
+    @include column(11.5/12, $offset: 0.25/12);
+    text-align:justify;
+  }
+
+  .mod-row2{
+    @include stack();
+  }
+
+  .box1{
+    @include stack();
+  }
+
 
 /*end media mobail*/
 }

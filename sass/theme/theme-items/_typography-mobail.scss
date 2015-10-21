@@ -3,41 +3,134 @@
 
 @media (min-width:200px) and (max-width:767px){
 
-
-//***********MENU SLIDEBAR WIDTH*******/////////
-.almet-super-menu{
-  @include adjust-font-size-to(1.424rem, 1);
-  @include leader($lines:1, $property:padding);
-  @include trailer($lines:2, $property:padding);
-  @include trailing-border($width:1px,$lines:0.2, $border-style:solid);
-  color: #9E2121;
-text-align: center;
-
-}
-
-.menu-slidebar-width ul{
-  @include leader($lines:1, $property:padding);
-  @include trailer($lines:1, $property:padding);
-}
-.menu-slidebar-width ul li a{
-  display:block;
-  width:100%;
-  text-align: center;
-  text-decoration:none;
-  @include leader($lines:0.5, $property:padding);
-  @include trailer($lines:0.5, $property:padding);
-  @include adjust-font-size-to(1.266rem, 1);
-
-  &:hover{
-    @include adjust-font-size-to(1.266rem, 1);
-    border-right: 4px solid #9F2626;
-  background: #AB9D9D none repeat scroll 0% 0%;
-    color:#000;
+  /*header*/
+  body{
+    //  @include debug-vertical-alignment();
   }
-}
 
-//*************END SLIDEBAR WIDTH***//
+  .chief{
+      @include trailer($lines:1, $property:padding);
+  }
 
+  .header-menu-toggle{
+    @include leader($lines:1, $property:padding);
+    @include trailer($lines:1, $property:padding);
+  }
+
+  .fa-bars{
+    margin-right: 10px;
+  }
+
+  .menu-item{
+    @include adjust-font-size-to(1.214rem, 1);
+    padding: 1%;
+  background: #000;
+  color:#fff;
+  font-family:$p-font;
+  }
+
+  .menu{
+    @include adjust-font-size-to(1.214rem, 1);
+    padding: 1%;
+  background: #000;
+  color:#fff;
+  font-family:$p-font;
+  }
+  .mod-row p{
+     @include leader($lines:1, $property:padding);
+  }
+
+
+  .mod-row h4, h5{
+     @include leader($lines:1, $property:padding);
+  }
+
+  .mod-row2{
+     @include leader($lines:1, $property:padding);
+  }
+
+  .box1{
+       @include leader($lines:1, $property:padding);
+  }
+
+  .menu-ul-li{
+    width: 100%;
+  background: #2F2D2D none repeat scroll 0% 0%;
+    p{
+      text-align:center;
+      color:#A54F4F;
+   @include adjust-font-size-to(2rem, 1);
+   @include leader($lines:1, $property:padding);
+   @include trailer($lines:1, $property:padding);
+    }
+    ul li{
+      text-align: center;
+    }
+    ul li a{
+      display:block;
+      @include leader($lines:0.5, $property:padding);
+      @include trailer($lines:0.5, $property:padding);
+      text-decoration: none;
+  &:hover{
+    background: #AD4444 none repeat scroll 0% 0%;
+  }
+    }
+  }
+
+  /////////////************TABLE***********////////////
+  .row-table-item{
+     @include leader($lines:1, $property:margin);
+    width:100%;
+
+  }
+  .row-table-item table, th, td{
+    border:1px solid #ccc;
+    text-align: center;
+    font-family:$p-font;
+  }
+  .row-table-item td{
+     @include leader($lines:1, $property:padding);
+      @include trailer($lines:1, $property:padding);
+    text-align:center;
+  }
+
+
+
+
+
+  //***********MENU SLIDEBAR WIDTH*******/////////
+  .almet-super-menu{
+    @include adjust-font-size-to(1.424rem, 1);
+    @include leader($lines:1, $property:padding);
+    @include trailer($lines:2, $property:padding);
+    @include trailing-border($width:1px,$lines:0.2, $border-style:solid);
+    color: #9E2121;
+  text-align: center;
+
+  }
+
+  .menu-slidebar-width ul{
+    @include leader($lines:1, $property:padding);
+    @include trailer($lines:1, $property:padding);
+  }
+  .menu-slidebar-width ul li a{
+    display:block;
+    width:100%;
+    text-align: center;
+    text-decoration:none;
+    @include leader($lines:0.5, $property:padding);
+    @include trailer($lines:0.5, $property:padding);
+    @include adjust-font-size-to(1.266rem, 1);
+
+    &:hover{
+      @include adjust-font-size-to(1.266rem, 1);
+      border-right: 4px solid #9F2626;
+    background: #AB9D9D none repeat scroll 0% 0%;
+      color:#000;
+    }
+  }
+
+  //*************END SLIDEBAR WIDTH***//
 
 /*end media mobail*/
 }

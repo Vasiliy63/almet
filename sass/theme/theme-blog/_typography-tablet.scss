@@ -17,11 +17,15 @@
     text-decoration:none;
   }
   .logotip-almet p.logotip{
-    text-align:center;
+    font-family: $logotip;
+    text-align: center;
     text-transform: uppercase;
-    letter-spacing: 2px;
     color:#fff;
+      @include leader($lines:0.5, $property:padding);
+      @include adjust-font-size-to (1.2rem, 1);
+      letter-spacing:2px;
   }
+
 
 .email{
   color:#fff;
@@ -151,7 +155,7 @@
       text-decoration: none;
       @include adjust-font-size-to(1.266rem, 1);
 
-  
+
     }
 
 }

@@ -60,47 +60,17 @@ input[placeholder]{
 .menu-click {
   cursor: pointer;
   padding-left: 1.25em;
-  width: 40px;
-  height: 40px;
+  width: 70px;
   margin-right: 2%;
   position: absolute;
   top: 12%;
-  right: 7%;
+  right: 10%;
+  color: #fff;
+  background: #AB1111;
 }
-.menu-global {
-  backface-visibility: hidden;
-  position: absolute;
-  left: 0;
-  border-top: 5px solid rgb(129, 27, 27);
-  width: 100%;
-  transition: 0.55s;
-}
-.menu-top {
-  top: 0;
-  background: #000;
-}
-.menu-middle {
-  top: 18px;
-  background: #000;
-}
-.menu-bottom {
-  top: 36px;
-  background: #000;
-}
-.menu-top-click {
-  backface-visibility: hidden;
-  top: 15px;
-  transform: rotate(50deg);
-  transition: 0.55s 0.5s;
-}
-.menu-middle-click {
-  opacity: 0;
-}
-.menu-bottom-click {
-  backface-visibility: hidden;
-  top: 15px;
-  transform: rotate(-410deg);
-  transition: 0.55s 0.5s;
+
+.fa-bars{
+margin-right:8px;
 }
 
 /*************************MENU SLIDEBARWIDTH/****/

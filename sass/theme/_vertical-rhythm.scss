@@ -18,12 +18,12 @@
 
 @include uwd-rhytm-config(16px);
 @include establish-baseline;
-h2 { @include adjust-font-size-to(1.602rem, 1);}
-h3 { @include adjust-font-size-to(1.424rem, 1);}
-h4 { @include adjust-font-size-to(1.266rem, 1); font-weight:bold;}
-h5 { @include adjust-font-size-to(1.125rem, 1); font-weight:bold;}
+h2 { @include adjust-font-size-to(3.998rem, 5);}
+h3 { @include adjust-font-size-to(2.827rem, 3);}
+h4 { @include adjust-font-size-to(1.999rem, 2);}
+h5 { @include adjust-font-size-to(1.414rem, 1); }
 h6 { @include adjust-font-size-to(1rem, 1);}
-p {@include adjust-font-size-to (0.9rem, 1)}
+p {@include adjust-font-size-to (1rem, 1)}
 
 
 h2,h3,h4,h5,h6{
@@ -52,10 +52,6 @@ color:#fff;
 outline:none !important;
 }
 
-
-.logotip{
-  font-family:$logotip;
-}
 
 a { @include adjust-font-size-to(1rem, 1)}
 
@@ -92,10 +88,10 @@ border-image: none;
 
 @include uwd-rhytm-config(16px);
 @include establish-baseline;
-h2 { @include adjust-font-size-to(2.441rem, 2);}
-h3 { @include adjust-font-size-to(1.953rem, 1);}
-h4 { @include adjust-font-size-to(1.563rem, 1); font-weight:bold;}
-h5 { @include adjust-font-size-to(1.25rem, 1); font-weight:bold;}
+h2 { @include adjust-font-size-to(3.998rem, 5);}
+h3 { @include adjust-font-size-to(2.227rem, 3);}
+h4 { @include adjust-font-size-to(1.999rem, 2);}
+h5 { @include adjust-font-size-to(1.414rem, 1); }
 h6 { @include adjust-font-size-to(1rem, 1);}
 p {@include adjust-font-size-to (1rem, 1)}
 
@@ -123,9 +119,6 @@ p{
 
 }
 
-.logotip{
-  font-family:$logotip;
-}
 
 a{
 font-family:$p-font;
@@ -172,7 +165,7 @@ h3 { @include adjust-font-size-to(2.827rem, 3);}
 h4 { @include adjust-font-size-to(1.999rem, 2);}
 h5 { @include adjust-font-size-to(1.414rem, 1); }
 h6 { @include adjust-font-size-to(1rem, 1);}
-p {@include adjust-font-size-to (1.2rem, 1)}
+p {@include adjust-font-size-to (1rem, 1)}
 
 
 h2,h3,h4,h5,h6{
@@ -198,9 +191,6 @@ p{
 
 }
 
-.logotip{
-  font-family:$logotip;
-}
 
 a{
 font-family:$p-font;
@@ -276,9 +266,7 @@ p{
 
 }
 
-.logotip{
-  font-family:$logotip;
-}
+
 
 a{
 font-family:$p-font;

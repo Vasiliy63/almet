@@ -17,12 +17,22 @@
     text-decoration:none;
   }
   .logotip-almet p.logotip{
-    text-align:center;
+    font-family: $logotip;
+    text-align: center;
     text-transform: uppercase;
-    letter-spacing: 2px;
     color:#fff;
+      @include leader($lines:0.5, $property:padding);
+      @include adjust-font-size-to (1.3rem, 1);
+      letter-spacing:2px;
   }
+.menu-click{
 
+  @include leader($lines:1, $property:padding);
+  @include trailer($lines:1, $property:padding);
+  padding-left:20px;
+  padding-right:20px;
+font-family:$p-font;
+}
 
 .menu{
   @include leader($lines:2, $property:padding);

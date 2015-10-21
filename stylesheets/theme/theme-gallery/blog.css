@@ -73,17 +73,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @media (min-width: 200px) and (max-width: 767px) { /* line 106, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
   html { font-size: 100%; line-height: 1.5em; }
   /* line 21, ../../../sass/theme/_vertical-rhythm.scss */
-  h2 { font-size: 26px; font-size: 1.602rem; line-height: 24px; line-height: 1.5rem; }
+  h2 { font-size: 64px; font-size: 3.998rem; line-height: 120px; line-height: 7.5rem; }
   /* line 22, ../../../sass/theme/_vertical-rhythm.scss */
-  h3 { font-size: 23px; font-size: 1.424rem; line-height: 24px; line-height: 1.5rem; }
+  h3 { font-size: 45px; font-size: 2.827rem; line-height: 72px; line-height: 4.5rem; }
   /* line 23, ../../../sass/theme/_vertical-rhythm.scss */
-  h4 { font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; font-weight: bold; }
+  h4 { font-size: 32px; font-size: 1.999rem; line-height: 48px; line-height: 3rem; }
   /* line 24, ../../../sass/theme/_vertical-rhythm.scss */
-  h5 { font-size: 18px; font-size: 1.125rem; line-height: 24px; line-height: 1.5rem; font-weight: bold; }
+  h5 { font-size: 23px; font-size: 1.414rem; line-height: 24px; line-height: 1.5rem; }
   /* line 25, ../../../sass/theme/_vertical-rhythm.scss */
   h6 { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
   /* line 26, ../../../sass/theme/_vertical-rhythm.scss */
-  p { font-size: 14px; font-size: 0.9rem; line-height: 24px; line-height: 1.5rem; }
+  p { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
   /* line 29, ../../../sass/theme/_vertical-rhythm.scss */
   h2, h3, h4, h5, h6 { font-family: "HeliosCondRegular"; }
   /* line 33, ../../../sass/theme/_vertical-rhythm.scss */
@@ -111,13 +111,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @media (min-width: 768px) and (max-width: 991px) { /* line 106, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
   html { font-size: 100%; line-height: 1.5em; }
   /* line 95, ../../../sass/theme/_vertical-rhythm.scss */
-  h2 { font-size: 39px; font-size: 2.441rem; line-height: 48px; line-height: 3rem; }
+  h2 { font-size: 64px; font-size: 3.998rem; line-height: 120px; line-height: 7.5rem; }
   /* line 96, ../../../sass/theme/_vertical-rhythm.scss */
-  h3 { font-size: 31px; font-size: 1.953rem; line-height: 24px; line-height: 1.5rem; }
+  h3 { font-size: 36px; font-size: 2.227rem; line-height: 72px; line-height: 4.5rem; }
   /* line 97, ../../../sass/theme/_vertical-rhythm.scss */
-  h4 { font-size: 25px; font-size: 1.563rem; line-height: 24px; line-height: 1.5rem; font-weight: bold; }
+  h4 { font-size: 32px; font-size: 1.999rem; line-height: 48px; line-height: 3rem; }
   /* line 98, ../../../sass/theme/_vertical-rhythm.scss */
-  h5 { font-size: 20px; font-size: 1.25rem; line-height: 24px; line-height: 1.5rem; font-weight: bold; }
+  h5 { font-size: 23px; font-size: 1.414rem; line-height: 24px; line-height: 1.5rem; }
   /* line 99, ../../../sass/theme/_vertical-rhythm.scss */
   h6 { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
   /* line 100, ../../../sass/theme/_vertical-rhythm.scss */
@@ -159,7 +159,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* line 174, ../../../sass/theme/_vertical-rhythm.scss */
   h6 { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
   /* line 175, ../../../sass/theme/_vertical-rhythm.scss */
-  p { font-size: 19px; font-size: 1.2rem; line-height: 24px; line-height: 1.5rem; }
+  p { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
   /* line 178, ../../../sass/theme/_vertical-rhythm.scss */
   h2, h3, h4, h5, h6 { font-family: "HeliosCondRegular"; }
   /* line 184, ../../../sass/theme/_vertical-rhythm.scss */
@@ -1166,13 +1166,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .mod-footer .social { display: block; width: 300px; } }
 @media (min-width: 1200px) { /* line 7, ../../../sass/theme/theme-gallery/_grid.scss */
   body { background: #2A2A2A none repeat scroll 0% 0%; }
-  /* line 14, ../../../sass/theme/theme-gallery/_grid.scss */
-  .chief { *zoom: 1; width: auto; max-width: 1190px; float: none; display: block; margin-right: auto; margin-left: auto; padding-left: 0; padding-right: 0; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); }
-  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .chief:before, .chief:after { content: ''; display: table; }
-  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .chief:after { clear: both; }
-  /* line 18, ../../../sass/theme/theme-gallery/_grid.scss */
+  /* line 11, ../../../sass/theme/theme-gallery/_grid.scss */
   header { *zoom: 1; float: left; clear: none; text-align: inherit; width: 100%; margin-left: 0%; margin-right: 3%; }
   /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
   header:before, header:after { content: ''; display: table; }
@@ -1180,156 +1174,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   header:after { clear: both; }
   /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
   header:last-child { margin-right: 0%; }
-  /* line 22, ../../../sass/theme/theme-gallery/_grid.scss */
-  .menu { position: relative; background: #DADADA none repeat scroll 0% 0%; *zoom: 1; float: left; clear: none; text-align: inherit; width: 100%; margin-left: 0%; margin-right: 3%; }
+  /* line 15, ../../../sass/theme/theme-gallery/_grid.scss */
+  .almet3 { width: 150px; height: 150px; margin-left: auto; margin-right: auto; }
+  /* line 21, ../../../sass/theme/theme-gallery/_grid.scss */
+  .logotip { text-align: center; }
+  /* line 26, ../../../sass/theme/theme-gallery/_grid.scss */
+  .chief { *zoom: 1; width: auto; max-width: 1190px; float: none; display: block; margin-right: auto; margin-left: auto; padding-left: 0; padding-right: 0; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); }
   /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .menu:before, .menu:after { content: ''; display: table; }
+  .chief:before, .chief:after { content: ''; display: table; }
   /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .menu:after { clear: both; }
-  /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .menu:last-child { margin-right: 0%; }
-  /* line 28, ../../../sass/theme/theme-gallery/_grid.scss */
-  .logotip-almet { display: block; *zoom: 1; float: left; clear: none; text-align: inherit; width: 22.75%; margin-left: 0%; margin-right: 3%; }
-  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .logotip-almet:before, .logotip-almet:after { content: ''; display: table; }
-  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .logotip-almet:after { clear: both; }
-  /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .logotip-almet:last-child { margin-right: 0%; }
-  /* line 33, ../../../sass/theme/theme-gallery/_grid.scss */
-  .menu-site { *zoom: 1; float: left; clear: none; text-align: inherit; width: 61.375%; margin-left: 4.29167%; margin-right: 3%; }
-  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .menu-site:before, .menu-site:after { content: ''; display: table; }
-  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .menu-site:after { clear: both; }
-  /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .menu-site:last-child { margin-right: 0%; }
-  /* line 36, ../../../sass/theme/theme-gallery/_grid.scss */
-  .menu-click { display: none; }
-  /*svg almet*/
-  /* line 40, ../../../sass/theme/theme-gallery/_grid.scss */
-  .almet { width: 110px; height: 110px; margin: auto; }
-  /* line 46, ../../../sass/theme/theme-gallery/_grid.scss */
-  .almet2 { display: none; }
-  /* line 50, ../../../sass/theme/theme-gallery/_grid.scss */
-  .absolute-email { position: absolute; top: 8%; right: 4%; width: 300px; }
-  /* line 55, ../../../sass/theme/theme-gallery/_grid.scss */
-  .absolute-email .fa-paper-plane { color: #C23221; }
-  /* line 64, ../../../sass/theme/theme-gallery/_grid.scss */
-  .row-mod-1 { overflow: hidden; *zoom: 1; float: left; clear: none; text-align: inherit; width: 100%; margin-left: 0%; margin-right: 3%; background: url("../../../img/fon/20071101_062.jpg"); background-position: center; background-repeat: no-repeat; }
-  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .row-mod-1:before, .row-mod-1:after { content: ''; display: table; }
-  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .row-mod-1:after { clear: both; }
-  /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .row-mod-1:last-child { margin-right: 0%; }
-  /* line 72, ../../../sass/theme/theme-gallery/_grid.scss */
-  .mod-1 { height: 100%; width: 100%; background: rgba(0, 0, 0, 0.64) none repeat scroll 0% 0%; }
-  /* line 78, ../../../sass/theme/theme-gallery/_grid.scss */
-  .form-email { *zoom: 1; width: auto; max-width: 400px; float: none; display: block; margin-right: auto; margin-left: auto; padding-left: 0; padding-right: 0; }
-  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .form-email:before, .form-email:after { content: ''; display: table; }
-  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .form-email:after { clear: both; }
-  /* line 82, ../../../sass/theme/theme-gallery/_grid.scss */
-  .title-index { width: 40%; margin-left: auto; margin-right: auto; color: #fff; }
-  /* line 89, ../../../sass/theme/theme-gallery/_grid.scss */
-  .line { width: 20%; margin-left: auto; margin-right: auto; }
-  /* line 95, ../../../sass/theme/theme-gallery/_grid.scss */
-  .title-p { width: 80%; margin-left: auto; margin-right: auto; }
-  /* line 102, ../../../sass/theme/theme-gallery/_grid.scss */
-  .row-mod-2 { overflow: hidden; *zoom: 1; float: left; clear: none; text-align: inherit; width: 100%; margin-left: 0%; margin-right: 3%; }
-  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .row-mod-2:before, .row-mod-2:after { content: ''; display: table; }
-  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .row-mod-2:after { clear: both; }
-  /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .row-mod-2:last-child { margin-right: 0%; }
-  /* line 107, ../../../sass/theme/theme-gallery/_grid.scss */
-  .mod-2 { *zoom: 1; float: left; clear: none; text-align: inherit; width: 100%; margin-left: 0%; margin-right: 3%; }
-  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .mod-2:before, .mod-2:after { content: ''; display: table; }
-  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .mod-2:after { clear: both; }
-  /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .mod-2:last-child { margin-right: 0%; }
-  /* line 113, ../../../sass/theme/theme-gallery/_grid.scss */
-  .almet-preview { *zoom: 1; float: left; clear: none; text-align: inherit; width: 48.5%; margin-left: 0%; margin-right: 3%; }
-  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .almet-preview:before, .almet-preview:after { content: ''; display: table; }
-  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .almet-preview:after { clear: both; }
-  /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .almet-preview:last-child { margin-right: 0%; }
-  /* line 116, ../../../sass/theme/theme-gallery/_grid.scss */
-  .london { width: 100%; height: 393px; }
-  /* line 122, ../../../sass/theme/theme-gallery/_grid.scss */
-  .row-mod-gallery { *zoom: 1; float: left; clear: none; text-align: inherit; width: 100%; margin-left: 0%; margin-right: 3%; }
-  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .row-mod-gallery:before, .row-mod-gallery:after { content: ''; display: table; }
-  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .row-mod-gallery:after { clear: both; }
-  /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .row-mod-gallery:last-child { margin-right: 0%; }
-  /* line 126, ../../../sass/theme/theme-gallery/_grid.scss */
-  .mod-gallery { *zoom: 1; float: left; clear: none; text-align: inherit; width: 100%; margin-left: 0%; margin-right: 3%; background: #1D1D1D none repeat scroll 0% 0%; }
-  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .mod-gallery:before, .mod-gallery:after { content: ''; display: table; }
-  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .mod-gallery:after { clear: both; }
-  /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .mod-gallery:last-child { margin-right: 0%; }
-  /* line 133, ../../../sass/theme/theme-gallery/_grid.scss */
-  .gallery { width: 90%; margin-left: auto; margin-right: auto; }
-  /* line 139, ../../../sass/theme/theme-gallery/_grid.scss */
-  .box1 { *zoom: 1; float: left; clear: none; text-align: inherit; width: 31.33333%; margin-left: 0%; margin-right: 3%; }
-  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .box1:before, .box1:after { content: ''; display: table; }
-  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .box1:after { clear: both; }
-  /* line 50, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .box1:nth-child(3n) { margin-right: 0%; float: right; }
-  /* line 54, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .box1:nth-child(3n + 1) { clear: both; }
-  /* line 143, ../../../sass/theme/theme-gallery/_grid.scss */
-  .row-mod-3 { overflow: hidden; position: relative; *zoom: 1; float: left; clear: none; text-align: inherit; width: 100%; margin-left: 0%; margin-right: 3%; background: #000; }
-  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .row-mod-3:before, .row-mod-3:after { content: ''; display: table; }
-  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .row-mod-3:after { clear: both; }
-  /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .row-mod-3:last-child { margin-right: 0%; }
-  /* line 149, ../../../sass/theme/theme-gallery/_grid.scss */
-  .mod-3 { position: relative; *zoom: 1; float: left; clear: none; text-align: inherit; width: 91.41667%; margin-left: 4.29167%; margin-right: 3%; }
-  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .mod-3:before, .mod-3:after { content: ''; display: table; }
-  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .mod-3:after { clear: both; }
-  /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .mod-3:last-child { margin-right: 0%; }
-  /* line 154, ../../../sass/theme/theme-gallery/_grid.scss */
-  .news2 { *zoom: 1; float: left; clear: none; text-align: inherit; width: 100%; margin-left: 0%; margin-right: 3%; }
-  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .news2:before, .news2:after { content: ''; display: table; }
-  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .news2:after { clear: both; }
-  /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .news2:last-child { margin-right: 0%; }
-  /* line 158, ../../../sass/theme/theme-gallery/_grid.scss */
-  .new { *zoom: 1; float: left; clear: none; text-align: inherit; width: 31.33333%; margin-left: 0%; margin-right: 3%; display: block; }
-  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .new:before, .new:after { content: ''; display: table; }
-  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .new:after { clear: both; }
-  /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .new:last-child { margin-right: 0%; }
-  /* line 163, ../../../sass/theme/theme-gallery/_grid.scss */
-  .fa-share { padding-right: 8px; }
-  /* line 167, ../../../sass/theme/theme-gallery/_grid.scss */
-  .view-all { position: absolute; top: 2%; right: 0%; z-index: 100; color: #9F9F9F; text-decoration: underline; }
-  /* line 176, ../../../sass/theme/theme-gallery/_grid.scss */
-  .view-all:hover { color: #fff; }
-  /* line 183, ../../../sass/theme/theme-gallery/_grid.scss */
+  .chief:after { clear: both; }
+  /* line 34, ../../../sass/theme/theme-gallery/_grid.scss */
   .row-mod-footer { overflow: hidden; *zoom: 1; float: left; clear: none; text-align: inherit; width: 100%; margin-left: 0%; margin-right: 3%; background: rgba(195, 52, 46, 0.9) none repeat scroll 0% 0%; }
   /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
   .row-mod-footer:before, .row-mod-footer:after { content: ''; display: table; }
@@ -1337,23 +1192,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .row-mod-footer:after { clear: both; }
   /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
   .row-mod-footer:last-child { margin-right: 0%; }
-  /* line 189, ../../../sass/theme/theme-gallery/_grid.scss */
+  /* line 40, ../../../sass/theme/theme-gallery/_grid.scss */
   .mod-footer { *zoom: 1; width: auto; max-width: 300px; float: none; display: block; margin-right: auto; margin-left: auto; padding-left: 0; padding-right: 0; text-align: center; color: #fff; font-size: 0.3rem; }
   /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
   .mod-footer:before, .mod-footer:after { content: ''; display: table; }
   /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
   .mod-footer:after { clear: both; }
-  /* line 194, ../../../sass/theme/theme-gallery/_grid.scss */
+  /* line 45, ../../../sass/theme/theme-gallery/_grid.scss */
   .mod-footer .logo-footer { *zoom: 1; width: auto; max-width: 74px; float: none; display: block; margin-right: auto; margin-left: auto; padding-left: 0; padding-right: 0; }
   /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
   .mod-footer .logo-footer:before, .mod-footer .logo-footer:after { content: ''; display: table; }
   /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
   .mod-footer .logo-footer:after { clear: both; }
-  /* line 197, ../../../sass/theme/theme-gallery/_grid.scss */
+  /* line 48, ../../../sass/theme/theme-gallery/_grid.scss */
   .mod-footer .logo-footer { width: 100%; height: 72px; }
-  /* line 201, ../../../sass/theme/theme-gallery/_grid.scss */
+  /* line 52, ../../../sass/theme/theme-gallery/_grid.scss */
   .mod-footer .logotip { font-size: 1rem; text-align: center; text-transform: uppercase; letter-spacing: 2px; padding-left: 4px; }
-  /* line 208, ../../../sass/theme/theme-gallery/_grid.scss */
+  /* line 59, ../../../sass/theme/theme-gallery/_grid.scss */
   .mod-footer .social { display: block; width: 300px; }
   /**end media desctop*/ }
 

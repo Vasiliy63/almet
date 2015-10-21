@@ -73,17 +73,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @media (min-width: 200px) and (max-width: 767px) { /* line 106, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
   html { font-size: 100%; line-height: 1.5em; }
   /* line 21, ../../../sass/theme/_vertical-rhythm.scss */
-  h2 { font-size: 26px; font-size: 1.602rem; line-height: 24px; line-height: 1.5rem; }
+  h2 { font-size: 64px; font-size: 3.998rem; line-height: 120px; line-height: 7.5rem; }
   /* line 22, ../../../sass/theme/_vertical-rhythm.scss */
-  h3 { font-size: 23px; font-size: 1.424rem; line-height: 24px; line-height: 1.5rem; }
+  h3 { font-size: 45px; font-size: 2.827rem; line-height: 72px; line-height: 4.5rem; }
   /* line 23, ../../../sass/theme/_vertical-rhythm.scss */
-  h4 { font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; font-weight: bold; }
+  h4 { font-size: 32px; font-size: 1.999rem; line-height: 48px; line-height: 3rem; }
   /* line 24, ../../../sass/theme/_vertical-rhythm.scss */
-  h5 { font-size: 18px; font-size: 1.125rem; line-height: 24px; line-height: 1.5rem; font-weight: bold; }
+  h5 { font-size: 23px; font-size: 1.414rem; line-height: 24px; line-height: 1.5rem; }
   /* line 25, ../../../sass/theme/_vertical-rhythm.scss */
   h6 { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
   /* line 26, ../../../sass/theme/_vertical-rhythm.scss */
-  p { font-size: 14px; font-size: 0.9rem; line-height: 24px; line-height: 1.5rem; }
+  p { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
   /* line 29, ../../../sass/theme/_vertical-rhythm.scss */
   h2, h3, h4, h5, h6 { font-family: "HeliosCondRegular"; }
   /* line 33, ../../../sass/theme/_vertical-rhythm.scss */
@@ -95,364 +95,356 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* line 49, ../../../sass/theme/_vertical-rhythm.scss */
   a { font-family: "RobotoCondensedLight"; color: #fff; outline: none !important; }
   /* line 56, ../../../sass/theme/_vertical-rhythm.scss */
-  .logotip { font-family: Arial, sans-serif; }
-  /* line 60, ../../../sass/theme/_vertical-rhythm.scss */
   a { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 62, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 58, ../../../sass/theme/_vertical-rhythm.scss */
   ul, li { font-family: "RobotoCondensedLight"; font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 67, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 63, ../../../sass/theme/_vertical-rhythm.scss */
   input { font-family: Arial, sans-serif; }
-  /* line 71, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 67, ../../../sass/theme/_vertical-rhythm.scss */
   .title-p { font-family: "RobotoCondensedLight"; }
-  /* line 74, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 70, ../../../sass/theme/_vertical-rhythm.scss */
   img, iframe { display: block; max-width: 100%; border-image: none; }
-  /* line 80, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 76, ../../../sass/theme/_vertical-rhythm.scss */
   .message { font-family: "RobotoCondensedLight"; } }
 @media (min-width: 768px) and (max-width: 991px) { /* line 106, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
   html { font-size: 100%; line-height: 1.5em; }
+  /* line 91, ../../../sass/theme/_vertical-rhythm.scss */
+  h2 { font-size: 64px; font-size: 3.998rem; line-height: 120px; line-height: 7.5rem; }
+  /* line 92, ../../../sass/theme/_vertical-rhythm.scss */
+  h3 { font-size: 36px; font-size: 2.227rem; line-height: 72px; line-height: 4.5rem; }
+  /* line 93, ../../../sass/theme/_vertical-rhythm.scss */
+  h4 { font-size: 32px; font-size: 1.999rem; line-height: 48px; line-height: 3rem; }
+  /* line 94, ../../../sass/theme/_vertical-rhythm.scss */
+  h5 { font-size: 23px; font-size: 1.414rem; line-height: 24px; line-height: 1.5rem; }
   /* line 95, ../../../sass/theme/_vertical-rhythm.scss */
-  h2 { font-size: 39px; font-size: 2.441rem; line-height: 48px; line-height: 3rem; }
-  /* line 96, ../../../sass/theme/_vertical-rhythm.scss */
-  h3 { font-size: 31px; font-size: 1.953rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 97, ../../../sass/theme/_vertical-rhythm.scss */
-  h4 { font-size: 25px; font-size: 1.563rem; line-height: 24px; line-height: 1.5rem; font-weight: bold; }
-  /* line 98, ../../../sass/theme/_vertical-rhythm.scss */
-  h5 { font-size: 20px; font-size: 1.25rem; line-height: 24px; line-height: 1.5rem; font-weight: bold; }
-  /* line 99, ../../../sass/theme/_vertical-rhythm.scss */
   h6 { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 100, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 96, ../../../sass/theme/_vertical-rhythm.scss */
   p { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 103, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 99, ../../../sass/theme/_vertical-rhythm.scss */
   h2, h3, h4, h5, h6 { font-family: "HeliosCondRegular"; }
-  /* line 109, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 105, ../../../sass/theme/_vertical-rhythm.scss */
   h2 { font-family: "HeliosCondRegular"; letter-spacing: 2px; text-transform: uppercase; color: #fff; }
-  /* line 116, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 112, ../../../sass/theme/_vertical-rhythm.scss */
   p { font-family: "RobotoCondensedLight"; }
-  /* line 120, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 116, ../../../sass/theme/_vertical-rhythm.scss */
   p [data-vertical-rhythm="true"] { transition: padding-bottom 2s; }
-  /* line 126, ../../../sass/theme/_vertical-rhythm.scss */
-  .logotip { font-family: Arial, sans-serif; }
-  /* line 130, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 123, ../../../sass/theme/_vertical-rhythm.scss */
   a { font-family: "RobotoCondensedLight"; color: #fff; outline: medium none !important; }
-  /* line 136, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 129, ../../../sass/theme/_vertical-rhythm.scss */
   a { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 138, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 131, ../../../sass/theme/_vertical-rhythm.scss */
   ul, li { font-family: "RobotoCondensedLight"; font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 143, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 136, ../../../sass/theme/_vertical-rhythm.scss */
   input { font-family: Arial, sans-serif; }
-  /* line 147, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 140, ../../../sass/theme/_vertical-rhythm.scss */
   .title-p { font-family: "RobotoCondensedLight"; }
-  /* line 150, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 143, ../../../sass/theme/_vertical-rhythm.scss */
   img, iframe { display: block; max-width: 100%; }
-  /* line 155, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 148, ../../../sass/theme/_vertical-rhythm.scss */
   .message { font-family: "RobotoCondensedLight"; } }
 @media (min-width: 992px) and (max-width: 1199px) { /* line 106, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
   html { font-size: 100%; line-height: 1.5em; }
-  /* line 170, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 163, ../../../sass/theme/_vertical-rhythm.scss */
   h2 { font-size: 64px; font-size: 3.998rem; line-height: 120px; line-height: 7.5rem; }
-  /* line 171, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 164, ../../../sass/theme/_vertical-rhythm.scss */
   h3 { font-size: 45px; font-size: 2.827rem; line-height: 72px; line-height: 4.5rem; }
-  /* line 172, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 165, ../../../sass/theme/_vertical-rhythm.scss */
   h4 { font-size: 32px; font-size: 1.999rem; line-height: 48px; line-height: 3rem; }
-  /* line 173, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 166, ../../../sass/theme/_vertical-rhythm.scss */
   h5 { font-size: 23px; font-size: 1.414rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 174, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 167, ../../../sass/theme/_vertical-rhythm.scss */
   h6 { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 175, ../../../sass/theme/_vertical-rhythm.scss */
-  p { font-size: 19px; font-size: 1.2rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 178, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 168, ../../../sass/theme/_vertical-rhythm.scss */
+  p { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  /* line 171, ../../../sass/theme/_vertical-rhythm.scss */
   h2, h3, h4, h5, h6 { font-family: "HeliosCondRegular"; }
-  /* line 184, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 177, ../../../sass/theme/_vertical-rhythm.scss */
   h2 { font-family: "HeliosCondRegular"; letter-spacing: 5px; text-transform: uppercase; color: #fff; }
-  /* line 191, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 184, ../../../sass/theme/_vertical-rhythm.scss */
   p { font-family: "RobotoCondensedLight"; }
-  /* line 195, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 188, ../../../sass/theme/_vertical-rhythm.scss */
   p [data-vertical-rhythm="true"] { transition: padding-bottom 2s; }
-  /* line 201, ../../../sass/theme/_vertical-rhythm.scss */
-  .logotip { font-family: Arial, sans-serif; }
-  /* line 205, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 195, ../../../sass/theme/_vertical-rhythm.scss */
   a { font-family: "RobotoCondensedLight"; color: #fff; outline: medium none !important; }
-  /* line 211, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 201, ../../../sass/theme/_vertical-rhythm.scss */
   a { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 213, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 203, ../../../sass/theme/_vertical-rhythm.scss */
   ul, li { font-family: "RobotoCondensedLight"; font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 218, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 208, ../../../sass/theme/_vertical-rhythm.scss */
   input { font-family: Arial, sans-serif; }
-  /* line 222, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 212, ../../../sass/theme/_vertical-rhythm.scss */
   .title-p { font-family: "RobotoCondensedLight"; }
-  /* line 226, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 216, ../../../sass/theme/_vertical-rhythm.scss */
   img, iframe { display: block; max-width: 100%; }
-  /* line 232, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 222, ../../../sass/theme/_vertical-rhythm.scss */
   .message { font-family: "RobotoCondensedLight"; } }
 @media (min-width: 1200px) { /* line 106, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
   html { font-size: 100%; line-height: 1.5em; }
-  /* line 248, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 238, ../../../sass/theme/_vertical-rhythm.scss */
   h2 { font-size: 64px; font-size: 3.998rem; line-height: 120px; line-height: 7.5rem; }
-  /* line 249, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 239, ../../../sass/theme/_vertical-rhythm.scss */
   h3 { font-size: 45px; font-size: 2.827rem; line-height: 72px; line-height: 4.5rem; }
-  /* line 250, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 240, ../../../sass/theme/_vertical-rhythm.scss */
   h4 { font-size: 32px; font-size: 1.999rem; line-height: 48px; line-height: 3rem; }
-  /* line 251, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 241, ../../../sass/theme/_vertical-rhythm.scss */
   h5 { font-size: 23px; font-size: 1.414rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 252, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 242, ../../../sass/theme/_vertical-rhythm.scss */
   h6 { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 253, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 243, ../../../sass/theme/_vertical-rhythm.scss */
   p { font-size: 19px; font-size: 1.2rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 256, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 246, ../../../sass/theme/_vertical-rhythm.scss */
   h2, h3, h4, h5, h6 { font-family: "HeliosCondRegular"; }
-  /* line 262, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 252, ../../../sass/theme/_vertical-rhythm.scss */
   h2 { font-family: "HeliosCondRegular"; letter-spacing: 5px; text-transform: uppercase; color: #fff; }
-  /* line 269, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 259, ../../../sass/theme/_vertical-rhythm.scss */
   p { font-family: "RobotoCondensedLight"; }
-  /* line 273, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 263, ../../../sass/theme/_vertical-rhythm.scss */
   p [data-vertical-rhythm="true"] { transition: padding-bottom 2s; }
-  /* line 279, ../../../sass/theme/_vertical-rhythm.scss */
-  .logotip { font-family: Arial, sans-serif; }
-  /* line 283, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 271, ../../../sass/theme/_vertical-rhythm.scss */
   a { font-family: "RobotoCondensedLight"; color: #fff; outline: medium none !important; }
-  /* line 289, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 277, ../../../sass/theme/_vertical-rhythm.scss */
   a { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 291, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 279, ../../../sass/theme/_vertical-rhythm.scss */
   ul, li { font-family: "RobotoCondensedLight"; font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 296, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 284, ../../../sass/theme/_vertical-rhythm.scss */
   input { font-family: Arial, sans-serif; }
-  /* line 300, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 288, ../../../sass/theme/_vertical-rhythm.scss */
   .title-p { font-family: "RobotoCondensedLight"; }
-  /* line 304, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 292, ../../../sass/theme/_vertical-rhythm.scss */
   img, iframe { display: block; max-width: 100%; }
-  /* line 310, ../../../sass/theme/_vertical-rhythm.scss */
+  /* line 298, ../../../sass/theme/_vertical-rhythm.scss */
   .message { font-family: "RobotoCondensedLight"; } }
 @media (min-width: 200px) and (max-width: 767px) { /* line 10, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
   .chief { box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
   /* line 15, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
   .logotip-almet { text-decoration: none; }
   /* line 18, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
-  .logotip-almet p.logotip { text-align: center; text-transform: uppercase; letter-spacing: 2px; color: #fff; }
-  /* line 25, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
-  .email { color: #fff; }
+  .logotip-almet p.logotip { font-family: Arial, sans-serif; text-align: center; text-transform: uppercase; color: #fff; padding-top: 12px; padding-top: 0.75rem; font-size: 19px; font-size: 1.2rem; line-height: 24px; line-height: 1.5rem; letter-spacing: 2px; }
   /* line 29, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
-  .menu { padding-top: 48px; padding-top: 3rem; padding-bottom: 48px; padding-bottom: 3rem; }
-  /* line 34, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
-  .logotip { padding-top: 5px; padding-top: 0.3rem; border-bottom-width: 1px; border-bottom-width: 0.0625rem; border-bottom-style: solid; padding-bottom: 4px; padding-bottom: 0.2375rem; }
-  /* line 39, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
-  .menu-site { padding-top: 120px; padding-top: 7.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 45, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
-  .menu-site ul li a { font-size: 21px; font-size: 1.3rem; line-height: 24px; line-height: 1.5rem; text-decoration: none; color: #000; }
-  /* line 50, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
-  .menu-site ul li a:hover { border-bottom-width: 5px; border-bottom-width: 0.3125rem; border-bottom-style: solid; padding-bottom: 19px; padding-bottom: 1.1875rem; color: #000; }
-  /* line 55, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
   .email { color: #fff; }
-  /* line 65, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  /* line 33, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  .menu { padding-top: 48px; padding-top: 3rem; padding-bottom: 48px; padding-bottom: 3rem; }
+  /* line 38, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  .logotip { padding-top: 5px; padding-top: 0.3rem; border-bottom-width: 1px; border-bottom-width: 0.0625rem; border-bottom-style: solid; padding-bottom: 4px; padding-bottom: 0.2375rem; }
+  /* line 43, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  .menu-site { padding-top: 120px; padding-top: 7.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
+  /* line 49, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  .menu-site ul li a { font-size: 21px; font-size: 1.3rem; line-height: 24px; line-height: 1.5rem; text-decoration: none; color: #000; }
+  /* line 54, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  .menu-site ul li a:hover { border-bottom-width: 5px; border-bottom-width: 0.3125rem; border-bottom-style: solid; padding-bottom: 19px; padding-bottom: 1.1875rem; color: #000; }
+  /* line 59, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  .email { color: #fff; }
+  /* line 69, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
   .mod-1 { padding-top: 120px; padding-top: 7.5rem; padding-bottom: 120px; padding-bottom: 7.5rem; }
-  /* line 70, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
-  .form-email { height: 100px; }
   /* line 74, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
-  #email { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  .form-email { height: 100px; }
   /* line 78, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  #email { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  /* line 82, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
   #submit { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 83, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
-  .title-index { text-align: center; }
   /* line 87, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  .title-index { text-align: center; }
+  /* line 91, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
   .line { padding-top: 0px; padding-top: 0rem; border-bottom-width: 5px; border-bottom-width: 0.3125rem; border-bottom-style: solid; padding-bottom: 19px; padding-bottom: 1.1875rem; color: #DB1616; }
-  /* line 93, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  /* line 97, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
   .title-p { padding-top: 24px; padding-top: 1.5rem; text-align: center; color: #fff; }
-  /* line 104, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  /* line 108, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
   .row-mod-2-blog .mod-2 { padding-top: 96px; padding-top: 6rem; padding-bottom: 96px; padding-bottom: 6rem; }
-  /* line 109, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  /* line 113, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
   .post { padding-top: 48px; padding-top: 3rem; padding-bottom: 48px; padding-bottom: 3rem; }
-  /* line 114, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  /* line 118, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
   .line2 { padding-top: 12px; padding-top: 0.75rem; border-bottom-width: 2px; border-bottom-width: 0.125rem; border-bottom-style: solid; padding-bottom: 3px; padding-bottom: 0.175rem; color: #DB1616; }
-  /* line 120, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
-  .post-text p { padding-top: 24px; padding-top: 1.5rem; }
   /* line 124, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
-  .post-text h5 { padding-top: 24px; padding-top: 1.5rem; }
+  .post-text p { padding-top: 24px; padding-top: 1.5rem; }
   /* line 128, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  .post-text h5 { padding-top: 24px; padding-top: 1.5rem; }
+  /* line 132, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
   .fa-calendar-minus-o { color: #B4332D; padding-right: 2%; }
-  /* line 133, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
-  .text-post-p { padding-top: 12px; padding-top: 0.75rem; }
   /* line 137, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  .text-post-p { padding-top: 12px; padding-top: 0.75rem; }
+  /* line 141, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
   .date-time-post { padding-top: 12px; padding-top: 0.75rem; }
-  /* line 140, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  /* line 144, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
   .date-time-post span { color: #ce2828; }
-  /* line 147, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  /* line 151, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
   .none-display-desktop { margin-top: 24px; margin-top: 1.5rem; margin-bottom: 24px; margin-bottom: 1.5rem; text-decoration: none; }
-  /* line 154, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  /* line 158, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
   .photoswipe { padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 160, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  /* line 164, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
   .box1 { padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 168, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  /* line 172, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
   .mod-footer { padding-top: 96px; padding-top: 6rem; padding-bottom: 48px; padding-bottom: 3rem; text-align: center; color: #fff; }
-  /* line 175, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
-  .logo-footer { padding-bottom: 12px; padding-bottom: 0.75rem; }
   /* line 179, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  .logo-footer { padding-bottom: 12px; padding-bottom: 0.75rem; }
+  /* line 183, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
   .mod-footer p.logotip { border-bottom-width: 1px; border-bottom-width: 0.0625rem; border-bottom-style: solid; padding-bottom: 11px; padding-bottom: 0.6875rem; color: #000; }
-  /* line 184, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  /* line 188, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
   .fa-map-marker { color: #000; padding-right: 2%; }
-  /* line 189, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  /* line 193, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
   .fa-phone { color: #000; padding-right: 2%; }
-  /* line 194, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  /* line 198, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
   .fa-paper-plane { color: #000; padding-right: 2%; }
-  /* line 199, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
-  .p-footer-style p { padding-top: 24px; padding-top: 1.5rem; }
   /* line 203, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  .p-footer-style p { padding-top: 24px; padding-top: 1.5rem; }
+  /* line 207, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
   .copy { padding-top: 0px; padding-top: 0rem; }
-  /* line 208, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  /* line 212, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
   .almet-super-menu { font-size: 23px; font-size: 1.424rem; line-height: 24px; line-height: 1.5rem; padding-top: 24px; padding-top: 1.5rem; padding-bottom: 48px; padding-bottom: 3rem; border-bottom-width: 1px; border-bottom-width: 0.0625rem; border-bottom-style: solid; padding-bottom: 4px; padding-bottom: 0.2375rem; color: #9E2121; text-align: center; }
-  /* line 218, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
-  .menu-slidebar-width ul { padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
   /* line 222, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  .menu-slidebar-width ul { padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
+  /* line 226, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
   .menu-slidebar-width ul li a { display: block; width: 100%; text-align: center; text-decoration: none; padding-top: 12px; padding-top: 0.75rem; padding-bottom: 12px; padding-bottom: 0.75rem; font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 231, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
+  /* line 235, ../../../sass/theme/theme-blog-item/_typography-mobail.scss */
   .menu-slidebar-width ul li a:hover { font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; border-right: 4px solid #9F2626; background: #AB9D9D none repeat scroll 0% 0%; color: #000; }
   /*end media mobail*/ }
 @media (min-width: 992px) and (max-width: 1199px) { /* line 14, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
   .logotip-almet { text-decoration: none; }
   /* line 17, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
-  .logotip-almet p.logotip { text-align: center; text-transform: uppercase; letter-spacing: 2px; color: #fff; }
-  /* line 24, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
+  .logotip-almet p.logotip { font-family: Arial, sans-serif; text-align: center; text-transform: uppercase; color: #fff; padding-top: 12px; padding-top: 0.75rem; font-size: 19px; font-size: 1.2rem; line-height: 24px; line-height: 1.5rem; letter-spacing: 2px; }
+  /* line 28, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
   .email { color: #fff; }
-  /* line 27, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
+  /* line 31, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
   .menu { padding-top: 48px; padding-top: 3rem; padding-bottom: 48px; padding-bottom: 3rem; }
-  /* line 32, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
+  /* line 36, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
   .logotip { padding-top: 12px; padding-top: 0.75rem; }
-  /* line 37, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
+  /* line 41, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
   .menu-site { padding-top: 120px; padding-top: 7.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 43, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
+  /* line 47, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
   .menu-site ul li a { font-size: 21px; font-size: 1.3rem; line-height: 24px; line-height: 1.5rem; text-decoration: none; color: #000; }
-  /* line 48, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
+  /* line 52, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
   .menu-site ul li a:hover { border-bottom-width: 5px; border-bottom-width: 0.3125rem; border-bottom-style: solid; padding-bottom: 19px; padding-bottom: 1.1875rem; color: #000; }
-  /* line 58, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
+  /* line 62, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
   .mod-1 { padding-top: 120px; padding-top: 7.5rem; padding-bottom: 120px; padding-bottom: 7.5rem; }
-  /* line 63, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
-  .form-email { height: 100px; }
   /* line 67, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
-  #email { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  .form-email { height: 100px; }
   /* line 71, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
-  #submit { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  #email { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
   /* line 75, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
-  .title-index { text-align: center; }
+  #submit { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
   /* line 79, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
+  .title-index { text-align: center; }
+  /* line 83, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
   .line { padding-top: 0px; padding-top: 0rem; border-bottom-width: 5px; border-bottom-width: 0.3125rem; border-bottom-style: solid; padding-bottom: 19px; padding-bottom: 1.1875rem; color: #DB1616; }
-  /* line 85, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
+  /* line 89, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
   .title-p { padding-top: 24px; padding-top: 1.5rem; text-align: center; color: #fff; }
-  /* line 96, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
+  /* line 100, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
   .row-mod-2-blog .mod-2 { padding-top: 96px; padding-top: 6rem; padding-bottom: 96px; padding-bottom: 6rem; }
-  /* line 101, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
+  /* line 105, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
   .post { padding-top: 48px; padding-top: 3rem; padding-bottom: 48px; padding-bottom: 3rem; }
-  /* line 106, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
+  /* line 110, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
   .line2 { padding-top: 12px; padding-top: 0.75rem; border-bottom-width: 2px; border-bottom-width: 0.125rem; border-bottom-style: solid; padding-bottom: 3px; padding-bottom: 0.175rem; color: #DB1616; }
-  /* line 112, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
-  .post-text h5 p { padding-top: 24px; padding-top: 1.5rem; }
   /* line 116, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
+  .post-text h5 p { padding-top: 24px; padding-top: 1.5rem; }
+  /* line 120, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
   .fa-calendar-minus-o { color: #B4332D; padding-right: 2%; }
-  /* line 121, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
-  .text-post-p { padding-top: 24px; padding-top: 1.5rem; }
   /* line 125, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
+  .text-post-p { padding-top: 24px; padding-top: 1.5rem; }
+  /* line 129, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
   .date-time-post { padding-top: 24px; padding-top: 1.5rem; }
-  /* line 128, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
+  /* line 132, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
   .date-time-post span { color: #ce2828; }
-  /* line 135, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
+  /* line 139, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
   .none-display-desktop { margin-top: 24px; margin-top: 1.5rem; margin-bottom: 24px; margin-bottom: 1.5rem; text-decoration: none; }
-  /* line 141, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
+  /* line 145, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
   .photoswipe { padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 151, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
+  /* line 155, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
   .mod-footer { padding-top: 96px; padding-top: 6rem; padding-bottom: 48px; padding-bottom: 3rem; text-align: center; color: #fff; }
-  /* line 158, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
-  .logo-footer { padding-bottom: 12px; padding-bottom: 0.75rem; }
   /* line 162, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
+  .logo-footer { padding-bottom: 12px; padding-bottom: 0.75rem; }
+  /* line 166, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
   .mod-footer p.logotip { border-bottom-width: 1px; border-bottom-width: 0.0625rem; border-bottom-style: solid; padding-bottom: 11px; padding-bottom: 0.6875rem; color: #000; }
-  /* line 167, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
+  /* line 171, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
   .fa-map-marker { color: #000; padding-right: 2%; }
-  /* line 172, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
+  /* line 176, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
   .fa-phone { color: #000; padding-right: 2%; }
-  /* line 177, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
+  /* line 181, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
   .fa-paper-plane { color: #000; padding-right: 2%; }
-  /* line 182, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
-  .p-footer-style p { padding-top: 24px; padding-top: 1.5rem; }
   /* line 186, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
+  .p-footer-style p { padding-top: 24px; padding-top: 1.5rem; }
+  /* line 190, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
   .copy { padding-top: 0px; padding-top: 0rem; }
   /**end media desctop*/
-  /* line 193, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
+  /* line 197, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
   .almet-super-menu { font-size: 23px; font-size: 1.424rem; line-height: 24px; line-height: 1.5rem; padding-top: 24px; padding-top: 1.5rem; padding-bottom: 48px; padding-bottom: 3rem; border-bottom-width: 1px; border-bottom-width: 0.0625rem; border-bottom-style: solid; padding-bottom: 4px; padding-bottom: 0.2375rem; color: #9E2121; text-align: center; }
-  /* line 203, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
-  .menu-slidebar-width ul { padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
   /* line 207, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
+  .menu-slidebar-width ul { padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
+  /* line 211, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
   .menu-slidebar-width ul li a { display: block; width: 100%; text-align: center; text-decoration: none; padding-top: 12px; padding-top: 0.75rem; padding-bottom: 12px; padding-bottom: 0.75rem; font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 216, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
+  /* line 220, ../../../sass/theme/theme-blog-item/_typography-medium.scss */
   .menu-slidebar-width ul li a:hover { font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; border-right: 4px solid #9F2626; background: #AB9D9D none repeat scroll 0% 0%; color: #000; } }
 @media (min-width: 768px) and (max-width: 991px) { /* line 16, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
   .logotip-almet { text-decoration: none; }
   /* line 19, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
-  .logotip-almet p.logotip { text-align: center; text-transform: uppercase; letter-spacing: 2px; color: #fff; }
-  /* line 26, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
-  .email { color: #fff; }
+  .logotip-almet p.logotip { font-family: Arial, sans-serif; text-align: center; text-transform: uppercase; color: #fff; padding-top: 12px; padding-top: 0.75rem; font-size: 19px; font-size: 1.2rem; line-height: 24px; line-height: 1.5rem; letter-spacing: 2px; }
   /* line 30, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
+  .email { color: #fff; }
+  /* line 34, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
   .menu { padding-top: 48px; padding-top: 3rem; padding-bottom: 48px; padding-bottom: 3rem; }
-  /* line 35, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
-  .logotip { padding-top: 12px; padding-top: 0.75rem; }
   /* line 39, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
+  .logotip { padding-top: 12px; padding-top: 0.75rem; }
+  /* line 43, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
   .menu-site { padding-top: 120px; padding-top: 7.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 45, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
+  /* line 49, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
   .menu-site ul li a { font-size: 21px; font-size: 1.3rem; line-height: 24px; line-height: 1.5rem; text-decoration: none; color: #000; }
-  /* line 50, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
+  /* line 54, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
   .menu-site ul li a:hover { border-bottom-width: 5px; border-bottom-width: 0.3125rem; border-bottom-style: solid; padding-bottom: 19px; padding-bottom: 1.1875rem; color: #000; }
-  /* line 60, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
+  /* line 64, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
   .mod-1 { padding-top: 120px; padding-top: 7.5rem; padding-bottom: 120px; padding-bottom: 7.5rem; }
-  /* line 65, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
-  .form-email { height: 100px; }
   /* line 69, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
-  #email { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  .form-email { height: 100px; }
   /* line 73, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
-  #submit { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  #email { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
   /* line 77, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
-  .title-index { text-align: center; }
+  #submit { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
   /* line 81, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
+  .title-index { text-align: center; }
+  /* line 85, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
   .line { padding-top: 0px; padding-top: 0rem; border-bottom-width: 5px; border-bottom-width: 0.3125rem; border-bottom-style: solid; padding-bottom: 19px; padding-bottom: 1.1875rem; color: #DB1616; }
-  /* line 87, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
+  /* line 91, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
   .title-p { padding-top: 24px; padding-top: 1.5rem; text-align: center; color: #fff; }
-  /* line 98, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
+  /* line 102, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
   .row-mod-2-blog .mod-2 { padding-top: 96px; padding-top: 6rem; padding-bottom: 96px; padding-bottom: 6rem; }
-  /* line 103, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
+  /* line 107, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
   .post { padding-top: 48px; padding-top: 3rem; padding-bottom: 48px; padding-bottom: 3rem; }
-  /* line 108, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
+  /* line 112, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
   .line2 { padding-top: 12px; padding-top: 0.75rem; border-bottom-width: 2px; border-bottom-width: 0.125rem; border-bottom-style: solid; padding-bottom: 3px; padding-bottom: 0.175rem; color: #DB1616; }
-  /* line 114, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
-  .post-text h5 p { padding-top: 24px; padding-top: 1.5rem; }
   /* line 118, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
+  .post-text h5 p { padding-top: 24px; padding-top: 1.5rem; }
+  /* line 122, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
   .fa-calendar-minus-o { color: #B4332D; padding-right: 2%; }
-  /* line 123, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
-  .text-post-p { padding-top: 24px; padding-top: 1.5rem; }
   /* line 127, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
+  .text-post-p { padding-top: 24px; padding-top: 1.5rem; }
+  /* line 131, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
   .date-time-post { padding-top: 24px; padding-top: 1.5rem; }
-  /* line 130, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
+  /* line 134, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
   .date-time-post span { color: #ce2828; }
-  /* line 136, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
+  /* line 140, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
   .none-display-desktop { margin-top: 24px; margin-top: 1.5rem; margin-bottom: 24px; margin-bottom: 1.5rem; text-decoration: none; }
-  /* line 143, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
+  /* line 147, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
   .photoswipe { padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 152, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
+  /* line 156, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
   .mod-footer { padding-top: 96px; padding-top: 6rem; padding-bottom: 48px; padding-bottom: 3rem; text-align: center; color: #fff; }
-  /* line 159, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
-  .logo-footer { padding-bottom: 12px; padding-bottom: 0.75rem; }
   /* line 163, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
+  .logo-footer { padding-bottom: 12px; padding-bottom: 0.75rem; }
+  /* line 167, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
   .mod-footer p.logotip { border-bottom-width: 1px; border-bottom-width: 0.0625rem; border-bottom-style: solid; padding-bottom: 11px; padding-bottom: 0.6875rem; color: #000; }
-  /* line 168, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
+  /* line 172, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
   .fa-map-marker { color: #000; padding-right: 2%; }
-  /* line 173, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
+  /* line 177, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
   .fa-phone { color: #000; padding-right: 2%; }
-  /* line 178, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
+  /* line 182, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
   .fa-paper-plane { color: #000; padding-right: 2%; }
-  /* line 183, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
-  .p-footer-style p { padding-top: 24px; padding-top: 1.5rem; }
   /* line 187, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
+  .p-footer-style p { padding-top: 24px; padding-top: 1.5rem; }
+  /* line 191, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
   .copy { padding-top: 0px; padding-top: 0rem; }
-  /* line 192, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
+  /* line 196, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
   .almet-super-menu { font-size: 23px; font-size: 1.424rem; line-height: 24px; line-height: 1.5rem; padding-top: 24px; padding-top: 1.5rem; padding-bottom: 48px; padding-bottom: 3rem; border-bottom-width: 1px; border-bottom-width: 0.0625rem; border-bottom-style: solid; padding-bottom: 4px; padding-bottom: 0.2375rem; color: #9E2121; text-align: center; }
-  /* line 202, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
-  .menu-slidebar-width ul { padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
   /* line 206, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
+  .menu-slidebar-width ul { padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
+  /* line 210, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
   .menu-slidebar-width ul li a { display: block; width: 100%; text-align: center; text-decoration: none; padding-top: 12px; padding-top: 0.75rem; padding-bottom: 12px; padding-bottom: 0.75rem; font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 215, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
+  /* line 219, ../../../sass/theme/theme-blog-item/_typography-tablet.scss */
   .menu-slidebar-width ul li a:hover { font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; border-right: 4px solid #9F2626; background: #AB9D9D none repeat scroll 0% 0%; color: #000; }
   /**end media desctop*/ }
 @media (min-width: 1200px) { /* line 11, ../../../sass/theme/theme-blog-item/_typography.scss */
@@ -460,72 +452,72 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* line 17, ../../../sass/theme/theme-blog-item/_typography.scss */
   .logotip-almet { text-decoration: none; }
   /* line 20, ../../../sass/theme/theme-blog-item/_typography.scss */
-  .logotip-almet p.logotip { text-align: center; text-transform: uppercase; letter-spacing: 2px; color: #000; }
-  /* line 28, ../../../sass/theme/theme-blog-item/_typography.scss */
+  .logotip-almet p.logotip { font-family: Arial, sans-serif; text-align: center; text-transform: uppercase; color: #000; padding-top: 12px; padding-top: 0.75rem; font-size: 19px; font-size: 1.2rem; line-height: 24px; line-height: 1.5rem; letter-spacing: 2px; }
+  /* line 32, ../../../sass/theme/theme-blog-item/_typography.scss */
   .menu { padding-top: 48px; padding-top: 3rem; padding-bottom: 48px; padding-bottom: 3rem; }
-  /* line 33, ../../../sass/theme/theme-blog-item/_typography.scss */
-  .logotip { padding-top: 12px; padding-top: 0.75rem; }
   /* line 37, ../../../sass/theme/theme-blog-item/_typography.scss */
+  .logotip { padding-top: 12px; padding-top: 0.75rem; }
+  /* line 41, ../../../sass/theme/theme-blog-item/_typography.scss */
   .menu-site { padding-top: 120px; padding-top: 7.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 43, ../../../sass/theme/theme-blog-item/_typography.scss */
+  /* line 47, ../../../sass/theme/theme-blog-item/_typography.scss */
   .menu-site ul li a { font-size: 21px; font-size: 1.3rem; line-height: 24px; line-height: 1.5rem; text-decoration: none; color: #000; }
-  /* line 48, ../../../sass/theme/theme-blog-item/_typography.scss */
+  /* line 52, ../../../sass/theme/theme-blog-item/_typography.scss */
   .menu-site ul li a:hover { border-bottom-width: 5px; border-bottom-width: 0.3125rem; border-bottom-style: solid; padding-bottom: 19px; padding-bottom: 1.1875rem; color: #000; }
-  /* line 58, ../../../sass/theme/theme-blog-item/_typography.scss */
+  /* line 62, ../../../sass/theme/theme-blog-item/_typography.scss */
   .mod-1 { padding-top: 120px; padding-top: 7.5rem; padding-bottom: 120px; padding-bottom: 7.5rem; }
-  /* line 63, ../../../sass/theme/theme-blog-item/_typography.scss */
-  .form-email { height: 100px; }
   /* line 67, ../../../sass/theme/theme-blog-item/_typography.scss */
-  #email { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  .form-email { height: 100px; }
   /* line 71, ../../../sass/theme/theme-blog-item/_typography.scss */
-  #submit { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  #email { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
   /* line 75, ../../../sass/theme/theme-blog-item/_typography.scss */
-  .title-index { text-align: center; }
+  #submit { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
   /* line 79, ../../../sass/theme/theme-blog-item/_typography.scss */
+  .title-index { text-align: center; }
+  /* line 83, ../../../sass/theme/theme-blog-item/_typography.scss */
   .line { padding-top: 0px; padding-top: 0rem; border-bottom-width: 5px; border-bottom-width: 0.3125rem; border-bottom-style: solid; padding-bottom: 19px; padding-bottom: 1.1875rem; color: #DB1616; }
-  /* line 85, ../../../sass/theme/theme-blog-item/_typography.scss */
+  /* line 89, ../../../sass/theme/theme-blog-item/_typography.scss */
   .title-p { padding-top: 24px; padding-top: 1.5rem; text-align: center; color: #fff; }
-  /* line 96, ../../../sass/theme/theme-blog-item/_typography.scss */
+  /* line 100, ../../../sass/theme/theme-blog-item/_typography.scss */
   .row-mod-2-blog .mod-2 { padding-top: 96px; padding-top: 6rem; padding-bottom: 96px; padding-bottom: 6rem; }
-  /* line 101, ../../../sass/theme/theme-blog-item/_typography.scss */
+  /* line 105, ../../../sass/theme/theme-blog-item/_typography.scss */
   .post { padding-top: 48px; padding-top: 3rem; padding-bottom: 48px; padding-bottom: 3rem; }
-  /* line 106, ../../../sass/theme/theme-blog-item/_typography.scss */
+  /* line 110, ../../../sass/theme/theme-blog-item/_typography.scss */
   .line2 { padding-top: 12px; padding-top: 0.75rem; border-bottom-width: 2px; border-bottom-width: 0.125rem; border-bottom-style: solid; padding-bottom: 3px; padding-bottom: 0.175rem; color: #DB1616; }
-  /* line 112, ../../../sass/theme/theme-blog-item/_typography.scss */
-  .post-text h5 p { padding-top: 24px; padding-top: 1.5rem; }
   /* line 116, ../../../sass/theme/theme-blog-item/_typography.scss */
+  .post-text h5 p { padding-top: 24px; padding-top: 1.5rem; }
+  /* line 120, ../../../sass/theme/theme-blog-item/_typography.scss */
   .fa-calendar-minus-o { color: #B4332D; padding-right: 2%; }
-  /* line 121, ../../../sass/theme/theme-blog-item/_typography.scss */
+  /* line 125, ../../../sass/theme/theme-blog-item/_typography.scss */
   .text-post-p { padding-top: 24px; padding-top: 1.5rem; text-align: justify; }
-  /* line 126, ../../../sass/theme/theme-blog-item/_typography.scss */
+  /* line 130, ../../../sass/theme/theme-blog-item/_typography.scss */
   .date-time-post { padding-top: 24px; padding-top: 1.5rem; }
-  /* line 129, ../../../sass/theme/theme-blog-item/_typography.scss */
+  /* line 133, ../../../sass/theme/theme-blog-item/_typography.scss */
   .date-time-post span { color: #ce2828; }
-  /* line 135, ../../../sass/theme/theme-blog-item/_typography.scss */
+  /* line 139, ../../../sass/theme/theme-blog-item/_typography.scss */
   .photoswipe { padding-top: 48px; padding-top: 3rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 144, ../../../sass/theme/theme-blog-item/_typography.scss */
+  /* line 148, ../../../sass/theme/theme-blog-item/_typography.scss */
   .mod-footer { padding-top: 96px; padding-top: 6rem; padding-bottom: 48px; padding-bottom: 3rem; text-align: center; color: #fff; }
-  /* line 151, ../../../sass/theme/theme-blog-item/_typography.scss */
-  .logo-footer { padding-bottom: 12px; padding-bottom: 0.75rem; }
   /* line 155, ../../../sass/theme/theme-blog-item/_typography.scss */
+  .logo-footer { padding-bottom: 12px; padding-bottom: 0.75rem; }
+  /* line 159, ../../../sass/theme/theme-blog-item/_typography.scss */
   .mod-footer p.logotip { border-bottom-width: 1px; border-bottom-width: 0.0625rem; border-bottom-style: solid; padding-bottom: 11px; padding-bottom: 0.6875rem; color: #000; }
-  /* line 160, ../../../sass/theme/theme-blog-item/_typography.scss */
+  /* line 164, ../../../sass/theme/theme-blog-item/_typography.scss */
   .fa-map-marker { color: #000; padding-right: 2%; }
-  /* line 165, ../../../sass/theme/theme-blog-item/_typography.scss */
+  /* line 169, ../../../sass/theme/theme-blog-item/_typography.scss */
   .fa-phone { color: #000; padding-right: 2%; }
-  /* line 170, ../../../sass/theme/theme-blog-item/_typography.scss */
+  /* line 174, ../../../sass/theme/theme-blog-item/_typography.scss */
   .fa-paper-plane { color: #000; padding-right: 2%; }
-  /* line 175, ../../../sass/theme/theme-blog-item/_typography.scss */
-  .p-footer-style p { padding-top: 24px; padding-top: 1.5rem; }
   /* line 179, ../../../sass/theme/theme-blog-item/_typography.scss */
+  .p-footer-style p { padding-top: 24px; padding-top: 1.5rem; }
+  /* line 183, ../../../sass/theme/theme-blog-item/_typography.scss */
   .copy { padding-top: 0px; padding-top: 0rem; }
-  /* line 184, ../../../sass/theme/theme-blog-item/_typography.scss */
+  /* line 188, ../../../sass/theme/theme-blog-item/_typography.scss */
   .almet-super-menu { font-size: 23px; font-size: 1.424rem; line-height: 24px; line-height: 1.5rem; padding-top: 24px; padding-top: 1.5rem; padding-bottom: 48px; padding-bottom: 3rem; border-bottom-width: 1px; border-bottom-width: 0.0625rem; border-bottom-style: solid; padding-bottom: 4px; padding-bottom: 0.2375rem; color: #9E2121; text-align: center; }
-  /* line 194, ../../../sass/theme/theme-blog-item/_typography.scss */
-  .menu-slidebar-width ul { padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
   /* line 198, ../../../sass/theme/theme-blog-item/_typography.scss */
+  .menu-slidebar-width ul { padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
+  /* line 202, ../../../sass/theme/theme-blog-item/_typography.scss */
   .menu-slidebar-width ul li a { display: block; width: 100%; text-align: center; text-decoration: none; padding-top: 12px; padding-top: 0.75rem; padding-bottom: 12px; padding-bottom: 0.75rem; font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 207, ../../../sass/theme/theme-blog-item/_typography.scss */
+  /* line 211, ../../../sass/theme/theme-blog-item/_typography.scss */
   .menu-slidebar-width ul li a:hover { font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; border-right: 4px solid #9F2626; background: #AB9D9D none repeat scroll 0% 0%; color: #000; }
   /**end media desctop*/ }
 @media (min-width: 200px) and (max-width: 767px) { /* line 11, ../../../sass/theme/theme-blog-item/_components-mobail.scss */
