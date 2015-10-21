@@ -20,7 +20,6 @@
     text-align: center;
     text-transform: uppercase;
     color:#fff;
-      @include leader($lines:0.5, $property:padding);
       @include adjust-font-size-to (1rem, 1);
       letter-spacing:2px;
   }
@@ -44,7 +43,7 @@
 
   .logotip{
   @include leader($lines:0.2, $property:padding);
-      @include trailing-border($width:1px, $lines:0.2, $border-style:solid);
+      @include trailing-border($width:1px, $lines:0.3, $border-style:solid);
   }
 
   .menu-site{
@@ -132,6 +131,20 @@
 .box1{
   @include trailer($lines:1, $property:padding);
 }
+
+////////////***********partners**********///////////
+
+.mod-part{
+  @include leader($lines:1, $property:padding);
+  @include trailer($lines:1, $property:padding);
+  h3{
+    text-align: center;
+    @include leader($lines:1, $property:padding);
+    @include trailer($lines:1, $property:padding);
+  }
+}
+
+
 ////***********row-mod-3      news*********//////////
 .mod-3{
   @include leader($lines:0, $property:padding);
@@ -175,8 +188,10 @@ text-align:center;
 }
 
 .mod-footer p.logotip{
-  @include trailing-border($width:1px,$lines:0.5, $border-style:solid);
+  @include trailing-border($width:1px,$lines:0.3, $border-style:solid);
+    @include leader($lines:0.3, $property:padding);
   color:#000;
+  font-family: $logotip;
 
 }
 .fa-map-marker{
@@ -225,12 +240,13 @@ text-align: center;
   @include leader($lines:0.5, $property:padding);
   @include trailer($lines:0.5, $property:padding);
   @include adjust-font-size-to(1.266rem, 1);
+    color:#000;
 
   &:hover{
     @include adjust-font-size-to(1.266rem, 1);
-    border-right: 4px solid #9F2626;
-  background: #AB9D9D none repeat scroll 0% 0%;
-    color:#000;
+    border-right: 4px solid #E11414;
+    background: rgb(195, 195, 195) none repeat scroll 0% 0%;
+
   }
 }
 

@@ -124,6 +124,19 @@
 .box1{
   @include trailer($lines:1, $property:padding);
 }
+
+////////////***********partners**********///////////
+
+.mod-part{
+  @include leader($lines:1, $property:padding);
+  @include trailer($lines:1, $property:padding);
+  h3{
+    text-align: center;
+    @include leader($lines:1, $property:padding);
+    @include trailer($lines:1, $property:padding);
+  }
+}
+
 ////***********row-mod-3      news*********//////////
 .mod-3{
   @include leader($lines:2, $property:padding);
@@ -131,6 +144,7 @@
 
 .text-small-p{
   @include adjust-font-size-to (0.9rem, 1);
+  text-align: justify;
 }
 
 }
@@ -166,6 +180,7 @@ text-align:center;
 .mod-footer p.logotip{
 	@include trailing-border($width:1px,$lines:0.5, $border-style:solid);
   color:#000;
+  font-family:$logotip;
 
 }
 .fa-map-marker{

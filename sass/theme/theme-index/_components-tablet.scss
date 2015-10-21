@@ -18,45 +18,45 @@ padding-left:7%;
   }
 }
 
+.sb-slidebar{
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9) inset;
 
-
-
-
-//*/*Menu click*************************************************************//*/
-
-.menu-click {
-  cursor: pointer;
-  padding-left: 1.25em;
-  width: 70px;
-  margin-right: 2%;
-  position: absolute;
-  top: 12%;
-  right: 10%;
-  color: #fff;
-  background: #AB1111;
-}
-
-.fa-bars{
-margin-right:8px;
 }
 
 
 
-//********************************************************************************************************
+  //*/*Menu click*************************************************************//*/
 
-/*************************MENU SLIDEBARWIDTH/****/
+
+  .menu-click {
+    cursor: pointer;
+    padding-left: 1em;
+    width: 15px;
+    margin-right: 0%;
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    color: #FFF;
+    background: #AB1111 none repeat scroll 0% 0%;
+    border-radius: 50%;
+    padding-right: 1em;
+  }
+
+  .fa-bars{
+  margin-right:8px;
+  }
+
+
+
+  //********************************************************************************************************
+
+  /*************************MENU SLIDEBARWIDTH/****/
 
 .menu-slidebar-width{
-width:80%;
-margin-left:auto;
-margin-right:auto;
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
 }
 
-
-
-/*********END SLIDEBAR******///
-
-
-
-//end media tablet
 }

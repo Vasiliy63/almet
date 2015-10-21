@@ -18,7 +18,9 @@
 
   .logotip-almet{
   display:block;
-  @include column(8/12, $offset: 2/12);
+  width: 80%;
+margin-left: auto;
+margin-right: auto;
   }
 
   .menu-site{
@@ -67,6 +69,10 @@
   @include center(250px);
   }
 
+
+  .video-almet{
+    display:none;
+  }
 
   .title-index{
     width:80%;
@@ -127,7 +133,7 @@ background: #1D1D1D none repeat scroll 0% 0%;
 
 
   .gallery {
-     width:95%;
+     width:68%;
      margin-left:auto;
      margin-right:auto;
    }
@@ -135,6 +141,26 @@ background: #1D1D1D none repeat scroll 0% 0%;
   .box1{
     @include stack();
   }
+
+
+  /**partners**/
+  .row-mod-part{
+    background: #fff;
+    width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  }
+  .mod-part{
+    padding-left:4%;
+    padding-right:4%;
+  }
+
+  .svgbox{
+    @include stack();
+  }
+
+
   ////***********row-mod-3      news*********//////////
   .row-mod-3{
     overflow:hidden;
@@ -174,7 +200,9 @@ background: #1D1D1D none repeat scroll 0% 0%;
   background: rgba(195, 52, 46, 0.9) none repeat scroll 0% 0%;
     }
     .mod-footer {
-      @include center(300px);
+      max-width: 80%;
+      margin-left: auto;
+      margin-right: auto;
       text-align: center;
       color: #fff;
       font-size: 0.3rem;
