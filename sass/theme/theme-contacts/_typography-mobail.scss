@@ -12,6 +12,7 @@
   text-transform: uppercase;
   color:#fff;
   letter-spacing: 4px;
+  font-family: $logotip;
   @include leader($lines:1, $property:padding);
   @include trailer($lines:1, $property:padding);
   }
@@ -26,6 +27,11 @@
     ul li{
       color:#fff;
     }
+  }
+
+  .back-display-device-yes{
+    @include leader($lines:2, $property:margin);
+    @include trailer($lines:1, $property:margin);
   }
 
   ///*Form*/

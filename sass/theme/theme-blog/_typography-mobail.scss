@@ -61,6 +61,18 @@
 }
 
 
+.menu-click{
+
+  @include leader($lines:0.5, $property:padding);
+  @include trailer($lines:0.5, $property:padding);
+  padding-left:10px;
+  padding-right:10px;
+font-family:$p-font;
+span{
+  display:none;
+}
+}
+
 ///*************End header**************////
 
 //row-mod-1
@@ -232,12 +244,12 @@ text-align: center;
   @include leader($lines:0.5, $property:padding);
   @include trailer($lines:0.5, $property:padding);
   @include adjust-font-size-to(1.266rem, 1);
+    color:#000;
 
   &:hover{
     @include adjust-font-size-to(1.266rem, 1);
-    border-right: 4px solid #9F2626;
-  background: #AB9D9D none repeat scroll 0% 0%;
-    color:#000;
+    border-right: 4px solid #E11414;
+    background: rgb(195, 195, 195) none repeat scroll 0% 0%;
   }
 }
 

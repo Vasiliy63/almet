@@ -234,66 +234,70 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .menu-site ul li a:hover { border-bottom-width: 5px; border-bottom-width: 0.3125rem; border-bottom-style: solid; padding-bottom: 19px; padding-bottom: 1.1875rem; color: #000; }
   /* line 59, ../../../sass/theme/theme-blog/_typography-mobail.scss */
   .email { color: #fff; }
-  /* line 69, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  /* line 64, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  .menu-click { padding-top: 12px; padding-top: 0.75rem; padding-bottom: 12px; padding-bottom: 0.75rem; padding-left: 10px; padding-right: 10px; font-family: "RobotoCondensedLight"; }
+  /* line 71, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  .menu-click span { display: none; }
+  /* line 81, ../../../sass/theme/theme-blog/_typography-mobail.scss */
   .mod-1 { padding-top: 120px; padding-top: 7.5rem; padding-bottom: 120px; padding-bottom: 7.5rem; }
-  /* line 74, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  /* line 86, ../../../sass/theme/theme-blog/_typography-mobail.scss */
   .form-email { height: 100px; }
-  /* line 78, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  /* line 90, ../../../sass/theme/theme-blog/_typography-mobail.scss */
   #email { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 82, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  /* line 94, ../../../sass/theme/theme-blog/_typography-mobail.scss */
   #submit { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 87, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  /* line 99, ../../../sass/theme/theme-blog/_typography-mobail.scss */
   .title-index { text-align: center; }
-  /* line 91, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  /* line 103, ../../../sass/theme/theme-blog/_typography-mobail.scss */
   .line { padding-top: 0px; padding-top: 0rem; border-bottom-width: 5px; border-bottom-width: 0.3125rem; border-bottom-style: solid; padding-bottom: 19px; padding-bottom: 1.1875rem; color: #DB1616; }
-  /* line 97, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  /* line 109, ../../../sass/theme/theme-blog/_typography-mobail.scss */
   .title-p { padding-top: 24px; padding-top: 1.5rem; text-align: center; color: #fff; }
-  /* line 108, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  /* line 120, ../../../sass/theme/theme-blog/_typography-mobail.scss */
   .row-mod-2-blog .mod-2 { padding-top: 96px; padding-top: 6rem; padding-bottom: 96px; padding-bottom: 6rem; }
-  /* line 113, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  /* line 125, ../../../sass/theme/theme-blog/_typography-mobail.scss */
   .post { padding-top: 48px; padding-top: 3rem; padding-bottom: 48px; padding-bottom: 3rem; }
-  /* line 118, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  /* line 130, ../../../sass/theme/theme-blog/_typography-mobail.scss */
   .line2 { padding-top: 12px; padding-top: 0.75rem; border-bottom-width: 2px; border-bottom-width: 0.125rem; border-bottom-style: solid; padding-bottom: 3px; padding-bottom: 0.175rem; color: #DB1616; }
-  /* line 124, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  /* line 136, ../../../sass/theme/theme-blog/_typography-mobail.scss */
   .post-text h5 p { padding-top: 24px; padding-top: 1.5rem; }
-  /* line 128, ../../../sass/theme/theme-blog/_typography-mobail.scss */
-  .fa-calendar-minus-o { color: #B4332D; padding-right: 2%; }
-  /* line 133, ../../../sass/theme/theme-blog/_typography-mobail.scss */
-  .text-post-p { padding-top: 12px; padding-top: 0.75rem; }
-  /* line 137, ../../../sass/theme/theme-blog/_typography-mobail.scss */
-  .date-time-post { padding-top: 12px; padding-top: 0.75rem; }
   /* line 140, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  .fa-calendar-minus-o { color: #B4332D; padding-right: 2%; }
+  /* line 145, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  .text-post-p { padding-top: 12px; padding-top: 0.75rem; }
+  /* line 149, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  .date-time-post { padding-top: 12px; padding-top: 0.75rem; }
+  /* line 152, ../../../sass/theme/theme-blog/_typography-mobail.scss */
   .date-time-post span { color: #ce2828; }
-  /* line 146, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  /* line 158, ../../../sass/theme/theme-blog/_typography-mobail.scss */
   .mod-3 { padding-top: 48px; padding-top: 3rem; padding-bottom: 48px; padding-bottom: 3rem; }
-  /* line 155, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  /* line 167, ../../../sass/theme/theme-blog/_typography-mobail.scss */
   .pagination ul li { display: inline; padding-left: 4%; }
-  /* line 159, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  /* line 171, ../../../sass/theme/theme-blog/_typography-mobail.scss */
   .pagination ul li a { color: #fff; text-decoration: none; font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 173, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  /* line 185, ../../../sass/theme/theme-blog/_typography-mobail.scss */
   .mod-footer { padding-top: 96px; padding-top: 6rem; padding-bottom: 48px; padding-bottom: 3rem; text-align: center; color: #fff; }
-  /* line 180, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  /* line 192, ../../../sass/theme/theme-blog/_typography-mobail.scss */
   .logo-footer { padding-bottom: 12px; padding-bottom: 0.75rem; }
-  /* line 184, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  /* line 196, ../../../sass/theme/theme-blog/_typography-mobail.scss */
   .mod-footer p.logotip { border-bottom-width: 1px; border-bottom-width: 0.0625rem; border-bottom-style: solid; padding-bottom: 11px; padding-bottom: 0.6875rem; color: #000; }
-  /* line 189, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  /* line 201, ../../../sass/theme/theme-blog/_typography-mobail.scss */
   .fa-map-marker { color: #000; padding-right: 2%; }
-  /* line 194, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  /* line 206, ../../../sass/theme/theme-blog/_typography-mobail.scss */
   .fa-phone { color: #000; padding-right: 2%; }
-  /* line 199, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  /* line 211, ../../../sass/theme/theme-blog/_typography-mobail.scss */
   .fa-paper-plane { color: #000; padding-right: 2%; }
-  /* line 204, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  /* line 216, ../../../sass/theme/theme-blog/_typography-mobail.scss */
   .p-footer-style p { padding-top: 24px; padding-top: 1.5rem; }
-  /* line 208, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  /* line 220, ../../../sass/theme/theme-blog/_typography-mobail.scss */
   .copy { padding-top: 0px; padding-top: 0rem; }
-  /* line 213, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  /* line 225, ../../../sass/theme/theme-blog/_typography-mobail.scss */
   .almet-super-menu { font-size: 23px; font-size: 1.424rem; line-height: 24px; line-height: 1.5rem; padding-top: 24px; padding-top: 1.5rem; padding-bottom: 48px; padding-bottom: 3rem; border-bottom-width: 1px; border-bottom-width: 0.0625rem; border-bottom-style: solid; padding-bottom: 4px; padding-bottom: 0.2375rem; color: #9E2121; text-align: center; }
-  /* line 223, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  /* line 235, ../../../sass/theme/theme-blog/_typography-mobail.scss */
   .menu-slidebar-width ul { padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 227, ../../../sass/theme/theme-blog/_typography-mobail.scss */
-  .menu-slidebar-width ul li a { display: block; width: 100%; text-align: center; text-decoration: none; padding-top: 12px; padding-top: 0.75rem; padding-bottom: 12px; padding-bottom: 0.75rem; font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 236, ../../../sass/theme/theme-blog/_typography-mobail.scss */
-  .menu-slidebar-width ul li a:hover { font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; border-right: 4px solid #9F2626; background: #AB9D9D none repeat scroll 0% 0%; color: #000; }
+  /* line 239, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  .menu-slidebar-width ul li a { display: block; width: 100%; text-align: center; text-decoration: none; padding-top: 12px; padding-top: 0.75rem; padding-bottom: 12px; padding-bottom: 0.75rem; font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; color: #000; }
+  /* line 249, ../../../sass/theme/theme-blog/_typography-mobail.scss */
+  .menu-slidebar-width ul li a:hover { font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; border-right: 4px solid #E11414; background: #c3c3c3 none repeat scroll 0% 0%; }
   /*end media mobail*/ }
 @media (min-width: 992px) and (max-width: 1199px) { /* line 14, ../../../sass/theme/theme-blog/_typography-medium.scss */
   .logotip-almet { text-decoration: none; }
@@ -311,67 +315,71 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .menu-site ul li a { font-size: 21px; font-size: 1.3rem; line-height: 24px; line-height: 1.5rem; text-decoration: none; color: #000; }
   /* line 52, ../../../sass/theme/theme-blog/_typography-medium.scss */
   .menu-site ul li a:hover { border-bottom-width: 5px; border-bottom-width: 0.3125rem; border-bottom-style: solid; padding-bottom: 19px; padding-bottom: 1.1875rem; color: #000; }
-  /* line 62, ../../../sass/theme/theme-blog/_typography-medium.scss */
-  .mod-1 { padding-top: 120px; padding-top: 7.5rem; padding-bottom: 120px; padding-bottom: 7.5rem; }
-  /* line 67, ../../../sass/theme/theme-blog/_typography-medium.scss */
-  .form-email { height: 100px; }
-  /* line 71, ../../../sass/theme/theme-blog/_typography-medium.scss */
-  #email { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  /* line 57, ../../../sass/theme/theme-blog/_typography-medium.scss */
+  .menu-click { padding-top: 12px; padding-top: 0.75rem; padding-bottom: 12px; padding-bottom: 0.75rem; padding-left: 10px; padding-right: 10px; font-family: "RobotoCondensedLight"; }
+  /* line 64, ../../../sass/theme/theme-blog/_typography-medium.scss */
+  .menu-click span { display: none; }
   /* line 75, ../../../sass/theme/theme-blog/_typography-medium.scss */
+  .mod-1 { padding-top: 120px; padding-top: 7.5rem; padding-bottom: 120px; padding-bottom: 7.5rem; }
+  /* line 80, ../../../sass/theme/theme-blog/_typography-medium.scss */
+  .form-email { height: 100px; }
+  /* line 84, ../../../sass/theme/theme-blog/_typography-medium.scss */
+  #email { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  /* line 88, ../../../sass/theme/theme-blog/_typography-medium.scss */
   #submit { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 79, ../../../sass/theme/theme-blog/_typography-medium.scss */
+  /* line 92, ../../../sass/theme/theme-blog/_typography-medium.scss */
   .title-index { text-align: center; }
-  /* line 83, ../../../sass/theme/theme-blog/_typography-medium.scss */
+  /* line 96, ../../../sass/theme/theme-blog/_typography-medium.scss */
   .line { padding-top: 0px; padding-top: 0rem; border-bottom-width: 5px; border-bottom-width: 0.3125rem; border-bottom-style: solid; padding-bottom: 19px; padding-bottom: 1.1875rem; color: #DB1616; }
-  /* line 89, ../../../sass/theme/theme-blog/_typography-medium.scss */
+  /* line 102, ../../../sass/theme/theme-blog/_typography-medium.scss */
   .title-p { padding-top: 24px; padding-top: 1.5rem; text-align: center; color: #fff; }
-  /* line 100, ../../../sass/theme/theme-blog/_typography-medium.scss */
+  /* line 113, ../../../sass/theme/theme-blog/_typography-medium.scss */
   .row-mod-2-blog .mod-2 { padding-top: 96px; padding-top: 6rem; padding-bottom: 96px; padding-bottom: 6rem; }
-  /* line 105, ../../../sass/theme/theme-blog/_typography-medium.scss */
+  /* line 118, ../../../sass/theme/theme-blog/_typography-medium.scss */
   .post { padding-top: 48px; padding-top: 3rem; padding-bottom: 48px; padding-bottom: 3rem; }
-  /* line 110, ../../../sass/theme/theme-blog/_typography-medium.scss */
+  /* line 123, ../../../sass/theme/theme-blog/_typography-medium.scss */
   .line2 { padding-top: 12px; padding-top: 0.75rem; border-bottom-width: 2px; border-bottom-width: 0.125rem; border-bottom-style: solid; padding-bottom: 3px; padding-bottom: 0.175rem; color: #DB1616; }
-  /* line 116, ../../../sass/theme/theme-blog/_typography-medium.scss */
-  .post-text h5 p { padding-top: 24px; padding-top: 1.5rem; }
-  /* line 120, ../../../sass/theme/theme-blog/_typography-medium.scss */
-  .fa-calendar-minus-o { color: #B4332D; padding-right: 2%; }
-  /* line 125, ../../../sass/theme/theme-blog/_typography-medium.scss */
-  .text-post-p { padding-top: 24px; padding-top: 1.5rem; }
   /* line 129, ../../../sass/theme/theme-blog/_typography-medium.scss */
-  .date-time-post { padding-top: 24px; padding-top: 1.5rem; }
-  /* line 132, ../../../sass/theme/theme-blog/_typography-medium.scss */
-  .date-time-post span { color: #ce2828; }
+  .post-text h5 p { padding-top: 24px; padding-top: 1.5rem; }
+  /* line 133, ../../../sass/theme/theme-blog/_typography-medium.scss */
+  .fa-calendar-minus-o { color: #B4332D; padding-right: 2%; }
   /* line 138, ../../../sass/theme/theme-blog/_typography-medium.scss */
-  .mod-3 { padding-top: 48px; padding-top: 3rem; padding-bottom: 48px; padding-bottom: 3rem; }
-  /* line 147, ../../../sass/theme/theme-blog/_typography-medium.scss */
-  .pagination ul li { display: inline; padding-left: 4%; }
+  .text-post-p { padding-top: 24px; padding-top: 1.5rem; }
+  /* line 142, ../../../sass/theme/theme-blog/_typography-medium.scss */
+  .date-time-post { padding-top: 24px; padding-top: 1.5rem; }
+  /* line 145, ../../../sass/theme/theme-blog/_typography-medium.scss */
+  .date-time-post span { color: #ce2828; }
   /* line 151, ../../../sass/theme/theme-blog/_typography-medium.scss */
-  .pagination ul li a { color: #000; text-decoration: none; font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; }
+  .mod-3 { padding-top: 48px; padding-top: 3rem; padding-bottom: 48px; padding-bottom: 3rem; }
+  /* line 160, ../../../sass/theme/theme-blog/_typography-medium.scss */
+  .pagination ul li { display: inline; padding-left: 4%; }
   /* line 164, ../../../sass/theme/theme-blog/_typography-medium.scss */
+  .pagination ul li a { color: #000; text-decoration: none; font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; }
+  /* line 177, ../../../sass/theme/theme-blog/_typography-medium.scss */
   .mod-footer { padding-top: 96px; padding-top: 6rem; padding-bottom: 48px; padding-bottom: 3rem; text-align: center; color: #fff; }
-  /* line 171, ../../../sass/theme/theme-blog/_typography-medium.scss */
+  /* line 184, ../../../sass/theme/theme-blog/_typography-medium.scss */
   .logo-footer { padding-bottom: 12px; padding-bottom: 0.75rem; }
-  /* line 175, ../../../sass/theme/theme-blog/_typography-medium.scss */
+  /* line 188, ../../../sass/theme/theme-blog/_typography-medium.scss */
   .mod-footer p.logotip { border-bottom-width: 1px; border-bottom-width: 0.0625rem; border-bottom-style: solid; padding-bottom: 11px; padding-bottom: 0.6875rem; color: #000; }
-  /* line 180, ../../../sass/theme/theme-blog/_typography-medium.scss */
+  /* line 193, ../../../sass/theme/theme-blog/_typography-medium.scss */
   .fa-map-marker { color: #000; padding-right: 2%; }
-  /* line 185, ../../../sass/theme/theme-blog/_typography-medium.scss */
+  /* line 198, ../../../sass/theme/theme-blog/_typography-medium.scss */
   .fa-phone { color: #000; padding-right: 2%; }
-  /* line 190, ../../../sass/theme/theme-blog/_typography-medium.scss */
+  /* line 203, ../../../sass/theme/theme-blog/_typography-medium.scss */
   .fa-paper-plane { color: #000; padding-right: 2%; }
-  /* line 195, ../../../sass/theme/theme-blog/_typography-medium.scss */
+  /* line 208, ../../../sass/theme/theme-blog/_typography-medium.scss */
   .p-footer-style p { padding-top: 24px; padding-top: 1.5rem; }
-  /* line 199, ../../../sass/theme/theme-blog/_typography-medium.scss */
+  /* line 212, ../../../sass/theme/theme-blog/_typography-medium.scss */
   .copy { padding-top: 0px; padding-top: 0rem; }
   /**end media desctop*/
-  /* line 206, ../../../sass/theme/theme-blog/_typography-medium.scss */
+  /* line 219, ../../../sass/theme/theme-blog/_typography-medium.scss */
   .almet-super-menu { font-size: 23px; font-size: 1.424rem; line-height: 24px; line-height: 1.5rem; padding-top: 24px; padding-top: 1.5rem; padding-bottom: 48px; padding-bottom: 3rem; border-bottom-width: 1px; border-bottom-width: 0.0625rem; border-bottom-style: solid; padding-bottom: 4px; padding-bottom: 0.2375rem; color: #9E2121; text-align: center; }
-  /* line 216, ../../../sass/theme/theme-blog/_typography-medium.scss */
-  .menu-slidebar-width ul { padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 220, ../../../sass/theme/theme-blog/_typography-medium.scss */
-  .menu-slidebar-width ul li a { display: block; width: 100%; text-align: center; text-decoration: none; padding-top: 12px; padding-top: 0.75rem; padding-bottom: 12px; padding-bottom: 0.75rem; font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; }
   /* line 229, ../../../sass/theme/theme-blog/_typography-medium.scss */
-  .menu-slidebar-width ul li a:hover { font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; border-right: 4px solid #9F2626; background: #AB9D9D none repeat scroll 0% 0%; color: #000; } }
+  .menu-slidebar-width ul { padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
+  /* line 233, ../../../sass/theme/theme-blog/_typography-medium.scss */
+  .menu-slidebar-width ul li a { display: block; width: 100%; text-align: center; text-decoration: none; padding-top: 12px; padding-top: 0.75rem; padding-bottom: 12px; padding-bottom: 0.75rem; font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; color: #000; }
+  /* line 243, ../../../sass/theme/theme-blog/_typography-medium.scss */
+  .menu-slidebar-width ul li a:hover { font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; border-right: 4px solid #E11414; background: #c3c3c3 none repeat scroll 0% 0%; } }
 @media (min-width: 768px) and (max-width: 991px) { /* line 16, ../../../sass/theme/theme-blog/_typography-tablet.scss */
   .logotip-almet { text-decoration: none; }
   /* line 19, ../../../sass/theme/theme-blog/_typography-tablet.scss */
@@ -388,66 +396,70 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .menu-site ul li a { font-size: 21px; font-size: 1.3rem; line-height: 24px; line-height: 1.5rem; text-decoration: none; color: #000; }
   /* line 54, ../../../sass/theme/theme-blog/_typography-tablet.scss */
   .menu-site ul li a:hover { border-bottom-width: 5px; border-bottom-width: 0.3125rem; border-bottom-style: solid; padding-bottom: 19px; padding-bottom: 1.1875rem; color: #000; }
-  /* line 64, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  /* line 59, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  .menu-click { padding-top: 12px; padding-top: 0.75rem; padding-bottom: 12px; padding-bottom: 0.75rem; padding-left: 10px; padding-right: 10px; font-family: "RobotoCondensedLight"; }
+  /* line 66, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  .menu-click span { display: none; }
+  /* line 76, ../../../sass/theme/theme-blog/_typography-tablet.scss */
   .mod-1 { padding-top: 120px; padding-top: 7.5rem; padding-bottom: 120px; padding-bottom: 7.5rem; }
-  /* line 69, ../../../sass/theme/theme-blog/_typography-tablet.scss */
-  .form-email { height: 100px; }
-  /* line 73, ../../../sass/theme/theme-blog/_typography-tablet.scss */
-  #email { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 77, ../../../sass/theme/theme-blog/_typography-tablet.scss */
-  #submit { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
   /* line 81, ../../../sass/theme/theme-blog/_typography-tablet.scss */
-  .title-index { text-align: center; }
+  .form-email { height: 100px; }
   /* line 85, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  #email { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  /* line 89, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  #submit { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  /* line 93, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  .title-index { text-align: center; }
+  /* line 97, ../../../sass/theme/theme-blog/_typography-tablet.scss */
   .line { padding-top: 0px; padding-top: 0rem; border-bottom-width: 5px; border-bottom-width: 0.3125rem; border-bottom-style: solid; padding-bottom: 19px; padding-bottom: 1.1875rem; color: #DB1616; }
-  /* line 91, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  /* line 103, ../../../sass/theme/theme-blog/_typography-tablet.scss */
   .title-p { padding-top: 24px; padding-top: 1.5rem; text-align: center; color: #fff; }
-  /* line 102, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  /* line 114, ../../../sass/theme/theme-blog/_typography-tablet.scss */
   .row-mod-2-blog .mod-2 { padding-top: 96px; padding-top: 6rem; padding-bottom: 96px; padding-bottom: 6rem; }
-  /* line 107, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  /* line 119, ../../../sass/theme/theme-blog/_typography-tablet.scss */
   .post { padding-top: 48px; padding-top: 3rem; padding-bottom: 48px; padding-bottom: 3rem; }
-  /* line 112, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  /* line 124, ../../../sass/theme/theme-blog/_typography-tablet.scss */
   .line2 { padding-top: 12px; padding-top: 0.75rem; border-bottom-width: 2px; border-bottom-width: 0.125rem; border-bottom-style: solid; padding-bottom: 3px; padding-bottom: 0.175rem; color: #DB1616; }
-  /* line 118, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  /* line 130, ../../../sass/theme/theme-blog/_typography-tablet.scss */
   .post-text h5 p { padding-top: 24px; padding-top: 1.5rem; }
-  /* line 122, ../../../sass/theme/theme-blog/_typography-tablet.scss */
-  .fa-calendar-minus-o { color: #B4332D; padding-right: 2%; }
-  /* line 127, ../../../sass/theme/theme-blog/_typography-tablet.scss */
-  .text-post-p { padding-top: 24px; padding-top: 1.5rem; }
-  /* line 131, ../../../sass/theme/theme-blog/_typography-tablet.scss */
-  .date-time-post { padding-top: 24px; padding-top: 1.5rem; }
   /* line 134, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  .fa-calendar-minus-o { color: #B4332D; padding-right: 2%; }
+  /* line 139, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  .text-post-p { padding-top: 24px; padding-top: 1.5rem; }
+  /* line 143, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  .date-time-post { padding-top: 24px; padding-top: 1.5rem; }
+  /* line 146, ../../../sass/theme/theme-blog/_typography-tablet.scss */
   .date-time-post span { color: #ce2828; }
-  /* line 140, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  /* line 152, ../../../sass/theme/theme-blog/_typography-tablet.scss */
   .mod-3 { padding-top: 48px; padding-top: 3rem; padding-bottom: 48px; padding-bottom: 3rem; }
-  /* line 149, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  /* line 161, ../../../sass/theme/theme-blog/_typography-tablet.scss */
   .pagination ul li { display: inline; padding-left: 4%; }
-  /* line 153, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  /* line 165, ../../../sass/theme/theme-blog/_typography-tablet.scss */
   .pagination ul li a { color: #000; text-decoration: none; font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 167, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  /* line 179, ../../../sass/theme/theme-blog/_typography-tablet.scss */
   .mod-footer { padding-top: 96px; padding-top: 6rem; padding-bottom: 48px; padding-bottom: 3rem; text-align: center; color: #fff; }
-  /* line 174, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  /* line 186, ../../../sass/theme/theme-blog/_typography-tablet.scss */
   .logo-footer { padding-bottom: 12px; padding-bottom: 0.75rem; }
-  /* line 178, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  /* line 190, ../../../sass/theme/theme-blog/_typography-tablet.scss */
   .mod-footer p.logotip { border-bottom-width: 1px; border-bottom-width: 0.0625rem; border-bottom-style: solid; padding-bottom: 11px; padding-bottom: 0.6875rem; color: #000; }
-  /* line 183, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  /* line 195, ../../../sass/theme/theme-blog/_typography-tablet.scss */
   .fa-map-marker { color: #000; padding-right: 2%; }
-  /* line 188, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  /* line 200, ../../../sass/theme/theme-blog/_typography-tablet.scss */
   .fa-phone { color: #000; padding-right: 2%; }
-  /* line 193, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  /* line 205, ../../../sass/theme/theme-blog/_typography-tablet.scss */
   .fa-paper-plane { color: #000; padding-right: 2%; }
-  /* line 198, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  /* line 210, ../../../sass/theme/theme-blog/_typography-tablet.scss */
   .p-footer-style p { padding-top: 24px; padding-top: 1.5rem; }
-  /* line 202, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  /* line 214, ../../../sass/theme/theme-blog/_typography-tablet.scss */
   .copy { padding-top: 0px; padding-top: 0rem; }
-  /* line 207, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  /* line 219, ../../../sass/theme/theme-blog/_typography-tablet.scss */
   .almet-super-menu { font-size: 23px; font-size: 1.424rem; line-height: 24px; line-height: 1.5rem; padding-top: 24px; padding-top: 1.5rem; padding-bottom: 48px; padding-bottom: 3rem; border-bottom-width: 1px; border-bottom-width: 0.0625rem; border-bottom-style: solid; padding-bottom: 4px; padding-bottom: 0.2375rem; color: #9E2121; text-align: center; }
-  /* line 217, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  /* line 229, ../../../sass/theme/theme-blog/_typography-tablet.scss */
   .menu-slidebar-width ul { padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 221, ../../../sass/theme/theme-blog/_typography-tablet.scss */
-  .menu-slidebar-width ul li a { display: block; width: 100%; text-align: center; text-decoration: none; padding-top: 12px; padding-top: 0.75rem; padding-bottom: 12px; padding-bottom: 0.75rem; font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 230, ../../../sass/theme/theme-blog/_typography-tablet.scss */
-  .menu-slidebar-width ul li a:hover { font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; border-right: 4px solid #9F2626; background: #AB9D9D none repeat scroll 0% 0%; color: #000; }
+  /* line 233, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  .menu-slidebar-width ul li a { display: block; width: 100%; text-align: center; text-decoration: none; padding-top: 12px; padding-top: 0.75rem; padding-bottom: 12px; padding-bottom: 0.75rem; font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; color: #000; }
+  /* line 243, ../../../sass/theme/theme-blog/_typography-tablet.scss */
+  .menu-slidebar-width ul li a:hover { font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; border-right: 4px solid #E11414; background: #c3c3c3 none repeat scroll 0% 0%; }
   /**end media desctop*/ }
 @media (min-width: 1200px) { /* line 11, ../../../sass/theme/theme-blog/_typography.scss */
   .chief { margin-top: 24px; margin-top: 1.5rem; margin-bottom: 24px; margin-bottom: 1.5rem; }
@@ -530,95 +542,37 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /**end media desctop*/ }
 @media (min-width: 200px) and (max-width: 767px) { /* line 11, ../../../sass/theme/theme-blog/_components-mobail.scss */
   .menu-site ul li { display: inline-block; padding-left: 7%; }
-  /* line 22, ../../../sass/theme/theme-blog/_components-mobail.scss */
-  #email { width: 164px; background: rgba(119, 48, 48, 0.69) none repeat scroll 0% 0%; border: none; color: #fff; height: 49%; border-radius: 2px; }
+  /* line 19, ../../../sass/theme/theme-blog/_components-mobail.scss */
+  .sb-slidebar { background: #fff; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9) inset; }
   /* line 30, ../../../sass/theme/theme-blog/_components-mobail.scss */
-  #submit { padding-left: 6%; padding-right: 6%; border: medium none; border-radius: 2px; background: rgba(23, 98, 31, 0.74) none repeat scroll 0% 0%; color: #FFF; height: 51%; float: right; }
-  /* line 41, ../../../sass/theme/theme-blog/_components-mobail.scss */
-  #submit:hover { border: none; background: rgba(23, 98, 31, 0.94) none repeat scroll 0% 0%; }
-  /* line 48, ../../../sass/theme/theme-blog/_components-mobail.scss */
-  input[placeholder] { padding-left: 2%; }
-  /* line 57, ../../../sass/theme/theme-blog/_components-mobail.scss */
-  .menu-click { cursor: pointer; padding-left: 1.25em; width: 23px; height: 40px; margin-right: 2%; position: absolute; top: 12%; right: 8%; }
-  /* line 67, ../../../sass/theme/theme-blog/_components-mobail.scss */
-  .menu-global { backface-visibility: hidden; position: absolute; left: 0; border-top: 5px solid #811b1b; width: 100%; transition: 0.55s; }
-  /* line 75, ../../../sass/theme/theme-blog/_components-mobail.scss */
-  .menu-top { top: 0; background: #000; }
-  /* line 79, ../../../sass/theme/theme-blog/_components-mobail.scss */
-  .menu-middle { top: 12px; background: #000; }
-  /* line 83, ../../../sass/theme/theme-blog/_components-mobail.scss */
-  .menu-bottom { top: 24px; background: #000; }
-  /* line 87, ../../../sass/theme/theme-blog/_components-mobail.scss */
-  .menu-top-click { backface-visibility: hidden; top: 15px; transform: rotate(50deg); transition: 0.33s 0.3s; }
-  /* line 93, ../../../sass/theme/theme-blog/_components-mobail.scss */
-  .menu-middle-click { opacity: 0; }
-  /* line 96, ../../../sass/theme/theme-blog/_components-mobail.scss */
-  .menu-bottom-click { backface-visibility: hidden; top: 15px; transform: rotate(-410deg); transition: 0.33s 0.3s; }
+  .menu-click { cursor: pointer; padding-left: 1em; width: 15px; margin-right: 0%; position: absolute; top: 5%; right: 3%; color: #FFF; background: #AB1111 none repeat scroll 0% 0%; border-radius: 50%; padding-right: 1em; }
+  /* line 44, ../../../sass/theme/theme-blog/_components-mobail.scss */
+  .fa-bars { margin-right: 8px; }
   /*************************MENU SLIDEBARWIDTH/****/
-  /* line 109, ../../../sass/theme/theme-blog/_components-mobail.scss */
-  .menu-slidebar-width { width: 80%; margin-left: auto; margin-right: auto; }
-  /*********END SLIDEBAR******/
-  /*end media mobail*/ }
+  /* line 54, ../../../sass/theme/theme-blog/_components-mobail.scss */
+  .menu-slidebar-width { width: 90%; margin-left: auto; margin-right: auto; } }
 @media (min-width: 992px) and (max-width: 1199px) { /* line 13, ../../../sass/theme/theme-blog/_components-medium.scss */
   .menu-site ul li { display: inline-block; padding-left: 7%; }
-  /* line 24, ../../../sass/theme/theme-blog/_components-medium.scss */
-  #email { width: 260px; background: rgba(119, 48, 48, 0.69) none repeat scroll 0% 0%; border: none; color: #fff; height: 49%; border-radius: 2px; }
+  /* line 21, ../../../sass/theme/theme-blog/_components-medium.scss */
+  .sb-slidebar { background: #fff; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9) inset; }
   /* line 32, ../../../sass/theme/theme-blog/_components-medium.scss */
-  #submit { padding-left: 6%; padding-right: 6%; border: medium none; border-radius: 2px; margin-right: 33px; background: rgba(23, 98, 31, 0.74) none repeat scroll 0% 0%; color: #FFF; height: 51%; float: right; }
-  /* line 44, ../../../sass/theme/theme-blog/_components-medium.scss */
-  #submit:hover { border: none; background: rgba(23, 98, 31, 0.94) none repeat scroll 0% 0%; }
-  /* line 51, ../../../sass/theme/theme-blog/_components-medium.scss */
-  input[placeholder] { padding-left: 2%; }
-  /* line 60, ../../../sass/theme/theme-blog/_components-medium.scss */
-  .menu-click { cursor: pointer; padding-left: 1.25em; width: 40px; height: 40px; margin-right: 2%; position: absolute; top: 12%; right: 7%; }
-  /* line 70, ../../../sass/theme/theme-blog/_components-medium.scss */
-  .menu-global { backface-visibility: hidden; position: absolute; left: 0; border-top: 5px solid #811b1b; width: 100%; transition: 0.55s; }
-  /* line 78, ../../../sass/theme/theme-blog/_components-medium.scss */
-  .menu-top { top: 0; background: #000; }
-  /* line 82, ../../../sass/theme/theme-blog/_components-medium.scss */
-  .menu-middle { top: 18px; background: #000; }
-  /* line 86, ../../../sass/theme/theme-blog/_components-medium.scss */
-  .menu-bottom { top: 36px; background: #000; }
-  /* line 90, ../../../sass/theme/theme-blog/_components-medium.scss */
-  .menu-top-click { backface-visibility: hidden; top: 15px; transform: rotate(50deg); transition: 0.55s 0.5s; }
-  /* line 96, ../../../sass/theme/theme-blog/_components-medium.scss */
-  .menu-middle-click { opacity: 0; }
-  /* line 99, ../../../sass/theme/theme-blog/_components-medium.scss */
-  .menu-bottom-click { backface-visibility: hidden; top: 15px; transform: rotate(-410deg); transition: 0.55s 0.5s; }
+  .menu-click { cursor: pointer; padding-left: 1em; width: 15px; margin-right: 0%; position: absolute; top: 5%; right: 3%; color: #FFF; background: #AB1111 none repeat scroll 0% 0%; border-radius: 50%; padding-right: 1em; }
+  /* line 46, ../../../sass/theme/theme-blog/_components-medium.scss */
+  .fa-bars { margin-right: 8px; }
   /*************************MENU SLIDEBARWIDTH/****/
-  /* line 110, ../../../sass/theme/theme-blog/_components-medium.scss */
-  .menu-slidebar-width { width: 80%; margin-left: auto; margin-right: auto; }
-  /*********END SLIDEBAR******/ }
+  /* line 56, ../../../sass/theme/theme-blog/_components-medium.scss */
+  .menu-slidebar-width { width: 90%; margin-left: auto; margin-right: auto; } }
 @media (min-width: 768px) and (max-width: 991px) { /* line 13, ../../../sass/theme/theme-blog/_components-tablet.scss */
   .menu-site ul li { display: inline-block; padding-left: 7%; }
-  /* line 24, ../../../sass/theme/theme-blog/_components-tablet.scss */
-  #email { width: 260px; background: rgba(119, 48, 48, 0.69) none repeat scroll 0% 0%; border: none; color: #fff; height: 49%; border-radius: 2px; }
-  /* line 32, ../../../sass/theme/theme-blog/_components-tablet.scss */
-  #submit { padding-left: 6%; padding-right: 6%; border: medium none; border-radius: 2px; margin-right: 33px; background: rgba(23, 98, 31, 0.74) none repeat scroll 0% 0%; color: #FFF; height: 51%; float: right; }
-  /* line 44, ../../../sass/theme/theme-blog/_components-tablet.scss */
-  #submit:hover { border: none; background: rgba(23, 98, 31, 0.94) none repeat scroll 0% 0%; }
-  /* line 51, ../../../sass/theme/theme-blog/_components-tablet.scss */
-  input[placeholder] { padding-left: 2%; }
-  /* line 60, ../../../sass/theme/theme-blog/_components-tablet.scss */
-  .menu-click { cursor: pointer; padding-left: 1.25em; width: 40px; height: 40px; margin-right: 2%; position: absolute; top: 12%; right: 7%; }
-  /* line 70, ../../../sass/theme/theme-blog/_components-tablet.scss */
-  .menu-global { backface-visibility: hidden; position: absolute; left: 0; border-top: 5px solid #811b1b; width: 100%; transition: 0.55s; }
-  /* line 78, ../../../sass/theme/theme-blog/_components-tablet.scss */
-  .menu-top { top: 0; background: #000; }
-  /* line 82, ../../../sass/theme/theme-blog/_components-tablet.scss */
-  .menu-middle { top: 18px; background: #000; }
-  /* line 86, ../../../sass/theme/theme-blog/_components-tablet.scss */
-  .menu-bottom { top: 36px; background: #000; }
-  /* line 90, ../../../sass/theme/theme-blog/_components-tablet.scss */
-  .menu-top-click { backface-visibility: hidden; top: 15px; transform: rotate(50deg); transition: 0.55s 0.5s; }
-  /* line 96, ../../../sass/theme/theme-blog/_components-tablet.scss */
-  .menu-middle-click { opacity: 0; }
-  /* line 99, ../../../sass/theme/theme-blog/_components-tablet.scss */
-  .menu-bottom-click { backface-visibility: hidden; top: 15px; transform: rotate(-410deg); transition: 0.55s 0.5s; }
+  /* line 23, ../../../sass/theme/theme-blog/_components-tablet.scss */
+  .sb-slidebar { background: #fff; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9) inset; }
+  /* line 34, ../../../sass/theme/theme-blog/_components-tablet.scss */
+  .menu-click { cursor: pointer; padding-left: 1em; width: 15px; margin-right: 0%; position: absolute; top: 5%; right: 3%; color: #FFF; background: #AB1111 none repeat scroll 0% 0%; border-radius: 50%; padding-right: 1em; }
+  /* line 48, ../../../sass/theme/theme-blog/_components-tablet.scss */
+  .fa-bars { margin-right: 8px; }
   /*************************MENU SLIDEBARWIDTH/****/
-  /* line 112, ../../../sass/theme/theme-blog/_components-tablet.scss */
-  .menu-slidebar-width { width: 80%; margin-left: auto; margin-right: auto; }
-  /*********END SLIDEBAR******/ }
+  /* line 58, ../../../sass/theme/theme-blog/_components-tablet.scss */
+  .menu-slidebar-width { width: 90%; margin-left: auto; margin-right: auto; } }
 @media (min-width: 1200px) { /* line 11, ../../../sass/theme/theme-blog/_components.scss */
   .menu-site ul li { display: inline-block; padding-left: 7%; }
   /* line 21, ../../../sass/theme/theme-blog/_components.scss */

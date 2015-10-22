@@ -384,9 +384,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* line 100, ../../../sass/theme/theme-items/_typography.scss */
   .menu-slidebar-width ul { padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
   /* line 104, ../../../sass/theme/theme-items/_typography.scss */
-  .menu-slidebar-width ul li a { display: block; width: 100%; text-align: center; text-decoration: none; padding-top: 12px; padding-top: 0.75rem; padding-bottom: 12px; padding-bottom: 0.75rem; font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; }
-  /* line 113, ../../../sass/theme/theme-items/_typography.scss */
-  .menu-slidebar-width ul li a:hover { font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; border-right: 4px solid #9F2626; background: #C23333 none repeat scroll 0% 0%; color: #fff; }
+  .menu-slidebar-width ul li a { display: block; width: 100%; text-align: center; text-decoration: none; padding-top: 12px; padding-top: 0.75rem; padding-bottom: 12px; padding-bottom: 0.75rem; font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; color: #000; }
+  /* line 114, ../../../sass/theme/theme-items/_typography.scss */
+  .menu-slidebar-width ul li a:hover { font-size: 20px; font-size: 1.266rem; line-height: 24px; line-height: 1.5rem; border-right: 4px solid #E11414; background: #c3c3c3 none repeat scroll 0% 0%; }
   /**end media desctop*/ }
 @media (min-width: 200px) and (max-width: 767px) { /* line 11, ../../../sass/theme/theme-items/_components-mobail.scss */
   .menu-site ul li { display: inline-block; padding-left: 7%; }
@@ -489,14 +489,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .menu-ul-li ul li a { display: block; padding: 2%; text-decoration: none; }
   /* line 37, ../../../sass/theme/theme-items/_components.scss */
   .menu-site ul li { display: inline-block; padding-left: 7%; }
-  /* line 47, ../../../sass/theme/theme-items/_components.scss */
-  #email { width: 260px; background: rgba(119, 48, 48, 0.69) none repeat scroll 0% 0%; border: none; color: #fff; height: 49%; border-radius: 2px; }
-  /* line 55, ../../../sass/theme/theme-items/_components.scss */
-  #submit { padding-left: 6%; padding-right: 6%; border: medium none; border-radius: 2px; margin-right: 33px; background: rgba(23, 98, 31, 0.74) none repeat scroll 0% 0%; color: #FFF; height: 51%; float: right; }
-  /* line 67, ../../../sass/theme/theme-items/_components.scss */
-  #submit:hover { border: none; background: rgba(23, 98, 31, 0.94) none repeat scroll 0% 0%; }
-  /* line 74, ../../../sass/theme/theme-items/_components.scss */
-  input[placeholder] { padding-left: 2%; }
+  /* line 46, ../../../sass/theme/theme-items/_components.scss */
+  .sb-slidebar { background: #fff; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9) inset; }
+  /* line 57, ../../../sass/theme/theme-items/_components.scss */
+  .menu-click { cursor: pointer; padding-left: 1em; width: 15px; margin-right: 0%; position: absolute; top: 5%; right: 3%; color: #FFF; background: #AB1111 none repeat scroll 0% 0%; border-radius: 50%; padding-right: 1em; }
+  /* line 71, ../../../sass/theme/theme-items/_components.scss */
+  .fa-bars { margin-right: 8px; }
+  /*************************MENU SLIDEBARWIDTH/****/
+  /* line 81, ../../../sass/theme/theme-items/_components.scss */
+  .menu-slidebar-width { width: 90%; margin-left: auto; margin-right: auto; }
   /**end media desctop*/ }
 @media (min-width: 200px) and (max-width: 767px) { /* line 5, ../../../sass/theme/theme-items/_grid-mobail.scss */
   body { background: #EAEAEA none repeat scroll 0% 0%; }
@@ -682,7 +683,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* line 15, ../../../sass/theme/theme-items/_grid.scss */
   .header-menu-toggle { position: relative; }
   /* line 19, ../../../sass/theme/theme-items/_grid.scss */
-  .chief { *zoom: 1; float: left; clear: none; text-align: inherit; width: 91.41667%; margin-left: 4.29167%; margin-right: 3%; }
+  .chief { *zoom: 1; float: left; clear: none; text-align: inherit; width: 100%; margin-left: 0%; margin-right: 3%; }
   /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
   .chief:before, .chief:after { content: ''; display: table; }
   /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
@@ -692,7 +693,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /*end header*/
   /**content*/
   /* line 25, ../../../sass/theme/theme-items/_grid.scss */
-  .menu-item { position: absolute; top: 30%; left: 0px; cursor: pointer; }
+  .menu-item { position: absolute; top: 30%; left: 4%; cursor: pointer; }
   /* line 33, ../../../sass/theme/theme-items/_grid.scss */
   .menu { position: absolute; top: 30%; right: 3%; cursor: pointer; }
   /* line 40, ../../../sass/theme/theme-items/_grid.scss */

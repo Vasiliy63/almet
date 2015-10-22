@@ -2,7 +2,7 @@
 
 
 //ДЛЯ DESCTOP**********************************************************************************************
-@media (min-width:1200px){
+@media (min-width:1440px){
 
   body{
     background: #2A2A2A none repeat scroll 0% 0%;
@@ -12,7 +12,7 @@
 
 
   .chief{
-    @include center(1190px);
+    @include center(1439px);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   }
   header{

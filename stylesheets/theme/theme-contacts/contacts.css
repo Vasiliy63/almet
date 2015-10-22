@@ -217,59 +217,65 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @media (min-width: 200px) and (max-width: 767px) { /* line 5, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
   .props { padding-top: 48px; padding-top: 3rem; padding-bottom: 0px; padding-bottom: 0rem; }
   /* line 10, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
-  .logotip { font-size: 27px; font-size: 1.7rem; line-height: 24px; line-height: 1.5rem; text-transform: uppercase; color: #fff; letter-spacing: 4px; padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 19, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
+  .logotip { font-size: 27px; font-size: 1.7rem; line-height: 24px; line-height: 1.5rem; text-transform: uppercase; color: #fff; letter-spacing: 4px; font-family: Arial, sans-serif; padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
+  /* line 20, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
   .text-contacts { padding-top: 48px; padding-top: 3rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 22, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
+  /* line 23, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
   .text-contacts p { color: #fff; padding-top: 12px; padding-top: 0.75rem; }
-  /* line 26, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
+  /* line 27, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
   .text-contacts ul li { color: #fff; }
-  /* line 33, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
+  /* line 32, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
+  .back-display-device-yes { margin-top: 48px; margin-top: 3rem; margin-bottom: 24px; margin-bottom: 1.5rem; }
+  /* line 39, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
   .input-holder { padding-top: 48px; padding-top: 3rem; }
-  /* line 37, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
+  /* line 43, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
   .submit { margin-top: 48px; margin-top: 3rem; margin-bottom: 48px; margin-bottom: 3rem; font-family: "RobotoCondensedLight"; }
   /*end media mobail*/ }
 @media (min-width: 992px) and (max-width: 1199px) { /* line 6, ../../../sass/theme/theme-contacts/_typography-medium.scss */
   .props { padding-top: 48px; padding-top: 3rem; padding-bottom: 0px; padding-bottom: 0rem; }
   /* line 11, ../../../sass/theme/theme-contacts/_typography-medium.scss */
-  .logotip { font-size: 27px; font-size: 1.7rem; line-height: 24px; line-height: 1.5rem; text-transform: uppercase; color: #fff; letter-spacing: 4px; padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 20, ../../../sass/theme/theme-contacts/_typography-medium.scss */
+  .logotip { font-size: 27px; font-size: 1.7rem; line-height: 24px; line-height: 1.5rem; text-transform: uppercase; color: #fff; letter-spacing: 4px; font-family: Arial, sans-serif; padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
+  /* line 21, ../../../sass/theme/theme-contacts/_typography-medium.scss */
   .text-contacts { padding-top: 48px; padding-top: 3rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 23, ../../../sass/theme/theme-contacts/_typography-medium.scss */
+  /* line 24, ../../../sass/theme/theme-contacts/_typography-medium.scss */
   .text-contacts p { color: #fff; padding-top: 12px; padding-top: 0.75rem; }
-  /* line 27, ../../../sass/theme/theme-contacts/_typography-medium.scss */
+  /* line 28, ../../../sass/theme/theme-contacts/_typography-medium.scss */
   .text-contacts ul li { color: #fff; }
-  /* line 34, ../../../sass/theme/theme-contacts/_typography-medium.scss */
+  /* line 33, ../../../sass/theme/theme-contacts/_typography-medium.scss */
+  .back-display-device-yes { margin-top: 48px; margin-top: 3rem; margin-bottom: 24px; margin-bottom: 1.5rem; }
+  /* line 40, ../../../sass/theme/theme-contacts/_typography-medium.scss */
   .input-holder { padding-top: 48px; padding-top: 3rem; }
-  /* line 38, ../../../sass/theme/theme-contacts/_typography-medium.scss */
+  /* line 44, ../../../sass/theme/theme-contacts/_typography-medium.scss */
   .submit { margin-top: 48px; margin-top: 3rem; margin-bottom: 48px; margin-bottom: 3rem; font-family: "RobotoCondensedLight"; } }
 @media (min-width: 768px) and (max-width: 991px) { /* line 8, ../../../sass/theme/theme-contacts/_typography-tablet.scss */
   .props { padding-top: 48px; padding-top: 3rem; padding-bottom: 0px; padding-bottom: 0rem; }
   /* line 13, ../../../sass/theme/theme-contacts/_typography-tablet.scss */
-  .logotip { font-size: 27px; font-size: 1.7rem; line-height: 24px; line-height: 1.5rem; text-transform: uppercase; color: #fff; letter-spacing: 4px; padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 22, ../../../sass/theme/theme-contacts/_typography-tablet.scss */
+  .logotip { font-size: 27px; font-size: 1.7rem; line-height: 24px; line-height: 1.5rem; text-transform: uppercase; color: #fff; letter-spacing: 4px; font-family: Arial, sans-serif; padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
+  /* line 23, ../../../sass/theme/theme-contacts/_typography-tablet.scss */
   .text-contacts { padding-top: 48px; padding-top: 3rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 25, ../../../sass/theme/theme-contacts/_typography-tablet.scss */
+  /* line 26, ../../../sass/theme/theme-contacts/_typography-tablet.scss */
   .text-contacts p { color: #fff; padding-top: 12px; padding-top: 0.75rem; }
-  /* line 29, ../../../sass/theme/theme-contacts/_typography-tablet.scss */
+  /* line 30, ../../../sass/theme/theme-contacts/_typography-tablet.scss */
   .text-contacts ul li { color: #fff; }
   /* line 36, ../../../sass/theme/theme-contacts/_typography-tablet.scss */
+  .back-display-device-yes { margin-top: 48px; margin-top: 3rem; margin-bottom: 24px; margin-bottom: 1.5rem; }
+  /* line 42, ../../../sass/theme/theme-contacts/_typography-tablet.scss */
   .input-holder { padding-top: 48px; padding-top: 3rem; }
-  /* line 40, ../../../sass/theme/theme-contacts/_typography-tablet.scss */
+  /* line 46, ../../../sass/theme/theme-contacts/_typography-tablet.scss */
   .submit { margin-top: 48px; margin-top: 3rem; margin-bottom: 48px; margin-bottom: 3rem; font-family: "RobotoCondensedLight"; } }
 @media (min-width: 1200px) { /* line 7, ../../../sass/theme/theme-contacts/_typography.scss */
   .props { padding-top: 48px; padding-top: 3rem; padding-bottom: 0px; padding-bottom: 0rem; }
   /* line 12, ../../../sass/theme/theme-contacts/_typography.scss */
-  .logotip { font-size: 27px; font-size: 1.7rem; line-height: 24px; line-height: 1.5rem; text-transform: uppercase; color: #fff; letter-spacing: 4px; padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 21, ../../../sass/theme/theme-contacts/_typography.scss */
+  .logotip { font-size: 27px; font-size: 1.7rem; line-height: 24px; line-height: 1.5rem; text-transform: uppercase; color: #fff; letter-spacing: 4px; font-family: Arial, sans-serif; padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
+  /* line 22, ../../../sass/theme/theme-contacts/_typography.scss */
   .text-contacts { padding-top: 48px; padding-top: 3rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 24, ../../../sass/theme/theme-contacts/_typography.scss */
+  /* line 25, ../../../sass/theme/theme-contacts/_typography.scss */
   .text-contacts p { color: #fff; padding-top: 12px; padding-top: 0.75rem; }
-  /* line 28, ../../../sass/theme/theme-contacts/_typography.scss */
+  /* line 29, ../../../sass/theme/theme-contacts/_typography.scss */
   .text-contacts ul li { color: #fff; }
-  /* line 35, ../../../sass/theme/theme-contacts/_typography.scss */
+  /* line 36, ../../../sass/theme/theme-contacts/_typography.scss */
   .input-holder { padding-top: 48px; padding-top: 3rem; }
-  /* line 39, ../../../sass/theme/theme-contacts/_typography.scss */
+  /* line 40, ../../../sass/theme/theme-contacts/_typography.scss */
   .submit { margin-top: 48px; margin-top: 3rem; margin-bottom: 48px; margin-bottom: 3rem; font-family: "RobotoCondensedLight"; }
   /**end media desctop*/ }
 @media (min-width: 200px) and (max-width: 767px) { /* line 8, ../../../sass/theme/theme-contacts/_components-mobail.scss */
@@ -403,9 +409,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* line 22, ../../../sass/theme/theme-contacts/_grid-mobail.scss */
   .back-absolute { display: none; }
   /* line 25, ../../../sass/theme/theme-contacts/_grid-mobail.scss */
-  .back-display-device-yes { z-index: 6; width: 100px; padding: 5px; color: #fff; cursor: pointer; }
-  /* line 31, ../../../sass/theme/theme-contacts/_grid-mobail.scss */
-  .back-display-device-yes display:block .fa-arrow-left { color: #fff; margin-right: 8px; }
+  .back-display-device-yes { z-index: 6; width: 100px; padding: 5px; color: #FFF; cursor: pointer; padding: 4%; background: rgba(122, 122, 122, 0.55); text-decoration: none; display: block; }
   /**ABSOLUTE*/
   /* line 39, ../../../sass/theme/theme-contacts/_grid-mobail.scss */
   .background-black { display: none; }
@@ -435,13 +439,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* line 24, ../../../sass/theme/theme-contacts/_grid-medium.scss */
   .back-absolute { display: none; }
   /* line 29, ../../../sass/theme/theme-contacts/_grid-medium.scss */
-  .back-display-device-yes { z-index: 6; width: 100px; padding: 5px; color: #fff; text-decoration: none; cursor: pointer; display: block; }
-  /* line 39, ../../../sass/theme/theme-contacts/_grid-medium.scss */
+  .back-display-device-yes { z-index: 6; width: 100px; padding: 5px; color: #FFF; cursor: pointer; padding: 4%; background: rgba(122, 122, 122, 0.55); text-decoration: none; display: block; }
+  /* line 41, ../../../sass/theme/theme-contacts/_grid-medium.scss */
   .back-display-device-yes:hover { text-decoration: none; }
   /**ABSOLUTE*/
-  /* line 44, ../../../sass/theme/theme-contacts/_grid-medium.scss */
+  /* line 46, ../../../sass/theme/theme-contacts/_grid-medium.scss */
   .background-black { background: rgba(0, 0, 0, 0.85) none repeat scroll 0% 0%; position: absolute; width: 100%; height: 100%; top: 0; right: 0; }
-  /* line 53, ../../../sass/theme/theme-contacts/_grid-medium.scss */
+  /* line 55, ../../../sass/theme/theme-contacts/_grid-medium.scss */
   .table-cell-logotip { position: relative; display: table-cell; text-align: center; vertical-align: middle; z-index: 2; width: 100%; height: 100%; *zoom: 1; float: left; clear: none; text-align: inherit; width: 65.66667%; margin-left: 17.16667%; margin-right: 3%; }
   /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
   .table-cell-logotip:before, .table-cell-logotip:after { content: ''; display: table; }
@@ -449,11 +453,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .table-cell-logotip:after { clear: both; }
   /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
   .table-cell-logotip:last-child { margin-right: 0%; }
-  /* line 64, ../../../sass/theme/theme-contacts/_grid-medium.scss */
+  /* line 66, ../../../sass/theme/theme-contacts/_grid-medium.scss */
   .almet3 { width: 150px; height: 150px; margin-left: auto; margin-right: auto; }
-  /* line 70, ../../../sass/theme/theme-contacts/_grid-medium.scss */
+  /* line 72, ../../../sass/theme/theme-contacts/_grid-medium.scss */
   .logotip { text-align: center; }
-  /* line 74, ../../../sass/theme/theme-contacts/_grid-medium.scss */
+  /* line 76, ../../../sass/theme/theme-contacts/_grid-medium.scss */
   .props { display: block; clear: both; float: none; width: 100%; margin-left: auto; margin-right: auto; }
   /* line 265, ../../../bower_components/jeet/scss/jeet/_grid.scss */
   .props:first-child { margin-left: auto; }
@@ -466,9 +470,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* line 24, ../../../sass/theme/theme-contacts/_grid-tablet.scss */
   .back-absolute { display: none; }
   /* line 27, ../../../sass/theme/theme-contacts/_grid-tablet.scss */
-  .back-display-device-yes { z-index: 6; width: 100px; padding: 5px; color: #fff; cursor: pointer; }
-  /* line 33, ../../../sass/theme/theme-contacts/_grid-tablet.scss */
-  .back-display-device-yes display:block .fa-arrow-left { color: #fff; margin-right: 8px; }
+  .back-display-device-yes { z-index: 6; width: 100px; padding: 5px; color: #FFF; cursor: pointer; padding: 4%; background: rgba(122, 122, 122, 0.55); text-decoration: none; display: block; }
   /**ABSOLUTE*/
   /* line 41, ../../../sass/theme/theme-contacts/_grid-tablet.scss */
   .background-black { background: rgba(0, 0, 0, 0.85) none repeat scroll 0% 0%; position: absolute; width: 100%; height: 100%; top: 0; right: 0; }

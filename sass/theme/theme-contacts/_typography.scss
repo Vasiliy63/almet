@@ -14,6 +14,7 @@
 text-transform: uppercase;
 color:#fff;
 letter-spacing: 4px;
+font-family: $logotip;
 @include leader($lines:1, $property:padding);
 @include trailer($lines:1, $property:padding);
 }

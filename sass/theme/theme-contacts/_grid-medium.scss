@@ -28,12 +28,14 @@ display: none;
 
 .back-display-device-yes{
   z-index: 6;
-  width:100px;
-  padding:5px;
-  color:#fff;
-  text-decoration: none;
+  width: 100px;
+  padding: 5px;
+  color: #FFF;
   cursor: pointer;
-  display:block;
+  padding: 4%;
+  background: rgba(122, 122, 122, 0.55);
+  text-decoration: none;
+  display: block;
 }
 
 .back-display-device-yes:hover{

@@ -109,12 +109,13 @@ text-align: center;
   @include leader($lines:0.5, $property:padding);
   @include trailer($lines:0.5, $property:padding);
   @include adjust-font-size-to(1.266rem, 1);
+    color:#000;
 
   &:hover{
     @include adjust-font-size-to(1.266rem, 1);
-    border-right: 4px solid #9F2626;
-  background:#C23333 none repeat scroll 0% 0%;
-    color:#fff;
+    border-right: 4px solid #E11414;
+    background: rgb(195, 195, 195) none repeat scroll 0% 0%;
+
   }
 }
 
