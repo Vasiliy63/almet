@@ -2,7 +2,7 @@
 
 
 //ДЛЯ DESCTOP**********************************************************************************************
-@media (min-width:1440px){
+@media (min-width:1200px){
 
   body{
     background: #2A2A2A none repeat scroll 0% 0%;
@@ -12,7 +12,7 @@
 
 
   .chief{
-    @include center(1439px);
+    @include center(1190px);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   }
   header{
@@ -31,7 +31,8 @@
 }
 
   .menu-site{
-    @include column(7.5/12, $offset: 0.5/12);
+    width: 844px;
+margin-left: auto;
   }
 .menu-click{
   display:none;
@@ -164,7 +165,7 @@ overflow: hidden;
 }
 
 .svgbox{
-  @include span(1/4);
+  @include span(1/7);
 }
 
 

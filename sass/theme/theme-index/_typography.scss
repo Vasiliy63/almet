@@ -2,7 +2,7 @@
 @import "../vertical-rhythm.scss";
 
 //ДЛЯ DESCTOP**********************************************************************************************
-@media (min-width:1440px){
+@media (min-width:1200px){
 
   // body{
   //   @include debug-vertical-alignment();
@@ -59,8 +59,8 @@
 
 
 .mod-1{
-  @include leader($lines:5, $property:padding);
-  @include trailer($lines:5, $property:padding);
+  @include leader($lines:6, $property:padding);
+  @include trailer($lines:6, $property:padding);
 }
 
 .form-email{
