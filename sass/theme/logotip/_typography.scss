@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@import "../vertical-rhythm.scss";
+
+//ДЛЯ DESCTOP**********************************************************************************************
+@media (min-width:1200px){
+  .logotip-almet{
+    text-decoration:none;
+  }
+  .logotip-almet p.logotip{
+    font-family: $logotip;
+    text-align: center;
+    text-transform: uppercase;
+    color:#000;
+      @include leader($lines:0.1, $property:padding);
+      @include adjust-font-size-to (1.5rem, 1);
+      letter-spacing:0px;
+      @include trailing-border($width:2px,$lines:0.4, $border-style:solid);
+  }
+
+
+.logotip-almet {
+  .logotip{
+    @include leader($lines:0.5, $property:padding);
+    }
+
+}
+
+
+/*footer*/
+
+.logo-footer{
+	@include trailer($lines:0.5, $property:padding);
+}
+
+.logotip{
+  @include leader($lines:0.2, $property:padding);
+  }
+
+.mod-footer p.logotip{
+	@include trailing-border($width:1px,$lines:0.2, $border-style:solid);
+  color:#000;
+  font-family:$logotip;
+  text-transform: uppercase;
+
+}
+
+/**end media desctop*/
+}

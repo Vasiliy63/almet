@@ -13,18 +13,18 @@
   }
 
   //*header*/
-  .logotip-almet{
-    text-decoration:none;
-  }
-  .logotip-almet p.logotip{
-    font-family: $logotip;
-    text-align: center;
-    text-transform: uppercase;
-    color:#fff;
-      @include leader($lines:0.5, $property:padding);
-      @include adjust-font-size-to (1.3rem, 1);
-      letter-spacing:2px;
-  }
+  // .logotip-almet{
+  //   text-decoration:none;
+  // }
+  // .logotip-almet p.logotip{
+  //   font-family: $logotip;
+  //   text-align: center;
+  //   text-transform: uppercase;
+  //   color:#fff;
+  //     @include leader($lines:0.5, $property:padding);
+  //     @include adjust-font-size-to (1.3rem, 1);
+  //     letter-spacing:2px;
+  // }
   .menu-click{
 
     @include leader($lines:0.5, $property:padding);
@@ -191,17 +191,17 @@ text-align:center;
 	color:#fff;
 }
 
-.logo-footer{
-	@include trailer($lines:0.5, $property:padding);
-}
-
-.mod-footer p.logotip{
-	@include trailing-border($width:1px,$lines:0.5, $border-style:solid);
-  color:#000;
-  font-family:$logotip;
-
-
-}
+// .logo-footer{
+// 	@include trailer($lines:0.5, $property:padding);
+// }
+//
+// .mod-footer p.logotip{
+// 	@include trailing-border($width:1px,$lines:0.5, $border-style:solid);
+//   color:#000;
+//   font-family:$logotip;
+//
+//
+// }
 .fa-map-marker{
   color:#000;
   padding-right: 2%;

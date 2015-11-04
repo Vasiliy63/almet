@@ -17,37 +17,39 @@ header{
   @include column(12/12);
 }
 
-.logotip-almet{
-display:block;
-@include column(3/12, $offset: 0.2/12);
-}
+// .logotip-almet{
+// display:block;
+// // @include column(3/12, $offset: 0.2/12);
+// width:200px;
+// margin-left:40px;
+// }
 
 .menu-site{
   display:none;
 }
 
 /*svg almet*/
-.almet{
-display:none;
-
-}
-
-.almet2{
-  width: 95px;
-  height: 95px;
-  margin:auto;
-}
-
-
-.absolute-email{
-  position: absolute;
-  top: 71%;
-  right: 4%;
-  width: 220px;
-.fa-paper-plane{
-  color: #C23221;
-}
-}
+// .almet{
+// display:none;
+//
+// }
+//
+// .almet2{
+//   width: 95px;
+//   height: 95px;
+//   margin:auto;
+// }
+//
+//
+// .absolute-email{
+//   position: absolute;
+//   top: 71%;
+//   right: 4%;
+//   width: 220px;
+// .fa-paper-plane{
+//   color: #C23221;
+// }
+// }
 
 //*******************End Header
 
@@ -56,7 +58,7 @@ display:none;
 .row-mod-1{
   overflow:hidden;
 @include column(12/12);
-background: url('../../../img/fon/20071101_062.jpg');
+background: url('../../../img/fon/20071101_147.jpg');
 background-position: center;
 background-repeat: no-repeat;
 }
@@ -172,13 +174,13 @@ background: rgba(195, 52, 46, 0.9) none repeat scroll 0% 0%;
       width: 100%;
       height:72px;
     }
-    .logotip {
-      font-size: 1rem;
-      text-align: center;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      padding-left: 4px;
-    }
+    // .logotip {
+    //   font-size: 1rem;
+    //   text-align: center;
+    //   text-transform: uppercase;
+    //   letter-spacing: 2px;
+    //   padding-left: 4px;
+    // }
     .social {
       display: block;
       width: 300px;

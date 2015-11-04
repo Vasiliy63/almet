@@ -1,0 +1,1058 @@
+@charset "UTF-8";
+/* line 5, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/*  Syntax Quick Reference
+  --------------------------
+  column($ratios: 1, $offset: 0, $cycle: 0, $uncycle: 0, $gutter: $jeet-gutter)
+  span($ratio: 1, $offset: 0)
+  shift($ratios: 0, $col_or_span: column, $gutter: $jeet-gutter)
+  unshift()
+  edit()
+  center($max_width: 1410px, $pad: 0)
+  stack($pad: 0, $align: false)
+  unstack()
+  align($direction: both)
+  cf()
+*/
+/**
+ * Grid settings.
+ * All values are defaults and can therefore be easily overidden.
+ */
+/**
+ * List functions courtesy of the wonderful folks at Team Sass.
+ * Check out their awesome grid: Singularity.
+ */
+/**
+ * Get  percentage from a given ratio.
+ * @param {number} [$ratio=1] - The column ratio of the element.
+ * @returns {number} - The percentage value.
+ */
+/**
+ * Work out the column widths based on the ratio and gutter sizes.
+ * @param {number} [$ratios=1] - The column ratio of the element.
+ * @param {number} [$gutter=$jeet-gutter] - The gutter for the column.
+ * @returns {list} $width $gutter - A list containing the with and gutter for the element.
+ */
+/**
+ * Get the set layout direction for the project.
+ * @returns {string} $direction - The layout direction.
+ */
+/**
+ * Replace a specified list value with a new value (uses built in set-nth() if available)
+ * @param {list} $list - The list of values you want to alter.
+ * @param {number} $index - The index of the list item you want to replace.
+ * @param {*} $value - The value you want to replace $index with.
+ * @returns {list} $list - The list with the value replaced or removed.
+ * @warn if an invalid index is supplied.
+ */
+/**
+ * Reverse a list (progressively enhanced for Sass 3.3)
+ * @param {list} $list - The list of values you want to reverse.
+ * @returns {list} $result - The reversed list.
+ */
+/**
+ * Get the opposite direction to a given value.
+ * @param {string} $dir - The direction you want the opposite of.
+ * @returns {string} - The opposite direction to $dir.
+ * @warn if an incorrect string is provided.
+ */
+/**
+ * Style an element as a column with a gutter.
+ * @param {number} [$ratios=1] - A width relative to its container as a fraction.
+ * @param {number} [$offset=0] - A offset specified as a fraction (see $ratios).
+ * @param {number} [$cycle=0] - Easily create an nth column grid where $cycle equals the number of columns.
+ * @param {number} [$uncycle=0] - Undo a previous cycle value to allow for a new one.
+ * @param {number} [$gutter=$jeet-gutter] - Specify the gutter width as a percentage of the containers width.
+ */
+/**
+ * An alias for the column mixin.
+ * @param [$args...] - All arguments get passed through to column().
+ */
+/**
+ * Get the width of a column and nothing else.
+ * @param {number} [$ratios=1] - A width relative to its container as a fraction.
+ * @param {number} [$gutter=$jeet-gutter] - Specify the gutter width as a percentage of the containers width.
+ */
+/**
+ * Get the gutter size of a column and nothing else.
+ * @param {number} [ratios=1] - A width relative to its container as a fraction.
+ * @param {number} [gutter=jeet.gutter] - Specify the gutter width as a percentage of the containers width.
+ */
+/**
+ * An alias for the column-width function.
+ * @param [$args...] - All arguments get passed through to column().
+ */
+/**
+ * An alias for the column-gutter function.
+ * @param [$args...] - All arguments get passed through to column().
+ */
+/**
+ * Style an element as a column without any gutters for a seamless row.
+ * @param {number} [$ratios=1] - A width relative to its container as a fraction.
+ * @param {number} [$offset=0] - A offset specified as a fraction (see $ratios).
+ * @param {number} [cycle=0] - Easily create an nth column grid where cycle equals the number of columns.
+ * @param {number} [uncycle=0] - Undo a previous cycle value to allow for a new one.
+ */
+/**
+ * Reorder columns without altering the HTML.
+ * @param {number} [$ratios=0] - Specify how far along you want the element to move.
+ * @param {string} [$col-or-span=column] - Specify whether the element has a gutter or not.
+ * @param {number} [$gutter=$jeet-gutter] - Specify the gutter width as a percentage of the containers width.
+ */
+/**
+ * Reset an element that has had shift() applied to it.
+ */
+/**
+ * View the grid and its layers for easy debugging.
+ * @param {string} [$color=black] - The background tint applied.
+ * @param {boolean} [$important=false] - Whether to apply the style as !important.
+ */
+/**
+ *  Alias for edit().
+ */
+/**
+ * Horizontally center an element.
+ * @param {number} [$max-width=1410px] - The max width the element can be.
+ * @param {number} [$pad=0] - Specify the element's left and right padding.
+ */
+/**
+ * Uncenter an element.
+ */
+/**
+ * Stack an element so that nothing is either side of it.
+ * @param {number} [$pad=0] - Specify the element's left and right padding.
+ * @param {boolean/string} [$align=false] - Specify the text align for the element.
+ */
+/**
+ * Unstack an element.
+ */
+/**
+ * Center an element on either or both axes.
+ * @requires A parent container with relative positioning.
+ * @param {string} [$direction=both] - Specify which axes to center the element on.
+ */
+/**
+ * Apply a clearfix to an element.
+ */
+/* font-family: "HeliosCondRegular"; */
+@font-face {
+  font-family: "HeliosCondRegular";
+  src: url("../../../fonts/HeliosCondRegular/HeliosCondRegular.eot");
+  src: url("../../../fonts/HeliosCondRegular/HeliosCondRegular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/HeliosCondRegular/HeliosCondRegular.woff") format("woff"), url("../../../fonts/HeliosCondRegular/HeliosCondRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+/* font-family: "HeliosCondItalic"; */
+@font-face {
+  font-family: "HeliosCondItalic";
+  src: url("../../../fonts/HeliosCondItalic/HeliosCondItalic.eot");
+  src: url("../../../fonts/HeliosCondItalic/HeliosCondItalic.eot?#iefix") format("embedded-opentype"), url("../../../fonts/HeliosCondItalic/HeliosCondItalic.woff") format("woff"), url("../../../fonts/HeliosCondItalic/HeliosCondItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+/* font-family: "HeliosCondBold"; */
+@font-face {
+  font-family: "HeliosCondBold";
+  src: url("../../../fonts/HeliosCondBold/HeliosCondBold.eot");
+  src: url("../../../fonts/HeliosCondBold/HeliosCondBold.eot?#iefix") format("embedded-opentype"), url("../../../fonts/HeliosCondBold/HeliosCondBold.woff") format("woff"), url("../../../fonts/HeliosCondBold/HeliosCondBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+/* font-family: "HeliosCondBoldItalic"; */
+@font-face {
+  font-family: "HeliosCondBoldItalic";
+  src: url("../../../fonts/HeliosCondBoldItalic/HeliosCondBoldItalic.eot");
+  src: url("../../../fonts/HeliosCondBoldItalic/HeliosCondBoldItalic.eot?#iefix") format("embedded-opentype"), url("../../../fonts/HeliosCondBoldItalic/HeliosCondBoldItalic.woff") format("woff"), url("../../../fonts/HeliosCondBoldItalic/HeliosCondBoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+/* Код для подключения шрифта в /css/stylename.css */
+/* font-family: "RobotoCondensedRegular"; */
+@font-face {
+  font-family: "RobotoCondensedRegular";
+  src: url("../../../fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot");
+  src: url("../../../fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/RobotoCondensedRegular/RobotoCondensedRegular.woff") format("woff"), url("../../../fonts/RobotoCondensedRegular/RobotoCondensedRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+/* font-family: "RobotoCondensedLight"; */
+@font-face {
+  font-family: "RobotoCondensedLight";
+  src: url("../../../fonts/RobotoCondensedLight/RobotoCondensedLight.eot");
+  src: url("../../../fonts/RobotoCondensedLight/RobotoCondensedLight.eot?#iefix") format("embedded-opentype"), url("../../../fonts/RobotoCondensedLight/RobotoCondensedLight.woff") format("woff"), url("../../../fonts/RobotoCondensedLight/RobotoCondensedLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+/* font-family: "RobotoCondensedBold"; */
+@font-face {
+  font-family: "RobotoCondensedBold";
+  src: url("../../../fonts/RobotoCondensedBold/RobotoCondensedBold.eot");
+  src: url("../../../fonts/RobotoCondensedBold/RobotoCondensedBold.eot?#iefix") format("embedded-opentype"), url("../../../fonts/RobotoCondensedBold/RobotoCondensedBold.woff") format("woff"), url("../../../fonts/RobotoCondensedBold/RobotoCondensedBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+/* line 4, ../../../sass/theme/_base.scss */
+.clear {
+  clear: both; }
+
+@media (min-width: 200px) and (max-width: 767px) {
+  /* line 106, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+  html {
+    font-size: 100%;
+    line-height: 1.5em; }
+
+  /* line 21, ../../../sass/theme/_vertical-rhythm.scss */
+  h2 {
+    font-size: 64px;
+    font-size: 3.998rem;
+    line-height: 120px;
+    line-height: 7.5rem; }
+
+  /* line 22, ../../../sass/theme/_vertical-rhythm.scss */
+  h3 {
+    font-size: 24px;
+    font-size: 1.527rem;
+    line-height: 72px;
+    line-height: 4.5rem; }
+
+  /* line 23, ../../../sass/theme/_vertical-rhythm.scss */
+  h4 {
+    font-size: 24px;
+    font-size: 1.499rem;
+    line-height: 48px;
+    line-height: 3rem; }
+
+  /* line 24, ../../../sass/theme/_vertical-rhythm.scss */
+  h5 {
+    font-size: 23px;
+    font-size: 1.414rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
+  /* line 25, ../../../sass/theme/_vertical-rhythm.scss */
+  h6 {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
+  /* line 26, ../../../sass/theme/_vertical-rhythm.scss */
+  p {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
+  /* line 29, ../../../sass/theme/_vertical-rhythm.scss */
+  h2, h3, h4, h5, h6 {
+    font-family: "HeliosCondRegular"; }
+
+  /* line 33, ../../../sass/theme/_vertical-rhythm.scss */
+  h2 {
+    font-family: "HeliosCondRegular";
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #fff; }
+
+  /* line 40, ../../../sass/theme/_vertical-rhythm.scss */
+  p {
+    font-family: "RobotoCondensedLight"; }
+    /* line 44, ../../../sass/theme/_vertical-rhythm.scss */
+    p [data-vertical-rhythm="true"] {
+      transition: padding-bottom 2s; }
+
+  /* line 49, ../../../sass/theme/_vertical-rhythm.scss */
+  a {
+    font-family: "RobotoCondensedLight";
+    color: #fff;
+    outline: none !important; }
+
+  /* line 56, ../../../sass/theme/_vertical-rhythm.scss */
+  a {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
+  /* line 58, ../../../sass/theme/_vertical-rhythm.scss */
+  ul, li {
+    font-family: "RobotoCondensedLight";
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
+  /* line 63, ../../../sass/theme/_vertical-rhythm.scss */
+  input {
+    font-family: Arial, sans-serif; }
+
+  /* line 67, ../../../sass/theme/_vertical-rhythm.scss */
+  .title-p {
+    font-family: "RobotoCondensedLight"; }
+
+  /* line 70, ../../../sass/theme/_vertical-rhythm.scss */
+  img, iframe {
+    display: block;
+    max-width: 100%;
+    border-image: none; }
+
+  /* line 76, ../../../sass/theme/_vertical-rhythm.scss */
+  .message {
+    font-family: "RobotoCondensedLight"; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 106, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+  html {
+    font-size: 100%;
+    line-height: 1.5em; }
+
+  /* line 91, ../../../sass/theme/_vertical-rhythm.scss */
+  h2 {
+    font-size: 64px;
+    font-size: 3.998rem;
+    line-height: 120px;
+    line-height: 7.5rem; }
+
+  /* line 92, ../../../sass/theme/_vertical-rhythm.scss */
+  h3 {
+    font-size: 36px;
+    font-size: 2.227rem;
+    line-height: 72px;
+    line-height: 4.5rem; }
+
+  /* line 93, ../../../sass/theme/_vertical-rhythm.scss */
+  h4 {
+    font-size: 32px;
+    font-size: 1.999rem;
+    line-height: 48px;
+    line-height: 3rem; }
+
+  /* line 94, ../../../sass/theme/_vertical-rhythm.scss */
+  h5 {
+    font-size: 23px;
+    font-size: 1.414rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
+  /* line 95, ../../../sass/theme/_vertical-rhythm.scss */
+  h6 {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
+  /* line 96, ../../../sass/theme/_vertical-rhythm.scss */
+  p {
+    font-size: 19px;
+    font-size: 1.2rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
+  /* line 99, ../../../sass/theme/_vertical-rhythm.scss */
+  h2, h3, h4, h5, h6 {
+    font-family: "HeliosCondRegular"; }
+
+  /* line 105, ../../../sass/theme/_vertical-rhythm.scss */
+  h2 {
+    font-family: "HeliosCondRegular";
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff; }
+
+  /* line 112, ../../../sass/theme/_vertical-rhythm.scss */
+  p {
+    font-family: "RobotoCondensedLight"; }
+    /* line 116, ../../../sass/theme/_vertical-rhythm.scss */
+    p [data-vertical-rhythm="true"] {
+      transition: padding-bottom 2s; }
+
+  /* line 123, ../../../sass/theme/_vertical-rhythm.scss */
+  a {
+    font-family: "RobotoCondensedLight";
+    color: #fff;
+    outline: medium none !important; }
+
+  /* line 129, ../../../sass/theme/_vertical-rhythm.scss */
+  a {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
+  /* line 131, ../../../sass/theme/_vertical-rhythm.scss */
+  ul, li {
+    font-family: "RobotoCondensedLight";
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
+  /* line 136, ../../../sass/theme/_vertical-rhythm.scss */
+  input {
+    font-family: Arial, sans-serif; }
+
+  /* line 140, ../../../sass/theme/_vertical-rhythm.scss */
+  .title-p {
+    font-family: "RobotoCondensedLight"; }
+
+  /* line 143, ../../../sass/theme/_vertical-rhythm.scss */
+  img, iframe {
+    display: block;
+    max-width: 100%; }
+
+  /* line 148, ../../../sass/theme/_vertical-rhythm.scss */
+  .message {
+    font-family: "RobotoCondensedLight"; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 106, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+  html {
+    font-size: 100%;
+    line-height: 1.5em; }
+
+  /* line 163, ../../../sass/theme/_vertical-rhythm.scss */
+  h2 {
+    font-size: 64px;
+    font-size: 3.998rem;
+    line-height: 120px;
+    line-height: 7.5rem; }
+
+  /* line 164, ../../../sass/theme/_vertical-rhythm.scss */
+  h3 {
+    font-size: 45px;
+    font-size: 2.827rem;
+    line-height: 72px;
+    line-height: 4.5rem; }
+
+  /* line 165, ../../../sass/theme/_vertical-rhythm.scss */
+  h4 {
+    font-size: 32px;
+    font-size: 1.999rem;
+    line-height: 48px;
+    line-height: 3rem; }
+
+  /* line 166, ../../../sass/theme/_vertical-rhythm.scss */
+  h5 {
+    font-size: 23px;
+    font-size: 1.414rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
+  /* line 167, ../../../sass/theme/_vertical-rhythm.scss */
+  h6 {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
+  /* line 168, ../../../sass/theme/_vertical-rhythm.scss */
+  p {
+    font-size: 19px;
+    font-size: 1.2rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
+  /* line 171, ../../../sass/theme/_vertical-rhythm.scss */
+  h2, h3, h4, h5, h6 {
+    font-family: "HeliosCondRegular"; }
+
+  /* line 177, ../../../sass/theme/_vertical-rhythm.scss */
+  h2 {
+    font-family: "HeliosCondRegular";
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #fff; }
+
+  /* line 184, ../../../sass/theme/_vertical-rhythm.scss */
+  p {
+    font-family: "RobotoCondensedLight"; }
+    /* line 188, ../../../sass/theme/_vertical-rhythm.scss */
+    p [data-vertical-rhythm="true"] {
+      transition: padding-bottom 2s; }
+
+  /* line 195, ../../../sass/theme/_vertical-rhythm.scss */
+  a {
+    font-family: "RobotoCondensedLight";
+    color: #fff;
+    outline: medium none !important; }
+
+  /* line 201, ../../../sass/theme/_vertical-rhythm.scss */
+  a {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
+  /* line 203, ../../../sass/theme/_vertical-rhythm.scss */
+  ul, li {
+    font-family: "RobotoCondensedLight";
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
+  /* line 208, ../../../sass/theme/_vertical-rhythm.scss */
+  input {
+    font-family: Arial, sans-serif; }
+
+  /* line 212, ../../../sass/theme/_vertical-rhythm.scss */
+  .title-p {
+    font-family: "RobotoCondensedLight"; }
+
+  /* line 216, ../../../sass/theme/_vertical-rhythm.scss */
+  img, iframe {
+    display: block;
+    max-width: 100%; }
+
+  /* line 222, ../../../sass/theme/_vertical-rhythm.scss */
+  .message {
+    font-family: "RobotoCondensedLight"; } }
+@media (min-width: 1200px) {
+  /* line 106, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+  html {
+    font-size: 100%;
+    line-height: 1.5em; }
+
+  /* line 238, ../../../sass/theme/_vertical-rhythm.scss */
+  h2 {
+    font-size: 64px;
+    font-size: 3.998rem;
+    line-height: 120px;
+    line-height: 7.5rem; }
+
+  /* line 239, ../../../sass/theme/_vertical-rhythm.scss */
+  h3 {
+    font-size: 45px;
+    font-size: 2.827rem;
+    line-height: 72px;
+    line-height: 4.5rem; }
+
+  /* line 240, ../../../sass/theme/_vertical-rhythm.scss */
+  h4 {
+    font-size: 32px;
+    font-size: 1.999rem;
+    line-height: 48px;
+    line-height: 3rem; }
+
+  /* line 241, ../../../sass/theme/_vertical-rhythm.scss */
+  h5 {
+    font-size: 23px;
+    font-size: 1.414rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
+  /* line 242, ../../../sass/theme/_vertical-rhythm.scss */
+  h6 {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
+  /* line 243, ../../../sass/theme/_vertical-rhythm.scss */
+  p {
+    font-size: 19px;
+    font-size: 1.2rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
+  /* line 246, ../../../sass/theme/_vertical-rhythm.scss */
+  h2, h3, h4, h5, h6 {
+    font-family: "HeliosCondRegular"; }
+
+  /* line 252, ../../../sass/theme/_vertical-rhythm.scss */
+  h2 {
+    font-family: "HeliosCondRegular";
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #fff; }
+
+  /* line 259, ../../../sass/theme/_vertical-rhythm.scss */
+  p {
+    font-family: "RobotoCondensedLight"; }
+    /* line 263, ../../../sass/theme/_vertical-rhythm.scss */
+    p [data-vertical-rhythm="true"] {
+      transition: padding-bottom 2s; }
+
+  /* line 271, ../../../sass/theme/_vertical-rhythm.scss */
+  a {
+    font-family: "RobotoCondensedLight";
+    color: #fff;
+    outline: medium none !important; }
+
+  /* line 277, ../../../sass/theme/_vertical-rhythm.scss */
+  a {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
+  /* line 279, ../../../sass/theme/_vertical-rhythm.scss */
+  ul, li {
+    font-family: "RobotoCondensedLight";
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
+  /* line 284, ../../../sass/theme/_vertical-rhythm.scss */
+  input {
+    font-family: Arial, sans-serif; }
+
+  /* line 288, ../../../sass/theme/_vertical-rhythm.scss */
+  .title-p {
+    font-family: "RobotoCondensedLight"; }
+
+  /* line 292, ../../../sass/theme/_vertical-rhythm.scss */
+  img, iframe {
+    display: block;
+    max-width: 100%; }
+
+  /* line 298, ../../../sass/theme/_vertical-rhythm.scss */
+  .message {
+    font-family: "RobotoCondensedLight"; } }
+@media (min-width: 200px) and (max-width: 767px) {
+  /* line 6, ../../../sass/theme/logotip/_typography-mobail.scss */
+  .logotip-almet {
+    text-decoration: none; }
+
+  /* line 9, ../../../sass/theme/logotip/_typography-mobail.scss */
+  .logotip-almet p.logotip {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 2px;
+    padding-top: 0.15rem;
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 24px;
+    line-height: 1.5rem;
+    letter-spacing: 0px;
+    border-bottom-width: 2px;
+    border-bottom-width: 0.125rem;
+    border-bottom-style: solid;
+    padding-bottom: 8px;
+    padding-bottom: 0.475rem; }
+
+  /* line 22, ../../../sass/theme/logotip/_typography-mobail.scss */
+  .logotip-almet .logotip {
+    padding-top: 12px;
+    padding-top: 0.75rem; }
+
+  /*footer*/
+  /* line 31, ../../../sass/theme/logotip/_typography-mobail.scss */
+  .logo-footer {
+    padding-bottom: 12px;
+    padding-bottom: 0.75rem; }
+
+  /* line 35, ../../../sass/theme/logotip/_typography-mobail.scss */
+  .logotip {
+    padding-top: 5px;
+    padding-top: 0.3rem; }
+
+  /* line 39, ../../../sass/theme/logotip/_typography-mobail.scss */
+  .mod-footer p.logotip {
+    border-bottom-width: 1px;
+    border-bottom-width: 0.0625rem;
+    border-bottom-style: solid;
+    padding-bottom: 4px;
+    padding-bottom: 0.2375rem;
+    color: #000;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase; }
+
+  /*end media mobail*/ }
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 7, ../../../sass/theme/logotip/_typography-medium.scss */
+  .logotip-almet {
+    text-decoration: none; }
+
+  /* line 10, ../../../sass/theme/logotip/_typography-medium.scss */
+  .logotip-almet p.logotip {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 2px;
+    padding-top: 0.15rem;
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 24px;
+    line-height: 1.5rem;
+    letter-spacing: 0px;
+    border-bottom-width: 2px;
+    border-bottom-width: 0.125rem;
+    border-bottom-style: solid;
+    padding-bottom: 8px;
+    padding-bottom: 0.475rem; }
+
+  /* line 23, ../../../sass/theme/logotip/_typography-medium.scss */
+  .logotip-almet .logotip {
+    padding-top: 12px;
+    padding-top: 0.75rem; }
+
+  /*footer*/
+  /* line 32, ../../../sass/theme/logotip/_typography-medium.scss */
+  .logo-footer {
+    padding-bottom: 12px;
+    padding-bottom: 0.75rem; }
+
+  /* line 36, ../../../sass/theme/logotip/_typography-medium.scss */
+  .logotip {
+    padding-top: 5px;
+    padding-top: 0.3rem; }
+
+  /* line 40, ../../../sass/theme/logotip/_typography-medium.scss */
+  .mod-footer p.logotip {
+    border-bottom-width: 1px;
+    border-bottom-width: 0.0625rem;
+    border-bottom-style: solid;
+    padding-bottom: 4px;
+    padding-bottom: 0.2375rem;
+    color: #000;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 7, ../../../sass/theme/logotip/_typography-tablet.scss */
+  .logotip-almet {
+    text-decoration: none; }
+
+  /* line 10, ../../../sass/theme/logotip/_typography-tablet.scss */
+  .logotip-almet p.logotip {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 2px;
+    padding-top: 0.15rem;
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 24px;
+    line-height: 1.5rem;
+    letter-spacing: 0px;
+    border-bottom-width: 2px;
+    border-bottom-width: 0.125rem;
+    border-bottom-style: solid;
+    padding-bottom: 8px;
+    padding-bottom: 0.475rem; }
+
+  /* line 23, ../../../sass/theme/logotip/_typography-tablet.scss */
+  .logotip-almet .logotip {
+    padding-top: 12px;
+    padding-top: 0.75rem; }
+
+  /*footer*/
+  /* line 32, ../../../sass/theme/logotip/_typography-tablet.scss */
+  .logo-footer {
+    padding-bottom: 12px;
+    padding-bottom: 0.75rem; }
+
+  /* line 36, ../../../sass/theme/logotip/_typography-tablet.scss */
+  .logotip {
+    padding-top: 5px;
+    padding-top: 0.3rem; }
+
+  /* line 40, ../../../sass/theme/logotip/_typography-tablet.scss */
+  .mod-footer p.logotip {
+    border-bottom-width: 1px;
+    border-bottom-width: 0.0625rem;
+    border-bottom-style: solid;
+    padding-bottom: 4px;
+    padding-bottom: 0.2375rem;
+    color: #000;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase; } }
+@media (min-width: 1200px) {
+  /* line 6, ../../../sass/theme/logotip/_typography.scss */
+  .logotip-almet {
+    text-decoration: none; }
+
+  /* line 9, ../../../sass/theme/logotip/_typography.scss */
+  .logotip-almet p.logotip {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    padding-top: 2px;
+    padding-top: 0.15rem;
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 24px;
+    line-height: 1.5rem;
+    letter-spacing: 0px;
+    border-bottom-width: 2px;
+    border-bottom-width: 0.125rem;
+    border-bottom-style: solid;
+    padding-bottom: 8px;
+    padding-bottom: 0.475rem; }
+
+  /* line 22, ../../../sass/theme/logotip/_typography.scss */
+  .logotip-almet .logotip {
+    padding-top: 12px;
+    padding-top: 0.75rem; }
+
+  /*footer*/
+  /* line 31, ../../../sass/theme/logotip/_typography.scss */
+  .logo-footer {
+    padding-bottom: 12px;
+    padding-bottom: 0.75rem; }
+
+  /* line 35, ../../../sass/theme/logotip/_typography.scss */
+  .logotip {
+    padding-top: 5px;
+    padding-top: 0.3rem; }
+
+  /* line 39, ../../../sass/theme/logotip/_typography.scss */
+  .mod-footer p.logotip {
+    border-bottom-width: 1px;
+    border-bottom-width: 0.0625rem;
+    border-bottom-style: solid;
+    padding-bottom: 4px;
+    padding-bottom: 0.2375rem;
+    color: #000;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase; }
+
+  /**end media desctop*/ }
+@media (min-width: 200px) and (max-width: 767px) {
+  /* line 6, ../../../sass/theme/logotip/_grid-mobail.scss */
+  .logotip-almet {
+    display: block;
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  /*svg almet*/
+  /* line 14, ../../../sass/theme/logotip/_grid-mobail.scss */
+  .almet {
+    display: none; }
+
+  /* line 18, ../../../sass/theme/logotip/_grid-mobail.scss */
+  .almet2 {
+    width: 105px;
+    height: 102px;
+    margin: auto; }
+
+  /* line 24, ../../../sass/theme/logotip/_grid-mobail.scss */
+  .absolute-email {
+    display: none; }
+    /* line 26, ../../../sass/theme/logotip/_grid-mobail.scss */
+    .absolute-email .fa-paper-plane {
+      color: #C23221; }
+
+  /* line 32, ../../../sass/theme/logotip/_grid-mobail.scss */
+  .absolute-phone {
+    display: none; }
+    /* line 34, ../../../sass/theme/logotip/_grid-mobail.scss */
+    .absolute-phone .fa-phone {
+      color: #C23221; }
+
+  /* line 42, ../../../sass/theme/logotip/_grid-mobail.scss */
+  .logo-footer {
+    width: 100%;
+    height: 70px; }
+
+  /* line 47, ../../../sass/theme/logotip/_grid-mobail.scss */
+  .logotip {
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-left: 4px; }
+
+  /*end media mobail*/ }
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 7, ../../../sass/theme/logotip/_grid-medium.scss */
+  .logotip-almet {
+    display: block;
+    width: 320px;
+    margin-left: 35px; }
+
+  /*svg almet*/
+  /* line 14, ../../../sass/theme/logotip/_grid-medium.scss */
+  .almet {
+    display: none; }
+
+  /* line 18, ../../../sass/theme/logotip/_grid-medium.scss */
+  .almet2 {
+    width: 105px;
+    height: 102px;
+    margin: auto; }
+
+  /* line 24, ../../../sass/theme/logotip/_grid-medium.scss */
+  .absolute-email {
+    position: absolute;
+    top: 8%;
+    right: 24%;
+    width: 260px; }
+    /* line 29, ../../../sass/theme/logotip/_grid-medium.scss */
+    .absolute-email .fa-paper-plane {
+      color: #C23221; }
+
+  /* line 35, ../../../sass/theme/logotip/_grid-medium.scss */
+  .absolute-phone {
+    position: absolute;
+    top: 8%;
+    right: -1%;
+    width: 300px;
+    color: #fff; }
+    /* line 41, ../../../sass/theme/logotip/_grid-medium.scss */
+    .absolute-phone .fa-phone {
+      color: #C23221; }
+
+  /* line 49, ../../../sass/theme/logotip/_grid-medium.scss */
+  .logo-footer {
+    width: 100%;
+    height: 70px; }
+
+  /* line 54, ../../../sass/theme/logotip/_grid-medium.scss */
+  .logotip {
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-left: 4px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 7, ../../../sass/theme/logotip/_grid-tablet.scss */
+  .logotip-almet {
+    display: block;
+    width: 320px;
+    margin-left: 35px; }
+
+  /*svg almet*/
+  /* line 14, ../../../sass/theme/logotip/_grid-tablet.scss */
+  .almet {
+    display: none; }
+
+  /* line 18, ../../../sass/theme/logotip/_grid-tablet.scss */
+  .almet2 {
+    width: 105px;
+    height: 102px;
+    margin: auto; }
+
+  /* line 24, ../../../sass/theme/logotip/_grid-tablet.scss */
+  .absolute-email {
+    position: absolute;
+    top: 8%;
+    right: 27%;
+    width: 260px; }
+    /* line 29, ../../../sass/theme/logotip/_grid-tablet.scss */
+    .absolute-email .fa-paper-plane {
+      color: #C23221; }
+
+  /* line 35, ../../../sass/theme/logotip/_grid-tablet.scss */
+  .absolute-phone {
+    position: absolute;
+    top: 8%;
+    right: -1%;
+    width: 300px;
+    color: #fff; }
+    /* line 41, ../../../sass/theme/logotip/_grid-tablet.scss */
+    .absolute-phone .fa-phone {
+      color: #C23221; }
+
+  /* line 49, ../../../sass/theme/logotip/_grid-tablet.scss */
+  .logo-footer {
+    width: 100%;
+    height: 70px; }
+
+  /* line 54, ../../../sass/theme/logotip/_grid-tablet.scss */
+  .logotip {
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-left: 4px; } }
+@media (min-width: 1200px) {
+  /* line 7, ../../../sass/theme/logotip/_grid.scss */
+  .logotip-almet {
+    display: block;
+    width: 320px;
+    margin-left: 35px; }
+
+  /*svg almet*/
+  /* line 14, ../../../sass/theme/logotip/_grid.scss */
+  .almet {
+    width: 105px;
+    height: 102px;
+    margin: auto; }
+
+  /* line 20, ../../../sass/theme/logotip/_grid.scss */
+  .almet2 {
+    display: none; }
+
+  /* line 24, ../../../sass/theme/logotip/_grid.scss */
+  .absolute-email {
+    position: absolute;
+    top: 8%;
+    right: 20%;
+    width: 260px; }
+    /* line 29, ../../../sass/theme/logotip/_grid.scss */
+    .absolute-email .fa-paper-plane {
+      color: #C23221; }
+
+  /* line 35, ../../../sass/theme/logotip/_grid.scss */
+  .absolute-phone {
+    position: absolute;
+    top: 8%;
+    right: -1%;
+    width: 300px; }
+    /* line 40, ../../../sass/theme/logotip/_grid.scss */
+    .absolute-phone .fa-phone {
+      color: #C23221; }
+
+  /* line 48, ../../../sass/theme/logotip/_grid.scss */
+  .logo-footer {
+    width: 100%;
+    height: 70px; }
+
+  /* line 53, ../../../sass/theme/logotip/_grid.scss */
+  .logotip {
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-left: 4px; }
+
+  /**end media desctop*/ }

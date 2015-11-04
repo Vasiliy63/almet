@@ -1,546 +1,1733 @@
 @charset "UTF-8";
 /* line 5, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
 
 /* line 22, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-html { line-height: 1; }
+html {
+  line-height: 1; }
 
 /* line 24, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-ol, ul { list-style: none; }
+ol, ul {
+  list-style: none; }
 
 /* line 26, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-table { border-collapse: collapse; border-spacing: 0; }
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
 
 /* line 28, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
 
 /* line 30, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-q, blockquote { quotes: none; }
-/* line 103, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+q, blockquote {
+  quotes: none; }
+  /* line 103, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
 
 /* line 32, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-a img { border: none; }
+a img {
+  border: none; }
 
 /* line 116, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
 
-/*  Syntax Quick Reference -------------------------- column($ratios: 1, $offset: 0, $cycle: 0, $uncycle: 0, $gutter: $jeet-gutter) span($ratio: 1, $offset: 0) shift($ratios: 0, $col_or_span: column, $gutter: $jeet-gutter) unshift() edit() center($max_width: 1410px, $pad: 0) stack($pad: 0, $align: false) unstack() align($direction: both) cf()
+/*  Syntax Quick Reference
+  --------------------------
+  column($ratios: 1, $offset: 0, $cycle: 0, $uncycle: 0, $gutter: $jeet-gutter)
+  span($ratio: 1, $offset: 0)
+  shift($ratios: 0, $col_or_span: column, $gutter: $jeet-gutter)
+  unshift()
+  edit()
+  center($max_width: 1410px, $pad: 0)
+  stack($pad: 0, $align: false)
+  unstack()
+  align($direction: both)
+  cf()
 */
-/** Grid settings. All values are defaults and can therefore be easily overidden. */
-/** List functions courtesy of the wonderful folks at Team Sass. Check out their awesome grid: Singularity. */
-/** Get  percentage from a given ratio. @param {number} [$ratio=1] - The column ratio of the element. @returns {number} - The percentage value. */
-/** Work out the column widths based on the ratio and gutter sizes. @param {number} [$ratios=1] - The column ratio of the element. @param {number} [$gutter=$jeet-gutter] - The gutter for the column. @returns {list} $width $gutter - A list containing the with and gutter for the element. */
-/** Get the set layout direction for the project. @returns {string} $direction - The layout direction. */
-/** Replace a specified list value with a new value (uses built in set-nth() if available) @param {list} $list - The list of values you want to alter. @param {number} $index - The index of the list item you want to replace. @param {*} $value - The value you want to replace $index with. @returns {list} $list - The list with the value replaced or removed. @warn if an invalid index is supplied. */
-/** Reverse a list (progressively enhanced for Sass 3.3) @param {list} $list - The list of values you want to reverse. @returns {list} $result - The reversed list. */
-/** Get the opposite direction to a given value. @param {string} $dir - The direction you want the opposite of. @returns {string} - The opposite direction to $dir. @warn if an incorrect string is provided. */
-/** Style an element as a column with a gutter. @param {number} [$ratios=1] - A width relative to its container as a fraction. @param {number} [$offset=0] - A offset specified as a fraction (see $ratios). @param {number} [$cycle=0] - Easily create an nth column grid where $cycle equals the number of columns. @param {number} [$uncycle=0] - Undo a previous cycle value to allow for a new one. @param {number} [$gutter=$jeet-gutter] - Specify the gutter width as a percentage of the containers width. */
-/** An alias for the column mixin. @param [$args...] - All arguments get passed through to column(). */
-/** Get the width of a column and nothing else. @param {number} [$ratios=1] - A width relative to its container as a fraction. @param {number} [$gutter=$jeet-gutter] - Specify the gutter width as a percentage of the containers width. */
-/** Get the gutter size of a column and nothing else. @param {number} [ratios=1] - A width relative to its container as a fraction. @param {number} [gutter=jeet.gutter] - Specify the gutter width as a percentage of the containers width. */
-/** An alias for the column-width function. @param [$args...] - All arguments get passed through to column(). */
-/** An alias for the column-gutter function. @param [$args...] - All arguments get passed through to column(). */
-/** Style an element as a column without any gutters for a seamless row. @param {number} [$ratios=1] - A width relative to its container as a fraction. @param {number} [$offset=0] - A offset specified as a fraction (see $ratios). @param {number} [cycle=0] - Easily create an nth column grid where cycle equals the number of columns. @param {number} [uncycle=0] - Undo a previous cycle value to allow for a new one. */
-/** Reorder columns without altering the HTML. @param {number} [$ratios=0] - Specify how far along you want the element to move. @param {string} [$col-or-span=column] - Specify whether the element has a gutter or not. @param {number} [$gutter=$jeet-gutter] - Specify the gutter width as a percentage of the containers width. */
-/** Reset an element that has had shift() applied to it. */
-/** View the grid and its layers for easy debugging. @param {string} [$color=black] - The background tint applied. @param {boolean} [$important=false] - Whether to apply the style as !important. */
-/** Alias for edit(). */
-/** Horizontally center an element. @param {number} [$max-width=1410px] - The max width the element can be. @param {number} [$pad=0] - Specify the element's left and right padding. */
-/** Uncenter an element. */
-/** Stack an element so that nothing is either side of it. @param {number} [$pad=0] - Specify the element's left and right padding. @param {boolean/string} [$align=false] - Specify the text align for the element. */
-/** Unstack an element. */
-/** Center an element on either or both axes. @requires A parent container with relative positioning. @param {string} [$direction=both] - Specify which axes to center the element on. */
-/** Apply a clearfix to an element. */
+/**
+ * Grid settings.
+ * All values are defaults and can therefore be easily overidden.
+ */
+/**
+ * List functions courtesy of the wonderful folks at Team Sass.
+ * Check out their awesome grid: Singularity.
+ */
+/**
+ * Get  percentage from a given ratio.
+ * @param {number} [$ratio=1] - The column ratio of the element.
+ * @returns {number} - The percentage value.
+ */
+/**
+ * Work out the column widths based on the ratio and gutter sizes.
+ * @param {number} [$ratios=1] - The column ratio of the element.
+ * @param {number} [$gutter=$jeet-gutter] - The gutter for the column.
+ * @returns {list} $width $gutter - A list containing the with and gutter for the element.
+ */
+/**
+ * Get the set layout direction for the project.
+ * @returns {string} $direction - The layout direction.
+ */
+/**
+ * Replace a specified list value with a new value (uses built in set-nth() if available)
+ * @param {list} $list - The list of values you want to alter.
+ * @param {number} $index - The index of the list item you want to replace.
+ * @param {*} $value - The value you want to replace $index with.
+ * @returns {list} $list - The list with the value replaced or removed.
+ * @warn if an invalid index is supplied.
+ */
+/**
+ * Reverse a list (progressively enhanced for Sass 3.3)
+ * @param {list} $list - The list of values you want to reverse.
+ * @returns {list} $result - The reversed list.
+ */
+/**
+ * Get the opposite direction to a given value.
+ * @param {string} $dir - The direction you want the opposite of.
+ * @returns {string} - The opposite direction to $dir.
+ * @warn if an incorrect string is provided.
+ */
+/**
+ * Style an element as a column with a gutter.
+ * @param {number} [$ratios=1] - A width relative to its container as a fraction.
+ * @param {number} [$offset=0] - A offset specified as a fraction (see $ratios).
+ * @param {number} [$cycle=0] - Easily create an nth column grid where $cycle equals the number of columns.
+ * @param {number} [$uncycle=0] - Undo a previous cycle value to allow for a new one.
+ * @param {number} [$gutter=$jeet-gutter] - Specify the gutter width as a percentage of the containers width.
+ */
+/**
+ * An alias for the column mixin.
+ * @param [$args...] - All arguments get passed through to column().
+ */
+/**
+ * Get the width of a column and nothing else.
+ * @param {number} [$ratios=1] - A width relative to its container as a fraction.
+ * @param {number} [$gutter=$jeet-gutter] - Specify the gutter width as a percentage of the containers width.
+ */
+/**
+ * Get the gutter size of a column and nothing else.
+ * @param {number} [ratios=1] - A width relative to its container as a fraction.
+ * @param {number} [gutter=jeet.gutter] - Specify the gutter width as a percentage of the containers width.
+ */
+/**
+ * An alias for the column-width function.
+ * @param [$args...] - All arguments get passed through to column().
+ */
+/**
+ * An alias for the column-gutter function.
+ * @param [$args...] - All arguments get passed through to column().
+ */
+/**
+ * Style an element as a column without any gutters for a seamless row.
+ * @param {number} [$ratios=1] - A width relative to its container as a fraction.
+ * @param {number} [$offset=0] - A offset specified as a fraction (see $ratios).
+ * @param {number} [cycle=0] - Easily create an nth column grid where cycle equals the number of columns.
+ * @param {number} [uncycle=0] - Undo a previous cycle value to allow for a new one.
+ */
+/**
+ * Reorder columns without altering the HTML.
+ * @param {number} [$ratios=0] - Specify how far along you want the element to move.
+ * @param {string} [$col-or-span=column] - Specify whether the element has a gutter or not.
+ * @param {number} [$gutter=$jeet-gutter] - Specify the gutter width as a percentage of the containers width.
+ */
+/**
+ * Reset an element that has had shift() applied to it.
+ */
+/**
+ * View the grid and its layers for easy debugging.
+ * @param {string} [$color=black] - The background tint applied.
+ * @param {boolean} [$important=false] - Whether to apply the style as !important.
+ */
+/**
+ *  Alias for edit().
+ */
+/**
+ * Horizontally center an element.
+ * @param {number} [$max-width=1410px] - The max width the element can be.
+ * @param {number} [$pad=0] - Specify the element's left and right padding.
+ */
+/**
+ * Uncenter an element.
+ */
+/**
+ * Stack an element so that nothing is either side of it.
+ * @param {number} [$pad=0] - Specify the element's left and right padding.
+ * @param {boolean/string} [$align=false] - Specify the text align for the element.
+ */
+/**
+ * Unstack an element.
+ */
+/**
+ * Center an element on either or both axes.
+ * @requires A parent container with relative positioning.
+ * @param {string} [$direction=both] - Specify which axes to center the element on.
+ */
+/**
+ * Apply a clearfix to an element.
+ */
 /* font-family: "HeliosCondRegular"; */
-@font-face { font-family: "HeliosCondRegular"; src: url("../../../fonts/HeliosCondRegular/HeliosCondRegular.eot"); src: url("../../../fonts/HeliosCondRegular/HeliosCondRegular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/HeliosCondRegular/HeliosCondRegular.woff") format("woff"), url("../../../fonts/HeliosCondRegular/HeliosCondRegular.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face {
+  font-family: "HeliosCondRegular";
+  src: url("../../../fonts/HeliosCondRegular/HeliosCondRegular.eot");
+  src: url("../../../fonts/HeliosCondRegular/HeliosCondRegular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/HeliosCondRegular/HeliosCondRegular.woff") format("woff"), url("../../../fonts/HeliosCondRegular/HeliosCondRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
 /* font-family: "HeliosCondItalic"; */
-@font-face { font-family: "HeliosCondItalic"; src: url("../../../fonts/HeliosCondItalic/HeliosCondItalic.eot"); src: url("../../../fonts/HeliosCondItalic/HeliosCondItalic.eot?#iefix") format("embedded-opentype"), url("../../../fonts/HeliosCondItalic/HeliosCondItalic.woff") format("woff"), url("../../../fonts/HeliosCondItalic/HeliosCondItalic.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face {
+  font-family: "HeliosCondItalic";
+  src: url("../../../fonts/HeliosCondItalic/HeliosCondItalic.eot");
+  src: url("../../../fonts/HeliosCondItalic/HeliosCondItalic.eot?#iefix") format("embedded-opentype"), url("../../../fonts/HeliosCondItalic/HeliosCondItalic.woff") format("woff"), url("../../../fonts/HeliosCondItalic/HeliosCondItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
 /* font-family: "HeliosCondBold"; */
-@font-face { font-family: "HeliosCondBold"; src: url("../../../fonts/HeliosCondBold/HeliosCondBold.eot"); src: url("../../../fonts/HeliosCondBold/HeliosCondBold.eot?#iefix") format("embedded-opentype"), url("../../../fonts/HeliosCondBold/HeliosCondBold.woff") format("woff"), url("../../../fonts/HeliosCondBold/HeliosCondBold.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face {
+  font-family: "HeliosCondBold";
+  src: url("../../../fonts/HeliosCondBold/HeliosCondBold.eot");
+  src: url("../../../fonts/HeliosCondBold/HeliosCondBold.eot?#iefix") format("embedded-opentype"), url("../../../fonts/HeliosCondBold/HeliosCondBold.woff") format("woff"), url("../../../fonts/HeliosCondBold/HeliosCondBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
 /* font-family: "HeliosCondBoldItalic"; */
-@font-face { font-family: "HeliosCondBoldItalic"; src: url("../../../fonts/HeliosCondBoldItalic/HeliosCondBoldItalic.eot"); src: url("../../../fonts/HeliosCondBoldItalic/HeliosCondBoldItalic.eot?#iefix") format("embedded-opentype"), url("../../../fonts/HeliosCondBoldItalic/HeliosCondBoldItalic.woff") format("woff"), url("../../../fonts/HeliosCondBoldItalic/HeliosCondBoldItalic.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face {
+  font-family: "HeliosCondBoldItalic";
+  src: url("../../../fonts/HeliosCondBoldItalic/HeliosCondBoldItalic.eot");
+  src: url("../../../fonts/HeliosCondBoldItalic/HeliosCondBoldItalic.eot?#iefix") format("embedded-opentype"), url("../../../fonts/HeliosCondBoldItalic/HeliosCondBoldItalic.woff") format("woff"), url("../../../fonts/HeliosCondBoldItalic/HeliosCondBoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
 /* Код для подключения шрифта в /css/stylename.css */
 /* font-family: "RobotoCondensedRegular"; */
-@font-face { font-family: "RobotoCondensedRegular"; src: url("../../../fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot"); src: url("../../../fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/RobotoCondensedRegular/RobotoCondensedRegular.woff") format("woff"), url("../../../fonts/RobotoCondensedRegular/RobotoCondensedRegular.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face {
+  font-family: "RobotoCondensedRegular";
+  src: url("../../../fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot");
+  src: url("../../../fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot?#iefix") format("embedded-opentype"), url("../../../fonts/RobotoCondensedRegular/RobotoCondensedRegular.woff") format("woff"), url("../../../fonts/RobotoCondensedRegular/RobotoCondensedRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
 /* font-family: "RobotoCondensedLight"; */
-@font-face { font-family: "RobotoCondensedLight"; src: url("../../../fonts/RobotoCondensedLight/RobotoCondensedLight.eot"); src: url("../../../fonts/RobotoCondensedLight/RobotoCondensedLight.eot?#iefix") format("embedded-opentype"), url("../../../fonts/RobotoCondensedLight/RobotoCondensedLight.woff") format("woff"), url("../../../fonts/RobotoCondensedLight/RobotoCondensedLight.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face {
+  font-family: "RobotoCondensedLight";
+  src: url("../../../fonts/RobotoCondensedLight/RobotoCondensedLight.eot");
+  src: url("../../../fonts/RobotoCondensedLight/RobotoCondensedLight.eot?#iefix") format("embedded-opentype"), url("../../../fonts/RobotoCondensedLight/RobotoCondensedLight.woff") format("woff"), url("../../../fonts/RobotoCondensedLight/RobotoCondensedLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
 /* font-family: "RobotoCondensedBold"; */
-@font-face { font-family: "RobotoCondensedBold"; src: url("../../../fonts/RobotoCondensedBold/RobotoCondensedBold.eot"); src: url("../../../fonts/RobotoCondensedBold/RobotoCondensedBold.eot?#iefix") format("embedded-opentype"), url("../../../fonts/RobotoCondensedBold/RobotoCondensedBold.woff") format("woff"), url("../../../fonts/RobotoCondensedBold/RobotoCondensedBold.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face {
+  font-family: "RobotoCondensedBold";
+  src: url("../../../fonts/RobotoCondensedBold/RobotoCondensedBold.eot");
+  src: url("../../../fonts/RobotoCondensedBold/RobotoCondensedBold.eot?#iefix") format("embedded-opentype"), url("../../../fonts/RobotoCondensedBold/RobotoCondensedBold.woff") format("woff"), url("../../../fonts/RobotoCondensedBold/RobotoCondensedBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
 /* line 4, ../../../sass/theme/_base.scss */
-.clear { clear: both; }
+.clear {
+  clear: both; }
 
-@media (min-width: 200px) and (max-width: 767px) { /* line 106, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
-  html { font-size: 100%; line-height: 1.5em; }
+@media (min-width: 200px) and (max-width: 767px) {
+  /* line 106, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+  html {
+    font-size: 100%;
+    line-height: 1.5em; }
+
   /* line 21, ../../../sass/theme/_vertical-rhythm.scss */
-  h2 { font-size: 64px; font-size: 3.998rem; line-height: 120px; line-height: 7.5rem; }
+  h2 {
+    font-size: 64px;
+    font-size: 3.998rem;
+    line-height: 120px;
+    line-height: 7.5rem; }
+
   /* line 22, ../../../sass/theme/_vertical-rhythm.scss */
-  h3 { font-size: 45px; font-size: 2.827rem; line-height: 72px; line-height: 4.5rem; }
+  h3 {
+    font-size: 24px;
+    font-size: 1.527rem;
+    line-height: 72px;
+    line-height: 4.5rem; }
+
   /* line 23, ../../../sass/theme/_vertical-rhythm.scss */
-  h4 { font-size: 32px; font-size: 1.999rem; line-height: 48px; line-height: 3rem; }
+  h4 {
+    font-size: 24px;
+    font-size: 1.499rem;
+    line-height: 48px;
+    line-height: 3rem; }
+
   /* line 24, ../../../sass/theme/_vertical-rhythm.scss */
-  h5 { font-size: 23px; font-size: 1.414rem; line-height: 24px; line-height: 1.5rem; }
+  h5 {
+    font-size: 23px;
+    font-size: 1.414rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
   /* line 25, ../../../sass/theme/_vertical-rhythm.scss */
-  h6 { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  h6 {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
   /* line 26, ../../../sass/theme/_vertical-rhythm.scss */
-  p { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  p {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
   /* line 29, ../../../sass/theme/_vertical-rhythm.scss */
-  h2, h3, h4, h5, h6 { font-family: "HeliosCondRegular"; }
+  h2, h3, h4, h5, h6 {
+    font-family: "HeliosCondRegular"; }
+
   /* line 33, ../../../sass/theme/_vertical-rhythm.scss */
-  h2 { font-family: "HeliosCondRegular"; letter-spacing: 0px; text-transform: uppercase; color: #fff; }
+  h2 {
+    font-family: "HeliosCondRegular";
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: #fff; }
+
   /* line 40, ../../../sass/theme/_vertical-rhythm.scss */
-  p { font-family: "RobotoCondensedLight"; }
-  /* line 44, ../../../sass/theme/_vertical-rhythm.scss */
-  p [data-vertical-rhythm="true"] { transition: padding-bottom 2s; }
+  p {
+    font-family: "RobotoCondensedLight"; }
+    /* line 44, ../../../sass/theme/_vertical-rhythm.scss */
+    p [data-vertical-rhythm="true"] {
+      transition: padding-bottom 2s; }
+
   /* line 49, ../../../sass/theme/_vertical-rhythm.scss */
-  a { font-family: "RobotoCondensedLight"; color: #fff; outline: none !important; }
+  a {
+    font-family: "RobotoCondensedLight";
+    color: #fff;
+    outline: none !important; }
+
   /* line 56, ../../../sass/theme/_vertical-rhythm.scss */
-  a { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  a {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
   /* line 58, ../../../sass/theme/_vertical-rhythm.scss */
-  ul, li { font-family: "RobotoCondensedLight"; font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  ul, li {
+    font-family: "RobotoCondensedLight";
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
   /* line 63, ../../../sass/theme/_vertical-rhythm.scss */
-  input { font-family: Arial, sans-serif; }
+  input {
+    font-family: Arial, sans-serif; }
+
   /* line 67, ../../../sass/theme/_vertical-rhythm.scss */
-  .title-p { font-family: "RobotoCondensedLight"; }
+  .title-p {
+    font-family: "RobotoCondensedLight"; }
+
   /* line 70, ../../../sass/theme/_vertical-rhythm.scss */
-  img, iframe { display: block; max-width: 100%; border-image: none; }
+  img, iframe {
+    display: block;
+    max-width: 100%;
+    border-image: none; }
+
   /* line 76, ../../../sass/theme/_vertical-rhythm.scss */
-  .message { font-family: "RobotoCondensedLight"; } }
-@media (min-width: 768px) and (max-width: 991px) { /* line 106, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
-  html { font-size: 100%; line-height: 1.5em; }
+  .message {
+    font-family: "RobotoCondensedLight"; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 106, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+  html {
+    font-size: 100%;
+    line-height: 1.5em; }
+
   /* line 91, ../../../sass/theme/_vertical-rhythm.scss */
-  h2 { font-size: 64px; font-size: 3.998rem; line-height: 120px; line-height: 7.5rem; }
+  h2 {
+    font-size: 64px;
+    font-size: 3.998rem;
+    line-height: 120px;
+    line-height: 7.5rem; }
+
   /* line 92, ../../../sass/theme/_vertical-rhythm.scss */
-  h3 { font-size: 36px; font-size: 2.227rem; line-height: 72px; line-height: 4.5rem; }
+  h3 {
+    font-size: 36px;
+    font-size: 2.227rem;
+    line-height: 72px;
+    line-height: 4.5rem; }
+
   /* line 93, ../../../sass/theme/_vertical-rhythm.scss */
-  h4 { font-size: 32px; font-size: 1.999rem; line-height: 48px; line-height: 3rem; }
+  h4 {
+    font-size: 32px;
+    font-size: 1.999rem;
+    line-height: 48px;
+    line-height: 3rem; }
+
   /* line 94, ../../../sass/theme/_vertical-rhythm.scss */
-  h5 { font-size: 23px; font-size: 1.414rem; line-height: 24px; line-height: 1.5rem; }
+  h5 {
+    font-size: 23px;
+    font-size: 1.414rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
   /* line 95, ../../../sass/theme/_vertical-rhythm.scss */
-  h6 { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  h6 {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
   /* line 96, ../../../sass/theme/_vertical-rhythm.scss */
-  p { font-size: 19px; font-size: 1.2rem; line-height: 24px; line-height: 1.5rem; }
+  p {
+    font-size: 19px;
+    font-size: 1.2rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
   /* line 99, ../../../sass/theme/_vertical-rhythm.scss */
-  h2, h3, h4, h5, h6 { font-family: "HeliosCondRegular"; }
+  h2, h3, h4, h5, h6 {
+    font-family: "HeliosCondRegular"; }
+
   /* line 105, ../../../sass/theme/_vertical-rhythm.scss */
-  h2 { font-family: "HeliosCondRegular"; letter-spacing: 2px; text-transform: uppercase; color: #fff; }
+  h2 {
+    font-family: "HeliosCondRegular";
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff; }
+
   /* line 112, ../../../sass/theme/_vertical-rhythm.scss */
-  p { font-family: "RobotoCondensedLight"; }
-  /* line 116, ../../../sass/theme/_vertical-rhythm.scss */
-  p [data-vertical-rhythm="true"] { transition: padding-bottom 2s; }
+  p {
+    font-family: "RobotoCondensedLight"; }
+    /* line 116, ../../../sass/theme/_vertical-rhythm.scss */
+    p [data-vertical-rhythm="true"] {
+      transition: padding-bottom 2s; }
+
   /* line 123, ../../../sass/theme/_vertical-rhythm.scss */
-  a { font-family: "RobotoCondensedLight"; color: #fff; outline: medium none !important; }
+  a {
+    font-family: "RobotoCondensedLight";
+    color: #fff;
+    outline: medium none !important; }
+
   /* line 129, ../../../sass/theme/_vertical-rhythm.scss */
-  a { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  a {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
   /* line 131, ../../../sass/theme/_vertical-rhythm.scss */
-  ul, li { font-family: "RobotoCondensedLight"; font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  ul, li {
+    font-family: "RobotoCondensedLight";
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
   /* line 136, ../../../sass/theme/_vertical-rhythm.scss */
-  input { font-family: Arial, sans-serif; }
+  input {
+    font-family: Arial, sans-serif; }
+
   /* line 140, ../../../sass/theme/_vertical-rhythm.scss */
-  .title-p { font-family: "RobotoCondensedLight"; }
+  .title-p {
+    font-family: "RobotoCondensedLight"; }
+
   /* line 143, ../../../sass/theme/_vertical-rhythm.scss */
-  img, iframe { display: block; max-width: 100%; }
+  img, iframe {
+    display: block;
+    max-width: 100%; }
+
   /* line 148, ../../../sass/theme/_vertical-rhythm.scss */
-  .message { font-family: "RobotoCondensedLight"; } }
-@media (min-width: 992px) and (max-width: 1199px) { /* line 106, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
-  html { font-size: 100%; line-height: 1.5em; }
+  .message {
+    font-family: "RobotoCondensedLight"; } }
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 106, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+  html {
+    font-size: 100%;
+    line-height: 1.5em; }
+
   /* line 163, ../../../sass/theme/_vertical-rhythm.scss */
-  h2 { font-size: 64px; font-size: 3.998rem; line-height: 120px; line-height: 7.5rem; }
+  h2 {
+    font-size: 64px;
+    font-size: 3.998rem;
+    line-height: 120px;
+    line-height: 7.5rem; }
+
   /* line 164, ../../../sass/theme/_vertical-rhythm.scss */
-  h3 { font-size: 45px; font-size: 2.827rem; line-height: 72px; line-height: 4.5rem; }
+  h3 {
+    font-size: 45px;
+    font-size: 2.827rem;
+    line-height: 72px;
+    line-height: 4.5rem; }
+
   /* line 165, ../../../sass/theme/_vertical-rhythm.scss */
-  h4 { font-size: 32px; font-size: 1.999rem; line-height: 48px; line-height: 3rem; }
+  h4 {
+    font-size: 32px;
+    font-size: 1.999rem;
+    line-height: 48px;
+    line-height: 3rem; }
+
   /* line 166, ../../../sass/theme/_vertical-rhythm.scss */
-  h5 { font-size: 23px; font-size: 1.414rem; line-height: 24px; line-height: 1.5rem; }
+  h5 {
+    font-size: 23px;
+    font-size: 1.414rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
   /* line 167, ../../../sass/theme/_vertical-rhythm.scss */
-  h6 { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  h6 {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
   /* line 168, ../../../sass/theme/_vertical-rhythm.scss */
-  p { font-size: 19px; font-size: 1.2rem; line-height: 24px; line-height: 1.5rem; }
+  p {
+    font-size: 19px;
+    font-size: 1.2rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
   /* line 171, ../../../sass/theme/_vertical-rhythm.scss */
-  h2, h3, h4, h5, h6 { font-family: "HeliosCondRegular"; }
+  h2, h3, h4, h5, h6 {
+    font-family: "HeliosCondRegular"; }
+
   /* line 177, ../../../sass/theme/_vertical-rhythm.scss */
-  h2 { font-family: "HeliosCondRegular"; letter-spacing: 5px; text-transform: uppercase; color: #fff; }
+  h2 {
+    font-family: "HeliosCondRegular";
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #fff; }
+
   /* line 184, ../../../sass/theme/_vertical-rhythm.scss */
-  p { font-family: "RobotoCondensedLight"; }
-  /* line 188, ../../../sass/theme/_vertical-rhythm.scss */
-  p [data-vertical-rhythm="true"] { transition: padding-bottom 2s; }
+  p {
+    font-family: "RobotoCondensedLight"; }
+    /* line 188, ../../../sass/theme/_vertical-rhythm.scss */
+    p [data-vertical-rhythm="true"] {
+      transition: padding-bottom 2s; }
+
   /* line 195, ../../../sass/theme/_vertical-rhythm.scss */
-  a { font-family: "RobotoCondensedLight"; color: #fff; outline: medium none !important; }
+  a {
+    font-family: "RobotoCondensedLight";
+    color: #fff;
+    outline: medium none !important; }
+
   /* line 201, ../../../sass/theme/_vertical-rhythm.scss */
-  a { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  a {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
   /* line 203, ../../../sass/theme/_vertical-rhythm.scss */
-  ul, li { font-family: "RobotoCondensedLight"; font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  ul, li {
+    font-family: "RobotoCondensedLight";
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
   /* line 208, ../../../sass/theme/_vertical-rhythm.scss */
-  input { font-family: Arial, sans-serif; }
+  input {
+    font-family: Arial, sans-serif; }
+
   /* line 212, ../../../sass/theme/_vertical-rhythm.scss */
-  .title-p { font-family: "RobotoCondensedLight"; }
+  .title-p {
+    font-family: "RobotoCondensedLight"; }
+
   /* line 216, ../../../sass/theme/_vertical-rhythm.scss */
-  img, iframe { display: block; max-width: 100%; }
+  img, iframe {
+    display: block;
+    max-width: 100%; }
+
   /* line 222, ../../../sass/theme/_vertical-rhythm.scss */
-  .message { font-family: "RobotoCondensedLight"; } }
-@media (min-width: 1200px) { /* line 106, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
-  html { font-size: 100%; line-height: 1.5em; }
+  .message {
+    font-family: "RobotoCondensedLight"; } }
+@media (min-width: 1200px) {
+  /* line 106, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+  html {
+    font-size: 100%;
+    line-height: 1.5em; }
+
   /* line 238, ../../../sass/theme/_vertical-rhythm.scss */
-  h2 { font-size: 64px; font-size: 3.998rem; line-height: 120px; line-height: 7.5rem; }
+  h2 {
+    font-size: 64px;
+    font-size: 3.998rem;
+    line-height: 120px;
+    line-height: 7.5rem; }
+
   /* line 239, ../../../sass/theme/_vertical-rhythm.scss */
-  h3 { font-size: 45px; font-size: 2.827rem; line-height: 72px; line-height: 4.5rem; }
+  h3 {
+    font-size: 45px;
+    font-size: 2.827rem;
+    line-height: 72px;
+    line-height: 4.5rem; }
+
   /* line 240, ../../../sass/theme/_vertical-rhythm.scss */
-  h4 { font-size: 32px; font-size: 1.999rem; line-height: 48px; line-height: 3rem; }
+  h4 {
+    font-size: 32px;
+    font-size: 1.999rem;
+    line-height: 48px;
+    line-height: 3rem; }
+
   /* line 241, ../../../sass/theme/_vertical-rhythm.scss */
-  h5 { font-size: 23px; font-size: 1.414rem; line-height: 24px; line-height: 1.5rem; }
+  h5 {
+    font-size: 23px;
+    font-size: 1.414rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
   /* line 242, ../../../sass/theme/_vertical-rhythm.scss */
-  h6 { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  h6 {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
   /* line 243, ../../../sass/theme/_vertical-rhythm.scss */
-  p { font-size: 19px; font-size: 1.2rem; line-height: 24px; line-height: 1.5rem; }
+  p {
+    font-size: 19px;
+    font-size: 1.2rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
   /* line 246, ../../../sass/theme/_vertical-rhythm.scss */
-  h2, h3, h4, h5, h6 { font-family: "HeliosCondRegular"; }
+  h2, h3, h4, h5, h6 {
+    font-family: "HeliosCondRegular"; }
+
   /* line 252, ../../../sass/theme/_vertical-rhythm.scss */
-  h2 { font-family: "HeliosCondRegular"; letter-spacing: 5px; text-transform: uppercase; color: #fff; }
+  h2 {
+    font-family: "HeliosCondRegular";
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #fff; }
+
   /* line 259, ../../../sass/theme/_vertical-rhythm.scss */
-  p { font-family: "RobotoCondensedLight"; }
-  /* line 263, ../../../sass/theme/_vertical-rhythm.scss */
-  p [data-vertical-rhythm="true"] { transition: padding-bottom 2s; }
+  p {
+    font-family: "RobotoCondensedLight"; }
+    /* line 263, ../../../sass/theme/_vertical-rhythm.scss */
+    p [data-vertical-rhythm="true"] {
+      transition: padding-bottom 2s; }
+
   /* line 271, ../../../sass/theme/_vertical-rhythm.scss */
-  a { font-family: "RobotoCondensedLight"; color: #fff; outline: medium none !important; }
+  a {
+    font-family: "RobotoCondensedLight";
+    color: #fff;
+    outline: medium none !important; }
+
   /* line 277, ../../../sass/theme/_vertical-rhythm.scss */
-  a { font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  a {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
   /* line 279, ../../../sass/theme/_vertical-rhythm.scss */
-  ul, li { font-family: "RobotoCondensedLight"; font-size: 16px; font-size: 1rem; line-height: 24px; line-height: 1.5rem; }
+  ul, li {
+    font-family: "RobotoCondensedLight";
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem; }
+
   /* line 284, ../../../sass/theme/_vertical-rhythm.scss */
-  input { font-family: Arial, sans-serif; }
+  input {
+    font-family: Arial, sans-serif; }
+
   /* line 288, ../../../sass/theme/_vertical-rhythm.scss */
-  .title-p { font-family: "RobotoCondensedLight"; }
+  .title-p {
+    font-family: "RobotoCondensedLight"; }
+
   /* line 292, ../../../sass/theme/_vertical-rhythm.scss */
-  img, iframe { display: block; max-width: 100%; }
+  img, iframe {
+    display: block;
+    max-width: 100%; }
+
   /* line 298, ../../../sass/theme/_vertical-rhythm.scss */
-  .message { font-family: "RobotoCondensedLight"; } }
-@media (min-width: 200px) and (max-width: 767px) { /* line 5, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
-  .props { padding-top: 48px; padding-top: 3rem; padding-bottom: 0px; padding-bottom: 0rem; }
+  .message {
+    font-family: "RobotoCondensedLight"; } }
+@media (min-width: 200px) and (max-width: 767px) {
+  /* line 5, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
+  .props {
+    padding-top: 48px;
+    padding-top: 3rem;
+    padding-bottom: 0px;
+    padding-bottom: 0rem; }
+
   /* line 10, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
-  .logotip { font-size: 27px; font-size: 1.7rem; line-height: 24px; line-height: 1.5rem; text-transform: uppercase; color: #fff; letter-spacing: 4px; font-family: Arial, sans-serif; padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 20, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
-  .text-contacts { padding-top: 48px; padding-top: 3rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 23, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
-  .text-contacts p { color: #fff; padding-top: 12px; padding-top: 0.75rem; }
-  /* line 27, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
-  .text-contacts ul li { color: #fff; }
-  /* line 32, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
-  .back-display-device-yes { margin-top: 48px; margin-top: 3rem; margin-bottom: 24px; margin-bottom: 1.5rem; }
-  /* line 39, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
-  .input-holder { padding-top: 48px; padding-top: 3rem; }
-  /* line 43, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
-  .submit { margin-top: 48px; margin-top: 3rem; margin-bottom: 48px; margin-bottom: 3rem; font-family: "RobotoCondensedLight"; }
+  .logotip {
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 24px;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0px;
+    font-family: Arial, sans-serif;
+    padding-top: 2px;
+    padding-top: 0.15rem;
+    border-bottom-width: 2px;
+    border-bottom-width: 0.125rem;
+    border-bottom-style: solid;
+    padding-bottom: 8px;
+    padding-bottom: 0.475rem; }
+
+  /* line 21, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
+  .text-contacts {
+    padding-top: 48px;
+    padding-top: 3rem;
+    padding-bottom: 24px;
+    padding-bottom: 1.5rem; }
+    /* line 24, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
+    .text-contacts p {
+      color: #fff;
+      padding-top: 12px;
+      padding-top: 0.75rem; }
+    /* line 28, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
+    .text-contacts ul li {
+      color: #fff; }
+
+  /* line 33, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
+  .back-display-device-yes {
+    margin-top: 48px;
+    margin-top: 3rem;
+    margin-bottom: 24px;
+    margin-bottom: 1.5rem; }
+
+  /* line 40, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
+  .input-holder {
+    padding-top: 48px;
+    padding-top: 3rem; }
+
+  /* line 44, ../../../sass/theme/theme-contacts/_typography-mobail.scss */
+  .submit {
+    margin-top: 48px;
+    margin-top: 3rem;
+    margin-bottom: 48px;
+    margin-bottom: 3rem;
+    font-family: "RobotoCondensedLight"; }
+
   /*end media mobail*/ }
-@media (min-width: 992px) and (max-width: 1199px) { /* line 6, ../../../sass/theme/theme-contacts/_typography-medium.scss */
-  .props { padding-top: 48px; padding-top: 3rem; padding-bottom: 0px; padding-bottom: 0rem; }
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 6, ../../../sass/theme/theme-contacts/_typography-medium.scss */
+  .props {
+    padding-top: 48px;
+    padding-top: 3rem;
+    padding-bottom: 0px;
+    padding-bottom: 0rem; }
+
   /* line 11, ../../../sass/theme/theme-contacts/_typography-medium.scss */
-  .logotip { font-size: 27px; font-size: 1.7rem; line-height: 24px; line-height: 1.5rem; text-transform: uppercase; color: #fff; letter-spacing: 4px; font-family: Arial, sans-serif; padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 21, ../../../sass/theme/theme-contacts/_typography-medium.scss */
-  .text-contacts { padding-top: 48px; padding-top: 3rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 24, ../../../sass/theme/theme-contacts/_typography-medium.scss */
-  .text-contacts p { color: #fff; padding-top: 12px; padding-top: 0.75rem; }
-  /* line 28, ../../../sass/theme/theme-contacts/_typography-medium.scss */
-  .text-contacts ul li { color: #fff; }
-  /* line 33, ../../../sass/theme/theme-contacts/_typography-medium.scss */
-  .back-display-device-yes { margin-top: 48px; margin-top: 3rem; margin-bottom: 24px; margin-bottom: 1.5rem; }
-  /* line 40, ../../../sass/theme/theme-contacts/_typography-medium.scss */
-  .input-holder { padding-top: 48px; padding-top: 3rem; }
-  /* line 44, ../../../sass/theme/theme-contacts/_typography-medium.scss */
-  .submit { margin-top: 48px; margin-top: 3rem; margin-bottom: 48px; margin-bottom: 3rem; font-family: "RobotoCondensedLight"; } }
-@media (min-width: 768px) and (max-width: 991px) { /* line 8, ../../../sass/theme/theme-contacts/_typography-tablet.scss */
-  .props { padding-top: 48px; padding-top: 3rem; padding-bottom: 0px; padding-bottom: 0rem; }
+  .logotip {
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 24px;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0px;
+    font-family: Arial, sans-serif;
+    padding-top: 2px;
+    padding-top: 0.15rem;
+    border-bottom-width: 2px;
+    border-bottom-width: 0.125rem;
+    border-bottom-style: solid;
+    padding-bottom: 8px;
+    padding-bottom: 0.475rem; }
+
+  /* line 22, ../../../sass/theme/theme-contacts/_typography-medium.scss */
+  .text-contacts {
+    padding-top: 48px;
+    padding-top: 3rem;
+    padding-bottom: 24px;
+    padding-bottom: 1.5rem; }
+    /* line 25, ../../../sass/theme/theme-contacts/_typography-medium.scss */
+    .text-contacts p {
+      color: #fff;
+      padding-top: 12px;
+      padding-top: 0.75rem; }
+    /* line 29, ../../../sass/theme/theme-contacts/_typography-medium.scss */
+    .text-contacts ul li {
+      color: #fff; }
+
+  /* line 34, ../../../sass/theme/theme-contacts/_typography-medium.scss */
+  .back-display-device-yes {
+    margin-top: 48px;
+    margin-top: 3rem;
+    margin-bottom: 24px;
+    margin-bottom: 1.5rem; }
+
+  /* line 41, ../../../sass/theme/theme-contacts/_typography-medium.scss */
+  .input-holder {
+    padding-top: 48px;
+    padding-top: 3rem; }
+
+  /* line 45, ../../../sass/theme/theme-contacts/_typography-medium.scss */
+  .submit {
+    margin-top: 48px;
+    margin-top: 3rem;
+    margin-bottom: 48px;
+    margin-bottom: 3rem;
+    font-family: "RobotoCondensedLight"; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 8, ../../../sass/theme/theme-contacts/_typography-tablet.scss */
+  .props {
+    padding-top: 48px;
+    padding-top: 3rem;
+    padding-bottom: 0px;
+    padding-bottom: 0rem; }
+
   /* line 13, ../../../sass/theme/theme-contacts/_typography-tablet.scss */
-  .logotip { font-size: 27px; font-size: 1.7rem; line-height: 24px; line-height: 1.5rem; text-transform: uppercase; color: #fff; letter-spacing: 4px; font-family: Arial, sans-serif; padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 23, ../../../sass/theme/theme-contacts/_typography-tablet.scss */
-  .text-contacts { padding-top: 48px; padding-top: 3rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 26, ../../../sass/theme/theme-contacts/_typography-tablet.scss */
-  .text-contacts p { color: #fff; padding-top: 12px; padding-top: 0.75rem; }
-  /* line 30, ../../../sass/theme/theme-contacts/_typography-tablet.scss */
-  .text-contacts ul li { color: #fff; }
-  /* line 36, ../../../sass/theme/theme-contacts/_typography-tablet.scss */
-  .back-display-device-yes { margin-top: 48px; margin-top: 3rem; margin-bottom: 24px; margin-bottom: 1.5rem; }
-  /* line 42, ../../../sass/theme/theme-contacts/_typography-tablet.scss */
-  .input-holder { padding-top: 48px; padding-top: 3rem; }
-  /* line 46, ../../../sass/theme/theme-contacts/_typography-tablet.scss */
-  .submit { margin-top: 48px; margin-top: 3rem; margin-bottom: 48px; margin-bottom: 3rem; font-family: "RobotoCondensedLight"; } }
-@media (min-width: 1200px) { /* line 7, ../../../sass/theme/theme-contacts/_typography.scss */
-  .props { padding-top: 48px; padding-top: 3rem; padding-bottom: 0px; padding-bottom: 0rem; }
+  .logotip {
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 24px;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0px;
+    font-family: Arial, sans-serif;
+    padding-top: 2px;
+    padding-top: 0.15rem;
+    border-bottom-width: 2px;
+    border-bottom-width: 0.125rem;
+    border-bottom-style: solid;
+    padding-bottom: 8px;
+    padding-bottom: 0.475rem; }
+
+  /* line 24, ../../../sass/theme/theme-contacts/_typography-tablet.scss */
+  .text-contacts {
+    padding-top: 48px;
+    padding-top: 3rem;
+    padding-bottom: 24px;
+    padding-bottom: 1.5rem; }
+    /* line 27, ../../../sass/theme/theme-contacts/_typography-tablet.scss */
+    .text-contacts p {
+      color: #fff;
+      padding-top: 12px;
+      padding-top: 0.75rem; }
+    /* line 31, ../../../sass/theme/theme-contacts/_typography-tablet.scss */
+    .text-contacts ul li {
+      color: #fff; }
+
+  /* line 37, ../../../sass/theme/theme-contacts/_typography-tablet.scss */
+  .back-display-device-yes {
+    margin-top: 48px;
+    margin-top: 3rem;
+    margin-bottom: 24px;
+    margin-bottom: 1.5rem; }
+
+  /* line 43, ../../../sass/theme/theme-contacts/_typography-tablet.scss */
+  .input-holder {
+    padding-top: 48px;
+    padding-top: 3rem; }
+
+  /* line 47, ../../../sass/theme/theme-contacts/_typography-tablet.scss */
+  .submit {
+    margin-top: 48px;
+    margin-top: 3rem;
+    margin-bottom: 48px;
+    margin-bottom: 3rem;
+    font-family: "RobotoCondensedLight"; } }
+@media (min-width: 1200px) {
+  /* line 7, ../../../sass/theme/theme-contacts/_typography.scss */
+  .props {
+    padding-top: 48px;
+    padding-top: 3rem;
+    padding-bottom: 0px;
+    padding-bottom: 0rem; }
+
   /* line 12, ../../../sass/theme/theme-contacts/_typography.scss */
-  .logotip { font-size: 27px; font-size: 1.7rem; line-height: 24px; line-height: 1.5rem; text-transform: uppercase; color: #fff; letter-spacing: 4px; font-family: Arial, sans-serif; padding-top: 24px; padding-top: 1.5rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 22, ../../../sass/theme/theme-contacts/_typography.scss */
-  .text-contacts { padding-top: 48px; padding-top: 3rem; padding-bottom: 24px; padding-bottom: 1.5rem; }
-  /* line 25, ../../../sass/theme/theme-contacts/_typography.scss */
-  .text-contacts p { color: #fff; padding-top: 12px; padding-top: 0.75rem; }
-  /* line 29, ../../../sass/theme/theme-contacts/_typography.scss */
-  .text-contacts ul li { color: #fff; }
-  /* line 36, ../../../sass/theme/theme-contacts/_typography.scss */
-  .input-holder { padding-top: 48px; padding-top: 3rem; }
-  /* line 40, ../../../sass/theme/theme-contacts/_typography.scss */
-  .submit { margin-top: 48px; margin-top: 3rem; margin-bottom: 48px; margin-bottom: 3rem; font-family: "RobotoCondensedLight"; }
+  .logotip {
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 24px;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0px;
+    font-family: Arial, sans-serif;
+    padding-top: 2px;
+    padding-top: 0.15rem;
+    border-bottom-width: 2px;
+    border-bottom-width: 0.125rem;
+    border-bottom-style: solid;
+    padding-bottom: 8px;
+    padding-bottom: 0.475rem; }
+
+  /* line 23, ../../../sass/theme/theme-contacts/_typography.scss */
+  .text-contacts {
+    padding-top: 48px;
+    padding-top: 3rem;
+    padding-bottom: 24px;
+    padding-bottom: 1.5rem; }
+    /* line 26, ../../../sass/theme/theme-contacts/_typography.scss */
+    .text-contacts p {
+      color: #fff;
+      padding-top: 12px;
+      padding-top: 0.75rem; }
+    /* line 30, ../../../sass/theme/theme-contacts/_typography.scss */
+    .text-contacts ul li {
+      color: #fff; }
+
+  /* line 37, ../../../sass/theme/theme-contacts/_typography.scss */
+  .input-holder {
+    padding-top: 48px;
+    padding-top: 3rem; }
+
+  /* line 41, ../../../sass/theme/theme-contacts/_typography.scss */
+  .submit {
+    margin-top: 48px;
+    margin-top: 3rem;
+    margin-bottom: 48px;
+    margin-bottom: 3rem;
+    font-family: "RobotoCondensedLight"; }
+
   /**end media desctop*/ }
-@media (min-width: 200px) and (max-width: 767px) { /* line 8, ../../../sass/theme/theme-contacts/_components-mobail.scss */
-  .form-almet { width: 250px; }
+@media (min-width: 200px) and (max-width: 767px) {
+  /* line 8, ../../../sass/theme/theme-contacts/_components-mobail.scss */
+  .form-almet {
+    width: 250px; }
+
   /* line 12, ../../../sass/theme/theme-contacts/_components-mobail.scss */
-  form { width: 300px; margin: 0 auto 0; }
+  form {
+    width: 300px;
+    margin: 0 auto 0; }
+
   /* line 17, ../../../sass/theme/theme-contacts/_components-mobail.scss */
-  .input-holder { position: relative; }
+  .input-holder {
+    position: relative; }
+
   /* line 21, ../../../sass/theme/theme-contacts/_components-mobail.scss */
-  .validate { font-size: 0.9rem; }
+  .validate {
+    font-size: 0.9rem; }
+
   /* line 25, ../../../sass/theme/theme-contacts/_components-mobail.scss */
-  input, textarea { padding: 1rem; width: 83%; resize: none; transition: .3s; border: none; background: rgba(33, 33, 33, 0.58) none repeat scroll 0% 0%; color: #fff; overflow: hidden; font-family: Arial,sans-serif; font-size: 0.9rem; }
-  /* line 39, ../../../sass/theme/theme-contacts/_components-mobail.scss */
-  input:focus, textarea:focus { overflow: hidden; outline: none; background: rgba(33, 33, 33, 0.88) none repeat scroll 0% 0%; }
-  /* line 46, ../../../sass/theme/theme-contacts/_components-mobail.scss */
-  textarea { min-height: 100px; }
-  /* line 49, ../../../sass/theme/theme-contacts/_components-mobail.scss */
-  .message { position: absolute; z-index: 9; display: none; width: 100%; margin-top: 10px; color: #6E4D4D; text-align: center; }
-  /* line 69, ../../../sass/theme/theme-contacts/_components-mobail.scss */
-  .is-valid { border-color: #AAD661 !important; transition: 0; }
-  /* line 73, ../../../sass/theme/theme-contacts/_components-mobail.scss */
-  .not-valid { border-color: #D7595F; transition: 0; }
-  /* line 76, ../../../sass/theme/theme-contacts/_components-mobail.scss */
-  .not-valid + .message { display: block !important; }
-  /* line 80, ../../../sass/theme/theme-contacts/_components-mobail.scss */
-  .submit { display: block; width: 200px; padding: 10px; border: 2px solid #ccc; border-radius: 4px; background: transparent; color: #ccc; transition: .3s; cursor: pointer; }
-  /* line 90, ../../../sass/theme/theme-contacts/_components-mobail.scss */
-  .submit:hover { color: #AAD661; border-color: #AAD661; }
+  input,
+  textarea {
+    padding: 1rem;
+    width: 83%;
+    resize: none;
+    transition: .3s;
+    border: none;
+    background: rgba(255, 255, 255, 0.3) none repeat scroll 0% 0%;
+    color: #fff;
+    overflow: hidden;
+    font-family: Arial,sans-serif;
+    font-size: 0.9rem; }
+    /* line 40, ../../../sass/theme/theme-contacts/_components-mobail.scss */
+    input:focus,
+    textarea:focus {
+      overflow: hidden;
+      outline: none;
+      background: rgba(0, 0, 0, 0.58) none repeat scroll 0% 0%; }
+
+  /* line 48, ../../../sass/theme/theme-contacts/_components-mobail.scss */
+  textarea {
+    min-height: 100px; }
+
+  /* line 51, ../../../sass/theme/theme-contacts/_components-mobail.scss */
+  .message {
+    position: absolute;
+    z-index: 9;
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+    color: #6E4D4D;
+    text-align: center; }
+
+  /* line 71, ../../../sass/theme/theme-contacts/_components-mobail.scss */
+  .is-valid {
+    border-color: #AAD661 !important;
+    transition: 0; }
+
+  /* line 75, ../../../sass/theme/theme-contacts/_components-mobail.scss */
+  .not-valid {
+    border-color: #D7595F;
+    transition: 0; }
+    /* line 78, ../../../sass/theme/theme-contacts/_components-mobail.scss */
+    .not-valid + .message {
+      display: block !important; }
+
+  /* line 82, ../../../sass/theme/theme-contacts/_components-mobail.scss */
+  .submit {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background: transparent;
+    color: #ccc;
+    transition: .3s;
+    cursor: pointer; }
+    /* line 92, ../../../sass/theme/theme-contacts/_components-mobail.scss */
+    .submit:hover {
+      color: #AAD661;
+      border-color: #AAD661; }
+
   /*end media mobail*/ }
-@media (min-width: 992px) and (max-width: 1199px) { /* line 10, ../../../sass/theme/theme-contacts/_components-medium.scss */
-  .form { *zoom: 1; float: left; clear: none; text-align: inherit; width: 31.33333%; margin-left: 0%; margin-right: 3%; }
-  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .form:before, .form:after { content: ''; display: table; }
-  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .form:after { clear: both; }
-  /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .form:last-child { margin-right: 0%; }
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 10, ../../../sass/theme/theme-contacts/_components-medium.scss */
+  .form {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 31.33333%;
+    margin-left: 0%;
+    margin-right: 3%; }
+    /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .form:before, .form:after {
+      content: '';
+      display: table; }
+    /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .form:after {
+      clear: both; }
+    /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .form:last-child {
+      margin-right: 0%; }
+
   /* line 14, ../../../sass/theme/theme-contacts/_components-medium.scss */
-  form { width: 400px; margin: 0 auto 0; }
+  form {
+    width: 400px;
+    margin: 0 auto 0; }
+
   /* line 19, ../../../sass/theme/theme-contacts/_components-medium.scss */
-  .input-holder { position: relative; }
+  .input-holder {
+    position: relative; }
+
   /* line 23, ../../../sass/theme/theme-contacts/_components-medium.scss */
-  .validate { font-size: 0.9rem; }
+  .validate {
+    font-size: 0.9rem; }
+
   /* line 27, ../../../sass/theme/theme-contacts/_components-medium.scss */
-  input, textarea { padding: 1rem; width: 100%; resize: none; transition: .3s; border: none; background: rgba(33, 33, 33, 0.58) none repeat scroll 0% 0%; color: #fff; overflow: hidden; font-family: Arial,sans-serif; font-size: 0.9rem; }
-  /* line 41, ../../../sass/theme/theme-contacts/_components-medium.scss */
-  input:focus, textarea:focus { overflow: hidden; outline: none; background: rgba(33, 33, 33, 0.88) none repeat scroll 0% 0%; }
-  /* line 48, ../../../sass/theme/theme-contacts/_components-medium.scss */
-  textarea { min-height: 100px; }
-  /* line 51, ../../../sass/theme/theme-contacts/_components-medium.scss */
-  .message { position: absolute; z-index: 9; display: none; width: 100%; margin-top: 10px; color: #6E4D4D; text-align: center; }
-  /* line 71, ../../../sass/theme/theme-contacts/_components-medium.scss */
-  .is-valid { border-color: #AAD661 !important; transition: 0; }
-  /* line 75, ../../../sass/theme/theme-contacts/_components-medium.scss */
-  .not-valid { border-color: #D7595F; transition: 0; }
-  /* line 78, ../../../sass/theme/theme-contacts/_components-medium.scss */
-  .not-valid + .message { display: block !important; }
-  /* line 82, ../../../sass/theme/theme-contacts/_components-medium.scss */
-  .submit { display: block; width: 200px; padding: 10px; border: 2px solid #ccc; border-radius: 4px; background: transparent; color: #ccc; transition: .3s; cursor: pointer; }
-  /* line 92, ../../../sass/theme/theme-contacts/_components-medium.scss */
-  .submit:hover { color: #AAD661; border-color: #AAD661; } }
-@media (min-width: 768px) and (max-width: 991px) { /* line 10, ../../../sass/theme/theme-contacts/_components-tablet.scss */
-  .form { *zoom: 1; float: left; clear: none; text-align: inherit; width: 31.33333%; margin-left: 0%; margin-right: 3%; }
-  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .form:before, .form:after { content: ''; display: table; }
-  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .form:after { clear: both; }
-  /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .form:last-child { margin-right: 0%; }
+  input,
+  textarea {
+    padding: 1rem;
+    width: 100%;
+    resize: none;
+    transition: .3s;
+    border: none;
+    background: rgba(255, 255, 255, 0.3) none repeat scroll 0% 0%;
+    color: #fff;
+    overflow: hidden;
+    font-family: Arial,sans-serif;
+    font-size: 0.9rem; }
+    /* line 42, ../../../sass/theme/theme-contacts/_components-medium.scss */
+    input:focus,
+    textarea:focus {
+      overflow: hidden;
+      outline: none;
+      background: rgba(0, 0, 0, 0.58) none repeat scroll 0% 0%; }
+
+  /* line 50, ../../../sass/theme/theme-contacts/_components-medium.scss */
+  textarea {
+    min-height: 100px; }
+
+  /* line 53, ../../../sass/theme/theme-contacts/_components-medium.scss */
+  .message {
+    position: absolute;
+    z-index: 9;
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+    color: #6E4D4D;
+    text-align: center; }
+
+  /* line 73, ../../../sass/theme/theme-contacts/_components-medium.scss */
+  .is-valid {
+    border-color: #AAD661 !important;
+    transition: 0; }
+
+  /* line 77, ../../../sass/theme/theme-contacts/_components-medium.scss */
+  .not-valid {
+    border-color: #D7595F;
+    transition: 0; }
+    /* line 80, ../../../sass/theme/theme-contacts/_components-medium.scss */
+    .not-valid + .message {
+      display: block !important; }
+
+  /* line 84, ../../../sass/theme/theme-contacts/_components-medium.scss */
+  .submit {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background: transparent;
+    color: #ccc;
+    transition: .3s;
+    cursor: pointer; }
+    /* line 94, ../../../sass/theme/theme-contacts/_components-medium.scss */
+    .submit:hover {
+      color: #AAD661;
+      border-color: #AAD661; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 10, ../../../sass/theme/theme-contacts/_components-tablet.scss */
+  .form {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 31.33333%;
+    margin-left: 0%;
+    margin-right: 3%; }
+    /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .form:before, .form:after {
+      content: '';
+      display: table; }
+    /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .form:after {
+      clear: both; }
+    /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .form:last-child {
+      margin-right: 0%; }
+
   /* line 14, ../../../sass/theme/theme-contacts/_components-tablet.scss */
-  form { width: 400px; margin: 0 auto 0; }
+  form {
+    width: 400px;
+    margin: 0 auto 0; }
+
   /* line 19, ../../../sass/theme/theme-contacts/_components-tablet.scss */
-  .input-holder { position: relative; }
+  .input-holder {
+    position: relative; }
+
   /* line 23, ../../../sass/theme/theme-contacts/_components-tablet.scss */
-  .validate { font-size: 0.9rem; }
+  .validate {
+    font-size: 0.9rem; }
+
   /* line 27, ../../../sass/theme/theme-contacts/_components-tablet.scss */
-  input, textarea { padding: 1rem; width: 100%; resize: none; transition: .3s; border: none; background: rgba(33, 33, 33, 0.58) none repeat scroll 0% 0%; color: #fff; overflow: hidden; font-family: Arial,sans-serif; font-size: 0.9rem; }
-  /* line 41, ../../../sass/theme/theme-contacts/_components-tablet.scss */
-  input:focus, textarea:focus { overflow: hidden; outline: none; background: rgba(33, 33, 33, 0.88) none repeat scroll 0% 0%; }
-  /* line 48, ../../../sass/theme/theme-contacts/_components-tablet.scss */
-  textarea { min-height: 100px; }
-  /* line 51, ../../../sass/theme/theme-contacts/_components-tablet.scss */
-  .message { position: absolute; z-index: 9; display: none; width: 100%; margin-top: 10px; color: #6E4D4D; text-align: center; }
-  /* line 71, ../../../sass/theme/theme-contacts/_components-tablet.scss */
-  .is-valid { border-color: #AAD661 !important; transition: 0; }
-  /* line 75, ../../../sass/theme/theme-contacts/_components-tablet.scss */
-  .not-valid { border-color: #D7595F; transition: 0; }
-  /* line 78, ../../../sass/theme/theme-contacts/_components-tablet.scss */
-  .not-valid + .message { display: block !important; }
-  /* line 82, ../../../sass/theme/theme-contacts/_components-tablet.scss */
-  .submit { display: block; width: 200px; padding: 10px; border: 2px solid #ccc; border-radius: 4px; background: transparent; color: #ccc; transition: .3s; cursor: pointer; }
-  /* line 92, ../../../sass/theme/theme-contacts/_components-tablet.scss */
-  .submit:hover { color: #AAD661; border-color: #AAD661; } }
-@media (min-width: 1200px) { /* line 9, ../../../sass/theme/theme-contacts/_components.scss */
-  .form { *zoom: 1; float: left; clear: none; text-align: inherit; width: 31.33333%; margin-left: 0%; margin-right: 3%; }
-  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .form:before, .form:after { content: ''; display: table; }
-  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .form:after { clear: both; }
-  /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .form:last-child { margin-right: 0%; }
+  input,
+  textarea {
+    padding: 1rem;
+    width: 100%;
+    resize: none;
+    transition: .3s;
+    border: none;
+    background: rgba(255, 255, 255, 0.3) none repeat scroll 0% 0%;
+    color: #fff;
+    overflow: hidden;
+    font-family: Arial,sans-serif;
+    font-size: 0.9rem; }
+    /* line 42, ../../../sass/theme/theme-contacts/_components-tablet.scss */
+    input:focus,
+    textarea:focus {
+      overflow: hidden;
+      outline: none;
+      background: rgba(0, 0, 0, 0.58) none repeat scroll 0% 0%; }
+
+  /* line 50, ../../../sass/theme/theme-contacts/_components-tablet.scss */
+  textarea {
+    min-height: 100px; }
+
+  /* line 53, ../../../sass/theme/theme-contacts/_components-tablet.scss */
+  .message {
+    position: absolute;
+    z-index: 9;
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+    color: #6E4D4D;
+    text-align: center; }
+
+  /* line 73, ../../../sass/theme/theme-contacts/_components-tablet.scss */
+  .is-valid {
+    border-color: #AAD661 !important;
+    transition: 0; }
+
+  /* line 77, ../../../sass/theme/theme-contacts/_components-tablet.scss */
+  .not-valid {
+    border-color: #D7595F;
+    transition: 0; }
+    /* line 80, ../../../sass/theme/theme-contacts/_components-tablet.scss */
+    .not-valid + .message {
+      display: block !important; }
+
+  /* line 84, ../../../sass/theme/theme-contacts/_components-tablet.scss */
+  .submit {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background: transparent;
+    color: #ccc;
+    transition: .3s;
+    cursor: pointer; }
+    /* line 94, ../../../sass/theme/theme-contacts/_components-tablet.scss */
+    .submit:hover {
+      color: #AAD661;
+      border-color: #AAD661; } }
+@media (min-width: 1200px) {
+  /* line 9, ../../../sass/theme/theme-contacts/_components.scss */
+  .form {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 31.33333%;
+    margin-left: 0%;
+    margin-right: 3%; }
+    /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .form:before, .form:after {
+      content: '';
+      display: table; }
+    /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .form:after {
+      clear: both; }
+    /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .form:last-child {
+      margin-right: 0%; }
+
   /* line 13, ../../../sass/theme/theme-contacts/_components.scss */
-  form { width: 400px; margin: 0 auto 0; }
+  form {
+    width: 400px;
+    margin: 0 auto 0; }
+
   /* line 18, ../../../sass/theme/theme-contacts/_components.scss */
-  .input-holder { position: relative; }
+  .input-holder {
+    position: relative; }
+
   /* line 22, ../../../sass/theme/theme-contacts/_components.scss */
-  .validate { font-size: 0.9rem; }
+  .validate {
+    font-size: 0.9rem; }
+
   /* line 26, ../../../sass/theme/theme-contacts/_components.scss */
-  input, textarea { padding: 1rem; width: 100%; resize: none; transition: .3s; border: none; background: rgba(33, 33, 33, 0.58) none repeat scroll 0% 0%; color: #fff; overflow: hidden; font-family: Arial,sans-serif; font-size: 0.9rem; }
-  /* line 40, ../../../sass/theme/theme-contacts/_components.scss */
-  input:focus, textarea:focus { overflow: hidden; outline: none; background: rgba(33, 33, 33, 0.88) none repeat scroll 0% 0%; }
-  /* line 47, ../../../sass/theme/theme-contacts/_components.scss */
-  textarea { min-height: 100px; }
-  /* line 50, ../../../sass/theme/theme-contacts/_components.scss */
-  .message { position: absolute; z-index: 9; display: none; width: 100%; margin-top: 10px; color: #6E4D4D; text-align: center; }
-  /* line 70, ../../../sass/theme/theme-contacts/_components.scss */
-  .is-valid { border-color: #AAD661 !important; transition: 0; }
-  /* line 74, ../../../sass/theme/theme-contacts/_components.scss */
-  .not-valid { border-color: #D7595F; transition: 0; }
-  /* line 77, ../../../sass/theme/theme-contacts/_components.scss */
-  .not-valid + .message { display: block !important; }
-  /* line 81, ../../../sass/theme/theme-contacts/_components.scss */
-  .submit { display: block; width: 200px; padding: 10px; border: 2px solid #ccc; border-radius: 4px; background: transparent; color: #ccc; transition: .3s; cursor: pointer; }
-  /* line 91, ../../../sass/theme/theme-contacts/_components.scss */
-  .submit:hover { color: #AAD661; border-color: #AAD661; }
+  input,
+  textarea {
+    padding: 1rem;
+    width: 100%;
+    resize: none;
+    transition: .3s;
+    border: none;
+    background: rgba(255, 255, 255, 0.3) none repeat scroll 0% 0%;
+    color: #fff;
+    overflow: hidden;
+    font-family: Arial,sans-serif;
+    font-size: 0.9rem; }
+    /* line 41, ../../../sass/theme/theme-contacts/_components.scss */
+    input:focus,
+    textarea:focus {
+      overflow: hidden;
+      outline: none;
+      background: rgba(0, 0, 0, 0.58) none repeat scroll 0% 0%; }
+
+  /* line 49, ../../../sass/theme/theme-contacts/_components.scss */
+  textarea {
+    min-height: 100px; }
+
+  /* line 52, ../../../sass/theme/theme-contacts/_components.scss */
+  .message {
+    position: absolute;
+    z-index: 9;
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+    color: #6E4D4D;
+    text-align: center; }
+
+  /* line 72, ../../../sass/theme/theme-contacts/_components.scss */
+  .is-valid {
+    border-color: #AAD661 !important;
+    transition: 0; }
+
+  /* line 76, ../../../sass/theme/theme-contacts/_components.scss */
+  .not-valid {
+    border-color: #D7595F;
+    transition: 0; }
+    /* line 79, ../../../sass/theme/theme-contacts/_components.scss */
+    .not-valid + .message {
+      display: block !important; }
+
+  /* line 83, ../../../sass/theme/theme-contacts/_components.scss */
+  .submit {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background: transparent;
+    color: #ccc;
+    transition: .3s;
+    cursor: pointer; }
+    /* line 93, ../../../sass/theme/theme-contacts/_components.scss */
+    .submit:hover {
+      color: #AAD661;
+      border-color: #AAD661; }
+
   /**end media desctop*/ }
-@media (min-width: 200px) and (max-width: 767px) { /* line 4, ../../../sass/theme/theme-contacts/_grid-mobail.scss */
-  html, body { height: 100%; overflow-x: hidden; }
+@media (min-width: 200px) and (max-width: 767px) {
+  /* line 4, ../../../sass/theme/theme-contacts/_grid-mobail.scss */
+  html, body {
+    height: 100%;
+    overflow-x: hidden; }
+
   /* line 11, ../../../sass/theme/theme-contacts/_grid-mobail.scss */
-  header { overflow: hidden; display: table; position: relative; width: 100%; height: 100%; background: url("../../../img/fon/20071101_126.png") no-repeat center center scroll; -moz-background-size: cover; -o-background-size: cover; -webkit-background-size: cover; background-size: cover; }
+  header {
+    overflow: hidden;
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url("../../../img/fon/20071101_126.png") no-repeat center center scroll;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover; }
+
   /* line 22, ../../../sass/theme/theme-contacts/_grid-mobail.scss */
-  .back-absolute { display: none; }
+  .back-absolute {
+    display: none; }
+
   /* line 25, ../../../sass/theme/theme-contacts/_grid-mobail.scss */
-  .back-display-device-yes { z-index: 6; width: 100px; padding: 5px; color: #FFF; cursor: pointer; padding: 4%; background: rgba(122, 122, 122, 0.55); text-decoration: none; display: block; }
+  .back-display-device-yes {
+    z-index: 6;
+    width: 100px;
+    padding: 5px;
+    color: #FFF;
+    cursor: pointer;
+    padding: 4%;
+    background: rgba(122, 122, 122, 0.55);
+    text-decoration: none;
+    display: block; }
+
   /**ABSOLUTE*/
   /* line 39, ../../../sass/theme/theme-contacts/_grid-mobail.scss */
-  .background-black { display: none; }
+  .background-black {
+    display: none; }
+
   /* line 43, ../../../sass/theme/theme-contacts/_grid-mobail.scss */
-  .table-cell-logotip { position: relative; display: table-cell; text-align: center; vertical-align: middle; z-index: 2; width: 100%; height: 100%; *zoom: 1; float: left; clear: none; text-align: inherit; width: 91.41667%; margin-left: 4.29167%; margin-right: 3%; }
-  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .table-cell-logotip:before, .table-cell-logotip:after { content: ''; display: table; }
-  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .table-cell-logotip:after { clear: both; }
-  /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .table-cell-logotip:last-child { margin-right: 0%; }
+  .table-cell-logotip {
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 91.41667%;
+    margin-left: 4.29167%;
+    margin-right: 3%; }
+    /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .table-cell-logotip:before, .table-cell-logotip:after {
+      content: '';
+      display: table; }
+    /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .table-cell-logotip:after {
+      clear: both; }
+    /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .table-cell-logotip:last-child {
+      margin-right: 0%; }
+
   /* line 54, ../../../sass/theme/theme-contacts/_grid-mobail.scss */
-  .almet3 { width: 150px; height: 150px; margin-left: auto; margin-right: auto; }
+  .width-almet-logotip {
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto; }
+
   /* line 60, ../../../sass/theme/theme-contacts/_grid-mobail.scss */
-  .logotip { text-align: center; }
-  /* line 64, ../../../sass/theme/theme-contacts/_grid-mobail.scss */
-  .props { display: block; clear: both; float: none; width: 100%; margin-left: auto; margin-right: auto; }
-  /* line 265, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .props:first-child { margin-left: auto; }
-  /* line 269, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .props:last-child { margin-right: auto; }
+  .almet3 {
+    width: 105px;
+    height: 102px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  /* line 66, ../../../sass/theme/theme-contacts/_grid-mobail.scss */
+  .logotip {
+    text-align: center; }
+
+  /* line 70, ../../../sass/theme/theme-contacts/_grid-mobail.scss */
+  .props {
+    display: block;
+    clear: both;
+    float: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+    /* line 265, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .props:first-child {
+      margin-left: auto; }
+    /* line 269, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .props:last-child {
+      margin-right: auto; }
+
   /*end media mobail*/ }
-@media (min-width: 992px) and (max-width: 1199px) { /* line 6, ../../../sass/theme/theme-contacts/_grid-medium.scss */
-  html, body { height: 100%; overflow-x: hidden; }
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 6, ../../../sass/theme/theme-contacts/_grid-medium.scss */
+  html, body {
+    height: 100%;
+    overflow-x: hidden; }
+
   /* line 13, ../../../sass/theme/theme-contacts/_grid-medium.scss */
-  header { overflow: hidden; display: table; position: relative; width: 100%; height: 100%; background: url("../../../img/fon/20071101_126.jpg") no-repeat center center scroll; -moz-background-size: cover; -o-background-size: cover; -webkit-background-size: cover; background-size: cover; }
+  header {
+    overflow: hidden;
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url("../../../img/fon/20071101_126.png") no-repeat center center scroll;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover; }
+
   /* line 24, ../../../sass/theme/theme-contacts/_grid-medium.scss */
-  .back-absolute { display: none; }
+  .back-absolute {
+    display: none; }
+
   /* line 29, ../../../sass/theme/theme-contacts/_grid-medium.scss */
-  .back-display-device-yes { z-index: 6; width: 100px; padding: 5px; color: #FFF; cursor: pointer; padding: 4%; background: rgba(122, 122, 122, 0.55); text-decoration: none; display: block; }
+  .back-display-device-yes {
+    z-index: 6;
+    width: 100px;
+    padding: 5px;
+    color: #FFF;
+    cursor: pointer;
+    padding: 4%;
+    background: rgba(122, 122, 122, 0.55);
+    text-decoration: none;
+    display: block; }
+
   /* line 41, ../../../sass/theme/theme-contacts/_grid-medium.scss */
-  .back-display-device-yes:hover { text-decoration: none; }
+  .back-display-device-yes:hover {
+    text-decoration: none; }
+
   /**ABSOLUTE*/
   /* line 46, ../../../sass/theme/theme-contacts/_grid-medium.scss */
-  .background-black { background: rgba(0, 0, 0, 0.85) none repeat scroll 0% 0%; position: absolute; width: 100%; height: 100%; top: 0; right: 0; }
-  /* line 55, ../../../sass/theme/theme-contacts/_grid-medium.scss */
-  .table-cell-logotip { position: relative; display: table-cell; text-align: center; vertical-align: middle; z-index: 2; width: 100%; height: 100%; *zoom: 1; float: left; clear: none; text-align: inherit; width: 65.66667%; margin-left: 17.16667%; margin-right: 3%; }
-  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .table-cell-logotip:before, .table-cell-logotip:after { content: ''; display: table; }
-  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .table-cell-logotip:after { clear: both; }
-  /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .table-cell-logotip:last-child { margin-right: 0%; }
-  /* line 66, ../../../sass/theme/theme-contacts/_grid-medium.scss */
-  .almet3 { width: 150px; height: 150px; margin-left: auto; margin-right: auto; }
-  /* line 72, ../../../sass/theme/theme-contacts/_grid-medium.scss */
-  .logotip { text-align: center; }
-  /* line 76, ../../../sass/theme/theme-contacts/_grid-medium.scss */
-  .props { display: block; clear: both; float: none; width: 100%; margin-left: auto; margin-right: auto; }
-  /* line 265, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .props:first-child { margin-left: auto; }
-  /* line 269, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .props:last-child { margin-right: auto; } }
-@media (min-width: 768px) and (max-width: 991px) { /* line 6, ../../../sass/theme/theme-contacts/_grid-tablet.scss */
-  html, body { height: 100%; overflow-x: hidden; }
+  .background-black {
+    background: transparent none repeat scroll 0% 0%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0; }
+
+  /* line 56, ../../../sass/theme/theme-contacts/_grid-medium.scss */
+  .table-cell-logotip {
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 65.66667%;
+    margin-left: 17.16667%;
+    margin-right: 3%; }
+    /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .table-cell-logotip:before, .table-cell-logotip:after {
+      content: '';
+      display: table; }
+    /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .table-cell-logotip:after {
+      clear: both; }
+    /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .table-cell-logotip:last-child {
+      margin-right: 0%; }
+
+  /* line 67, ../../../sass/theme/theme-contacts/_grid-medium.scss */
+  .width-almet-logotip {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  /* line 73, ../../../sass/theme/theme-contacts/_grid-medium.scss */
+  .almet3 {
+    width: 105px;
+    height: 102px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  /* line 79, ../../../sass/theme/theme-contacts/_grid-medium.scss */
+  .logotip {
+    text-align: center; }
+
+  /* line 83, ../../../sass/theme/theme-contacts/_grid-medium.scss */
+  .props {
+    display: block;
+    clear: both;
+    float: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+    /* line 265, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .props:first-child {
+      margin-left: auto; }
+    /* line 269, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .props:last-child {
+      margin-right: auto; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 6, ../../../sass/theme/theme-contacts/_grid-tablet.scss */
+  html, body {
+    height: 100%;
+    overflow-x: hidden; }
+
   /* line 13, ../../../sass/theme/theme-contacts/_grid-tablet.scss */
-  header { overflow: hidden; display: table; position: relative; width: 100%; height: 100%; background: url("../../../img/fon/20071101_126.jpg") no-repeat center center scroll; -moz-background-size: cover; -o-background-size: cover; -webkit-background-size: cover; background-size: cover; }
+  header {
+    overflow: hidden;
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url("../../../img/fon/20071101_126.png") no-repeat center center scroll;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover; }
+
   /* line 24, ../../../sass/theme/theme-contacts/_grid-tablet.scss */
-  .back-absolute { display: none; }
+  .back-absolute {
+    display: none; }
+
   /* line 27, ../../../sass/theme/theme-contacts/_grid-tablet.scss */
-  .back-display-device-yes { z-index: 6; width: 100px; padding: 5px; color: #FFF; cursor: pointer; padding: 4%; background: rgba(122, 122, 122, 0.55); text-decoration: none; display: block; }
+  .back-display-device-yes {
+    z-index: 6;
+    width: 100px;
+    padding: 5px;
+    color: #FFF;
+    cursor: pointer;
+    padding: 4%;
+    background: rgba(122, 122, 122, 0.55);
+    text-decoration: none;
+    display: block; }
+
   /**ABSOLUTE*/
   /* line 41, ../../../sass/theme/theme-contacts/_grid-tablet.scss */
-  .background-black { background: rgba(0, 0, 0, 0.85) none repeat scroll 0% 0%; position: absolute; width: 100%; height: 100%; top: 0; right: 0; }
-  /* line 50, ../../../sass/theme/theme-contacts/_grid-tablet.scss */
-  .table-cell-logotip { position: relative; display: table-cell; text-align: center; vertical-align: middle; z-index: 2; width: 100%; height: 100%; *zoom: 1; float: left; clear: none; text-align: inherit; width: 65.66667%; margin-left: 17.16667%; margin-right: 3%; }
-  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .table-cell-logotip:before, .table-cell-logotip:after { content: ''; display: table; }
-  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .table-cell-logotip:after { clear: both; }
-  /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .table-cell-logotip:last-child { margin-right: 0%; }
-  /* line 61, ../../../sass/theme/theme-contacts/_grid-tablet.scss */
-  .almet3 { width: 150px; height: 150px; margin-left: auto; margin-right: auto; }
-  /* line 67, ../../../sass/theme/theme-contacts/_grid-tablet.scss */
-  .logotip { text-align: center; }
-  /* line 71, ../../../sass/theme/theme-contacts/_grid-tablet.scss */
-  .props { display: block; clear: both; float: none; width: 100%; margin-left: auto; margin-right: auto; }
-  /* line 265, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .props:first-child { margin-left: auto; }
-  /* line 269, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .props:last-child { margin-right: auto; } }
-@media (min-width: 1200px) { /* line 7, ../../../sass/theme/theme-contacts/_grid.scss */
-  html, body { height: 100%; overflow-x: hidden; }
+  .background-black {
+    background: transparent none repeat scroll 0% 0%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0; }
+
+  /* line 51, ../../../sass/theme/theme-contacts/_grid-tablet.scss */
+  .table-cell-logotip {
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 65.66667%;
+    margin-left: 17.16667%;
+    margin-right: 3%; }
+    /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .table-cell-logotip:before, .table-cell-logotip:after {
+      content: '';
+      display: table; }
+    /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .table-cell-logotip:after {
+      clear: both; }
+    /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .table-cell-logotip:last-child {
+      margin-right: 0%; }
+
+  /* line 62, ../../../sass/theme/theme-contacts/_grid-tablet.scss */
+  .width-almet-logotip {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  /* line 68, ../../../sass/theme/theme-contacts/_grid-tablet.scss */
+  .almet3 {
+    width: 105px;
+    height: 102px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  /* line 74, ../../../sass/theme/theme-contacts/_grid-tablet.scss */
+  .logotip {
+    text-align: center; }
+
+  /* line 78, ../../../sass/theme/theme-contacts/_grid-tablet.scss */
+  .props {
+    display: block;
+    clear: both;
+    float: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+    /* line 265, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .props:first-child {
+      margin-left: auto; }
+    /* line 269, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .props:last-child {
+      margin-right: auto; } }
+@media (min-width: 1200px) {
+  /* line 7, ../../../sass/theme/theme-contacts/_grid.scss */
+  html, body {
+    height: 100%;
+    overflow-x: hidden; }
+
   /* line 14, ../../../sass/theme/theme-contacts/_grid.scss */
-  .wrapper { *zoom: 1; float: left; clear: none; text-align: inherit; width: 100%; margin-left: 0%; margin-right: 3%; display: block; overflow: hidden; }
-  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .wrapper:before, .wrapper:after { content: ''; display: table; }
-  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .wrapper:after { clear: both; }
-  /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .wrapper:last-child { margin-right: 0%; }
+  .wrapper {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 3%;
+    display: block;
+    overflow: hidden; }
+    /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .wrapper:before, .wrapper:after {
+      content: '';
+      display: table; }
+    /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .wrapper:after {
+      clear: both; }
+    /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .wrapper:last-child {
+      margin-right: 0%; }
+
   /* line 20, ../../../sass/theme/theme-contacts/_grid.scss */
-  header { *zoom: 1; float: left; clear: none; text-align: inherit; width: 100%; margin-left: 0%; margin-right: 3%; overflow: hidden; display: table; position: relative; height: 100%; background: url("../../../img/fon/20071101_053.jpg") no-repeat center center scroll; -moz-background-size: cover; -o-background-size: cover; -webkit-background-size: cover; background-size: cover; }
-  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  header:before, header:after { content: ''; display: table; }
-  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  header:after { clear: both; }
-  /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  header:last-child { margin-right: 0%; }
+  header {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 3%;
+    overflow: hidden;
+    display: table;
+    position: relative;
+    height: 100%;
+    background: url("../../../img/fon/20071101_053.png") no-repeat center center scroll;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover; }
+    /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    header:before, header:after {
+      content: '';
+      display: table; }
+    /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    header:after {
+      clear: both; }
+    /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    header:last-child {
+      margin-right: 0%; }
+
   /* line 31, ../../../sass/theme/theme-contacts/_grid.scss */
-  .back-absolute { position: absolute; top: 2%; right: 0; z-index: 6; width: 100px; padding: 5px; color: #fff; cursor: pointer; }
-  /* line 40, ../../../sass/theme/theme-contacts/_grid.scss */
-  .back-absolute .fa-arrow-left { color: #fff; margin-right: 8px; }
+  .back-absolute {
+    position: absolute;
+    top: 2%;
+    right: 0;
+    z-index: 6;
+    width: 100px;
+    padding: 5px;
+    color: #fff;
+    cursor: pointer; }
+    /* line 40, ../../../sass/theme/theme-contacts/_grid.scss */
+    .back-absolute .fa-arrow-left {
+      color: #fff;
+      margin-right: 8px; }
+
   /* line 45, ../../../sass/theme/theme-contacts/_grid.scss */
-  .back-display-device-yes { display: none; }
+  .back-display-device-yes {
+    display: none; }
+
   /* line 48, ../../../sass/theme/theme-contacts/_grid.scss */
-  .back-absolute:hover { text-decoration: none; }
+  .back-absolute:hover {
+    text-decoration: none; }
+
   /**ABSOLUTE*/
   /* line 53, ../../../sass/theme/theme-contacts/_grid.scss */
-  .background-black { background: rgba(0, 0, 0, 0.85) none repeat scroll 0% 0%; position: absolute; width: 100%; height: 100%; top: 0; right: 0; }
-  /* line 63, ../../../sass/theme/theme-contacts/_grid.scss */
-  .table-cell-logotip { position: relative; display: table-cell; text-align: center; vertical-align: middle; z-index: 2; width: 100%; height: 100%; *zoom: 1; float: left; clear: none; text-align: inherit; width: 65.66667%; margin-left: 17.16667%; margin-right: 3%; }
-  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .table-cell-logotip:before, .table-cell-logotip:after { content: ''; display: table; }
-  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .table-cell-logotip:after { clear: both; }
-  /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .table-cell-logotip:last-child { margin-right: 0%; }
-  /* line 74, ../../../sass/theme/theme-contacts/_grid.scss */
-  .almet3 { width: 150px; height: 150px; margin-left: auto; margin-right: auto; }
-  /* line 80, ../../../sass/theme/theme-contacts/_grid.scss */
-  .logotip { text-align: center; }
-  /* line 84, ../../../sass/theme/theme-contacts/_grid.scss */
-  .props { *zoom: 1; float: left; clear: none; text-align: inherit; width: 48.5%; margin-left: 0%; margin-right: 3%; }
-  /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .props:before, .props:after { content: ''; display: table; }
-  /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .props:after { clear: both; }
-  /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
-  .props:last-child { margin-right: 0%; }
+  .background-black {
+    background: transparent none repeat scroll 0% 0%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0; }
+
+  /* line 64, ../../../sass/theme/theme-contacts/_grid.scss */
+  .table-cell-logotip {
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 65.66667%;
+    margin-left: 17.16667%;
+    margin-right: 3%; }
+    /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .table-cell-logotip:before, .table-cell-logotip:after {
+      content: '';
+      display: table; }
+    /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .table-cell-logotip:after {
+      clear: both; }
+    /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .table-cell-logotip:last-child {
+      margin-right: 0%; }
+
+  /* line 75, ../../../sass/theme/theme-contacts/_grid.scss */
+  .width-almet-logotip {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  /* line 81, ../../../sass/theme/theme-contacts/_grid.scss */
+  .almet3 {
+    width: 105px;
+    height: 102px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  /* line 87, ../../../sass/theme/theme-contacts/_grid.scss */
+  .logotip {
+    text-align: center; }
+
+  /* line 91, ../../../sass/theme/theme-contacts/_grid.scss */
+  .props {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 48.5%;
+    margin-left: 0%;
+    margin-right: 3%; }
+    /* line 344, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .props:before, .props:after {
+      content: '';
+      display: table; }
+    /* line 349, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .props:after {
+      clear: both; }
+    /* line 58, ../../../bower_components/jeet/scss/jeet/_grid.scss */
+    .props:last-child {
+      margin-right: 0%; }
+
   /**end media desctop*/ }
 
 /*# sourceMappingURL=contacts.css.map */

@@ -16,36 +16,36 @@
     @include column(12/12);
   }
 
-  .logotip-almet{
-  display:block;
-  width: 80%;
-margin-left: auto;
-margin-right: auto;
-  }
+//   .logotip-almet{
+//   display:block;
+//   width: 80%;
+// margin-left: auto;
+// margin-right: auto;
+//   }
 
   .menu-site{
     display:none;
   }
 
   /*svg almet*/
-  .almet{
-  display:none;
-
-  }
-
-  .almet2{
-    width: 85px;
-    height: 85px;
-    margin:auto;
-  }
-
-
-  .absolute-email{
-    display:none;
-  .fa-paper-plane{
-    color: #C23221;
-  }
-  }
+  // .almet{
+  // display:none;
+  //
+  // }
+  //
+  // .almet2{
+  //   width: 85px;
+  //   height: 85px;
+  //   margin:auto;
+  // }
+  //
+  //
+  // .absolute-email{
+  //   display:none;
+  // .fa-paper-plane{
+  //   color: #C23221;
+  // }
+  // }
 
   //*******************End Header
 
@@ -111,7 +111,9 @@ margin-right: auto;
 width:83%;
 
   }
-
+.almet-preview:nth-child(2){
+  display:none;
+}
 
 
   .london{
@@ -157,7 +159,7 @@ background: #1D1D1D none repeat scroll 0% 0%;
   }
 
   .svgbox{
-    @include stack();
+    @include span(1/2);
   }
 
 
@@ -170,6 +172,11 @@ background: #1D1D1D none repeat scroll 0% 0%;
   }
   .mod-3{
   @include column(11/12, $offset: 0.5/12);
+  }
+
+
+  .img-news-height{
+    height:200px;
   }
 
   .news2{
@@ -213,13 +220,13 @@ background: #1D1D1D none repeat scroll 0% 0%;
         width: 100%;
         height:72px;
       }
-      .logotip {
-        font-size: 1rem;
-        text-align: center;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        padding-left: 4px;
-      }
+      // .logotip {
+      //   font-size: 1rem;
+      //   text-align: center;
+      //   text-transform: uppercase;
+      //   letter-spacing: 2px;
+      //   padding-left: 4px;
+      // }
       .social {
         display: block;
         width: 300px;

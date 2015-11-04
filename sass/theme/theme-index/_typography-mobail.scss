@@ -15,14 +15,14 @@
   .logotip-almet{
     text-decoration:none;
   }
-  .logotip-almet p.logotip{
-    font-family: $logotip;
-    text-align: center;
-    text-transform: uppercase;
-    color:#fff;
-      @include adjust-font-size-to (1rem, 1);
-      letter-spacing:2px;
-  }
+  // .logotip-almet p.logotip{
+  //   font-family: $logotip;
+  //   text-align: center;
+  //   text-transform: uppercase;
+  //   color:#fff;
+  //     @include adjust-font-size-to (1rem, 1);
+  //     letter-spacing:2px;
+  // }
 
   .menu-click{
 
@@ -107,7 +107,7 @@
 .row-mod-2{
   .mod-2{
     @include leader($lines:0, $property:padding);
-    @include trailer($lines:0, $property:padding);
+    @include trailer($lines:1, $property:padding);
   }
 
   p{
@@ -141,6 +141,7 @@
     text-align: center;
     @include leader($lines:1, $property:padding);
     @include trailer($lines:1, $property:padding);
+    @include adjust-font-size-to(2.398rem, 3)
   }
 }
 
@@ -183,17 +184,17 @@ text-align:center;
   color:#fff;
 }
 
-.logo-footer{
-  @include trailer($lines:0.5, $property:padding);
-}
-
-.mod-footer p.logotip{
-  @include trailing-border($width:1px,$lines:0.3, $border-style:solid);
-    @include leader($lines:0.3, $property:padding);
-  color:#000;
-  font-family: $logotip;
-
-}
+// .logo-footer{
+//   @include trailer($lines:0.5, $property:padding);
+// }
+//
+// .mod-footer p.logotip{
+//   @include trailing-border($width:1px,$lines:0.3, $border-style:solid);
+//     @include leader($lines:0.3, $property:padding);
+//   color:#000;
+//   font-family: $logotip;
+//
+// }
 .fa-map-marker{
   color:#000;
   padding-right: 2%;

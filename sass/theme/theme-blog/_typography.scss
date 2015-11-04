@@ -17,19 +17,19 @@
   .logotip-almet{
     text-decoration:none;
   }
-  .logotip-almet p.logotip{
-    font-family: $logotip;
-    text-align: center;
-    text-transform: uppercase;
-    color:#000;
-      @include leader($lines:0.5, $property:padding);
-      @include adjust-font-size-to (1.2rem, 1);
-      letter-spacing:2px;
-  }
-
+  // .logotip-almet p.logotip{
+  //   font-family: $logotip;
+  //   text-align: center;
+  //   text-transform: uppercase;
+  //   color:#000;
+  //     @include leader($lines:0.5, $property:padding);
+  //     @include adjust-font-size-to (1.2rem, 1);
+  //     letter-spacing:2px;
+  // }
+  //
 
 .menu{
-  @include leader($lines:2, $property:padding);
+  @include leader($lines:0.5, $property:padding);
   @include trailer($lines:2, $property:padding);
 }
 
@@ -38,7 +38,7 @@
   }
 
   .menu-site{
-      @include leader($lines:5, $property:padding);
+      @include leader($lines:1.5, $property:padding);
       @include trailer($lines:1, $property:padding);
 
   }
@@ -59,8 +59,8 @@
 
 
 .mod-1{
-  @include leader($lines:5, $property:padding);
-  @include trailer($lines:5, $property:padding);
+  @include leader($lines:6, $property:padding);
+  @include trailer($lines:6, $property:padding);
 }
 
 .form-email{
@@ -82,7 +82,7 @@
 .line{
   @include leader($lines:0, $property:padding);
   @include trailing-border($width:5px,$lines:1, $border-style:solid);
-  color:#DB1616;
+  color:#C23221;
 }
 
 .title-p{
@@ -123,6 +123,7 @@
 
 .text-post-p{
     @include leader($lines:1, $property:padding);
+    text-align:justify;
 }
 
 .date-time-post{
@@ -170,15 +171,16 @@ text-align:center;
 	color:#fff;
 }
 
-.logo-footer{
-	@include trailer($lines:0.5, $property:padding);
-}
-
-.mod-footer p.logotip{
-	@include trailing-border($width:1px,$lines:0.5, $border-style:solid);
-  color:#000;
-
-}
+// .logo-footer{
+// 	@include trailer($lines:0.5, $property:padding);
+// }
+//
+// .mod-footer p.logotip{
+// 	@include trailing-border($width:1px,$lines:0.5, $border-style:solid);
+//   color:#000;
+//   font-family:$logotip;
+//
+// }
 .fa-map-marker{
   color:#000;
   padding-right: 2%;

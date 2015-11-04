@@ -11,13 +11,14 @@
 }
 
 .logotip{
-@include adjust-font-size-to(1.7rem, 1);
+@include adjust-font-size-to(1.5rem, 1);
 text-transform: uppercase;
 color:#fff;
-letter-spacing: 4px;
+letter-spacing: 0px;
 font-family: $logotip;
-@include leader($lines:1, $property:padding);
-@include trailer($lines:1, $property:padding);
+@include leader($lines:0.1, $property:padding);
+// @include trailer($lines:1, $property:padding);
+  @include trailing-border($width:2px,$lines:0.4, $border-style:solid);
 }
 
 .text-contacts{

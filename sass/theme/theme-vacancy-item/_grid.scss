@@ -25,13 +25,14 @@
     @include column(12/12);
   }
 
-.logotip-almet{
-  display:block;
- @include column(3/12);
-}
+// .logotip-almet{
+//   display:block;
+//  @include column(3/12);
+// }
 
   .menu-site{
-    @include column(7.5/12, $offset: 0.5/12);
+    width: 844px;
+  margin-left: auto;
   }
 .menu-click{
   display:none;
@@ -64,7 +65,7 @@ width: 300px;
 .row-mod-1{
   overflow:hidden;
   @include column(12/12);
-  background: url('../../../img/fon/20071101_062.jpg');
+  background: url('../../../img/fon/20071101_002.jpg');
   background-position: center;
   background-repeat: no-repeat;
 }

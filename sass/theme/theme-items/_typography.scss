@@ -97,6 +97,10 @@ text-align: center;
 
 }
 
+.ul-items{
+    @include leader($lines:1, $property:padding);
+}
+
 .menu-slidebar-width ul{
   @include leader($lines:1, $property:padding);
   @include trailer($lines:1, $property:padding);

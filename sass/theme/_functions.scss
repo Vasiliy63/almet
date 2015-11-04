@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+
+/*background index blog blog-item vacancy vacancy-item*/
+@mixin body-background() {
+  background: url('../../../img/grey_wash_wall.png');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: repeat;
+}

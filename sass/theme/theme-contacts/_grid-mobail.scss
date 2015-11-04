@@ -51,9 +51,15 @@ display:none;
        @include column(11/12, $offset: 0.5/12);
      }
 
+     .width-almet-logotip{
+       width:290px;
+       margin-left: auto;
+       margin-right: auto;
+     }
+
   .almet3{
-    width:150px;
-    height:150px;
+    width: 105px;
+height: 102px;
     margin-left:auto;
     margin-right: auto;
   }

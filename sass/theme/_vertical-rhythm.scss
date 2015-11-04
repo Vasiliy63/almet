@@ -19,8 +19,8 @@
 @include uwd-rhytm-config(16px);
 @include establish-baseline;
 h2 { @include adjust-font-size-to(3.998rem, 5);}
-h3 { @include adjust-font-size-to(2.827rem, 3);}
-h4 { @include adjust-font-size-to(1.999rem, 2);}
+h3 { @include adjust-font-size-to(1.527rem, 3);}
+h4 { @include adjust-font-size-to(1.499rem, 2);}
 h5 { @include adjust-font-size-to(1.414rem, 1); }
 h6 { @include adjust-font-size-to(1rem, 1);}
 p {@include adjust-font-size-to (1rem, 1)}

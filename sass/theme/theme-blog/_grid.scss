@@ -25,37 +25,38 @@
     @include column(12/12);
   }
 
-.logotip-almet{
-  display:block;
- @include column(3/12);
-}
+// .logotip-almet{
+//   display:block;
+//  @include column(3/12);
+// }
 
   .menu-site{
-    @include column(7.5/12, $offset: 0.5/12);
+    width: 844px;
+    margin-left: auto;
   }
 .menu-click{
   display:none;
 }
   /*svg almet*/
-  .almet{
-    width: 110px;
-    height: 110px;
-    margin:auto;
-
-  }
-  .almet2{
-    display:none;
-  }
-
-.absolute-email{
-  position: absolute;
-top: 8%;
-right: 4%;
-width: 300px;
-  .fa-paper-plane{
-    color: #C23221;
-  }
-}
+//   .almet{
+//     width: 110px;
+//     height: 110px;
+//     margin:auto;
+//
+//   }
+//   .almet2{
+//     display:none;
+//   }
+//
+// .absolute-email{
+//   position: absolute;
+// top: 8%;
+// right: 4%;
+// width: 300px;
+//   .fa-paper-plane{
+//     color: #C23221;
+//   }
+// }
 
   //*******************End Header
 
@@ -64,7 +65,7 @@ width: 300px;
 .row-mod-1{
   overflow:hidden;
   @include column(12/12);
-  background: url('../../../img/fon/20071101_062.jpg');
+  background: url('../../../img/fon/20071101_147.jpg');
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -131,6 +132,7 @@ width: 300px;
 
 .post:hover{
   background: #EDEDED;
+  // background: rgba(0, 0, 0, 0.58) none repeat scroll 0% 0%;
 }
 
 ////***********row-mod-3     pagination*********//////////
@@ -167,13 +169,13 @@ width: 300px;
         width: 100%;
         height:72px;
       }
-      .logotip {
-        font-size: 1rem;
-        text-align: center;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        padding-left: 4px;
-      }
+      // .logotip {
+      //   font-size: 1rem;
+      //   text-align: center;
+      //   text-transform: uppercase;
+      //   letter-spacing: 2px;
+      //   padding-left: 4px;
+      // }
       .social {
         display: block;
         width: 300px;

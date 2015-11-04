@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@media (min-width:200px) and (max-width:767px){
+
+
+  .logotip-almet{
+    display: block;
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*svg almet*/
+  .almet{
+  display:none;
+
+  }
+  .almet2{
+    width: 105px;
+    height: 102px;
+    margin:auto;
+  }
+
+  .absolute-email{
+display:none;
+    .fa-paper-plane{
+      color: #C23221;
+    }
+  }
+
+
+  .absolute-phone{
+display:none;
+    .fa-phone{
+      color: #C23221;
+    }
+  }
+
+
+  //*footer*//
+
+  .logo-footer{
+  width: 100%;
+  height:70px;
+  }
+
+  .logotip {
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding-left: 4px;
+  }
+
+  //********************************************************************************************************
+
+
+  //********************************************************************************************************
+
+
+/*end media mobail*/
+}
